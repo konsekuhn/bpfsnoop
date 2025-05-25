@@ -1,0 +1,765 @@
+
+# ===== syscall_monitor started at 2025-05-25 14:04:49 =====
+# Monitoring syscalls: open
+# Command line: syscall_monitor.py -s open -d 3 --logfile syscalls.log
+
+2025-05-25 14:04:50.542 TIMESTAMP               UID   PID    COMM               FD ERR PATH
+0
+2061   syslog-ng          47   0 /proc/meminfo
+2025-05-25 14:04:50.569
+1000
+3255   cursor             43   0 /proc/3324/cmdline
+2025-05-25 14:04:50.624 1000  3255   cursor             43   0 /proc/3952/cmdline
+2025-05-25 14:04:50.626 1000  3255   cursor             43   0 /proc/5623/cmdline
+2025-05-25 14:04:50.626 1000  3255   cursor             43   0 /proc/3710/cmdline
+2025-05-25 14:04:50.769 1000  3255   cursor             43   0 /proc/3324/cmdline
+2025-05-25 14:04:50.824 1000  3255   cursor             43   0 /proc/3952/cmdline
+2025-05-25 14:04:50.827 1000  3255   cursor             43   0 /proc/5623/cmdline
+2025-05-25 14:04:50.827 1000  3255   cursor             43   0 /proc/3710/cmdline
+2025-05-25 14:04:50.916 0     2061   syslog-ng          47   0 /var/log/journal/0a69d92d5fe644b8ac16c48f263595d9/system.journal
+2025-05-25 14:04:50.949 1000  3232   Compositor         33   0 /dev/shm/.org.chromium.Chromium.7CS9Ah
+2025-05-25 14:04:50.969 1000  3255   cursor             43   0 /proc/3324/cmdline
+2025-05-25 14:04:51.026 1000  3255   cursor             43   0 /proc/3952/cmdline
+2025-05-25 14:04:51.028 1000  3255   cursor             43   0 /proc/5623/cmdline
+2025-05-25 14:04:51.028 1000  3255   cursor             43   0 /proc/3710/cmdline
+2025-05-25 14:04:51.169 1000  3255   cursor             43   0 /proc/3324/cmdline
+2025-05-25 14:04:51.226 1000  3255   cursor             43   0 /proc/3952/cmdline
+2025-05-25 14:04:51.228 1000  3255   cursor             43   0 /proc/5623/cmdline
+2025-05-25 14:04:51.228 1000  3255   cursor             43   0 /proc/3710/cmdline
+2025-05-25 14:04:51.369 1000  3255   cursor             43   0 /proc/3324/cmdline
+2025-05-25 14:04:51.377 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/glibc-hwcaps/x86-64-v2/libacl.so.1
+2025-05-25 14:04:51.378 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/x86_64/x86_64/libacl.so.1
+2025-05-25 14:04:51.378 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/x86_64/libacl.so.1
+2025-05-25 14:04:51.378 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/x86_64/libacl.so.1
+2025-05-25 14:04:51.379 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/libacl.so.1
+2025-05-25 14:04:51.379 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/x86_64/x86_64/libacl.so.1
+2025-05-25 14:04:51.379 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/x86_64/libacl.so.1
+2025-05-25 14:04:51.379 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/x86_64/libacl.so.1
+2025-05-25 14:04:51.379 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/libacl.so.1
+2025-05-25 14:04:51.380 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/glibc-hwcaps/x86-64-v2/libacl.so.1
+2025-05-25 14:04:51.380 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/x86_64/x86_64/libacl.so.1
+2025-05-25 14:04:51.380 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/x86_64/libacl.so.1
+2025-05-25 14:04:51.381 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/x86_64/libacl.so.1
+2025-05-25 14:04:51.381 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/libacl.so.1
+2025-05-25 14:04:51.381 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/x86_64/x86_64/libacl.so.1
+2025-05-25 14:04:51.381 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/x86_64/libacl.so.1
+2025-05-25 14:04:51.382 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/x86_64/libacl.so.1
+2025-05-25 14:04:51.382 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/libacl.so.1
+2025-05-25 14:04:51.382 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/glibc-hwcaps/x86-64-v2/libacl.so.1
+2025-05-25 14:04:51.382 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/x86_64/x86_64/libacl.so.1
+2025-05-25 14:04:51.383 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/x86_64/libacl.so.1
+2025-05-25 14:04:51.383 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/x86_64/libacl.so.1
+2025-05-25 14:04:51.383 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/libacl.so.1
+2025-05-25 14:04:51.384 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/x86_64/x86_64/libacl.so.1
+2025-05-25 14:04:51.384 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/x86_64/libacl.so.1
+2025-05-25 14:04:51.384 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/x86_64/libacl.so.1
+2025-05-25 14:04:51.384 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/libacl.so.1
+2025-05-25 14:04:51.385 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/glibc-hwcaps/x86-64-v2/libacl.so.1
+2025-05-25 14:04:51.385 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/x86_64/x86_64/libacl.so.1
+2025-05-25 14:04:51.385 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/x86_64/libacl.so.1
+2025-05-25 14:04:51.385 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/x86_64/libacl.so.1
+2025-05-25 14:04:51.385 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/libacl.so.1
+2025-05-25 14:04:51.385 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64/x86_64/libacl.so.1
+2025-05-25 14:04:51.386 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64/libacl.so.1
+2025-05-25 14:04:51.386 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64/libacl.so.1
+2025-05-25 14:04:51.386 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/libacl.so.1
+2025-05-25 14:04:51.386 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/glibc-hwcaps/x86-64-v2/libacl.so.1
+2025-05-25 14:04:51.386 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/x86_64/x86_64/libacl.so.1
+2025-05-25 14:04:51.387 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/x86_64/libacl.so.1
+2025-05-25 14:04:51.387 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/x86_64/libacl.so.1
+2025-05-25 14:04:51.387 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/libacl.so.1
+2025-05-25 14:04:51.388 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/x86_64/x86_64/libacl.so.1
+2025-05-25 14:04:51.388 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/x86_64/libacl.so.1
+2025-05-25 14:04:51.389 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/x86_64/libacl.so.1
+2025-05-25 14:04:51.389 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/libacl.so.1
+2025-05-25 14:04:51.389 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/glibc-hwcaps/x86-64-v2/libacl.so.1
+2025-05-25 14:04:51.389 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/x86_64/x86_64/libacl.so.1
+2025-05-25 14:04:51.390 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/x86_64/libacl.so.1
+2025-05-25 14:04:51.390 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/x86_64/libacl.so.1
+2025-05-25 14:04:51.390 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/libacl.so.1
+2025-05-25 14:04:51.390 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/x86_64/x86_64/libacl.so.1
+2025-05-25 14:04:51.391 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/x86_64/libacl.so.1
+2025-05-25 14:04:51.391 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/x86_64/libacl.so.1
+2025-05-25 14:04:51.391 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/libacl.so.1
+2025-05-25 14:04:51.391 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/glibc-hwcaps/x86-64-v2/libacl.so.1
+2025-05-25 14:04:51.391 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/x86_64/x86_64/libacl.so.1
+2025-05-25 14:04:51.391 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/x86_64/libacl.so.1
+2025-05-25 14:04:51.391 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/x86_64/libacl.so.1
+2025-05-25 14:04:51.391 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/libacl.so.1
+2025-05-25 14:04:51.392 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/x86_64/x86_64/libacl.so.1
+2025-05-25 14:04:51.392 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/x86_64/libacl.so.1
+2025-05-25 14:04:51.392 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/x86_64/libacl.so.1
+2025-05-25 14:04:51.392 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/libacl.so.1
+2025-05-25 14:04:51.392 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib32/glibc-hwcaps/x86-64-v2/libacl.so.1
+2025-05-25 14:04:51.392 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/x86_64/x86_64/libacl.so.1
+2025-05-25 14:04:51.392 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/x86_64/libacl.so.1
+2025-05-25 14:04:51.393 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/x86_64/libacl.so.1
+2025-05-25 14:04:51.393 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/libacl.so.1
+2025-05-25 14:04:51.393 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib32/x86_64/x86_64/libacl.so.1
+2025-05-25 14:04:51.393 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib32/x86_64/libacl.so.1
+2025-05-25 14:04:51.393 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib32/x86_64/libacl.so.1
+2025-05-25 14:04:51.393 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib32/libacl.so.1
+2025-05-25 14:04:51.393 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib64/glibc-hwcaps/x86-64-v2/libacl.so.1
+2025-05-25 14:04:51.394 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/x86_64/x86_64/libacl.so.1
+2025-05-25 14:04:51.394 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/x86_64/libacl.so.1
+2025-05-25 14:04:51.394 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/x86_64/libacl.so.1
+2025-05-25 14:04:51.394 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/libacl.so.1
+2025-05-25 14:04:51.395 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib64/x86_64/x86_64/libacl.so.1
+2025-05-25 14:04:51.395 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib64/x86_64/libacl.so.1
+2025-05-25 14:04:51.395 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib64/x86_64/libacl.so.1
+2025-05-25 14:04:51.395 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/lib64/libacl.so.1
+2025-05-25 14:04:51.395 1000  5639   sed                -1   2 glibc-hwcaps/x86-64-v2/libacl.so.1
+2025-05-25 14:04:51.395 1000  5639   sed                -1   2 tls/x86_64/x86_64/libacl.so.1
+2025-05-25 14:04:51.395 1000  5639   sed                -1   2 tls/x86_64/libacl.so.1
+2025-05-25 14:04:51.395 1000  5639   sed                -1   2
+tls/x86_64/libacl.so.1
+2025-05-25 14:04:51.395 1000  5639   sed                -1   2 tls/libacl.so.1
+2025-05-25 14:04:51.395
+1000  5639   sed                -1   2 x86_64/x86_64/libacl.so.1
+2025-05-25 14:04:51.395 1000
+5639   sed                -1   2 x86_64/libacl.so.1
+2025-05-25 14:04:51.395 1000
+5639   sed                -1   2 x86_64/libacl.so.1
+2025-05-25 14:04:51.395 1000  5639   sed                -1   2
+libacl.so.1
+2025-05-25 14:04:51.395 1000  5639   sed                 3   0
+/etc/ld.so.cache
+2025-05-25 14:04:51.397 1000  5639   sed                 3   0 /lib/x86_64-linux-gnu/libacl.so.1
+2025-05-25 14:04:51.397 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/libselinux.so.1
+2025-05-25 14:04:51.397 1000  5639   sed                -1   2 glibc-hwcaps/x86-64-v2/libselinux.so.1
+2025-05-25 14:04:51.397 1000  5639   sed                -1   2
+tls/x86_64/x86_64/libselinux.so.1
+2025-05-25 14:04:51.397 1000  5639   sed                -1   2 tls/x86_64/libselinux.so.1
+2025-05-25 14:04:51.397 1000  5639   sed                -1   2
+tls/x86_64/libselinux.so.1
+2025-05-25 14:04:51.397 1000  5639   sed                -1   2
+tls/libselinux.so.1
+2025-05-25 14:04:51.397 1000  5639   sed                -1   2 x86_64/x86_64/libselinux.so.1
+2025-05-25 14:04:51.397 1000  5639   sed                -1   2 x86_64/libselinux.so.1
+2025-05-25 14:04:51.397 1000  5639   sed                -1   2 x86_64/libselinux.so.1
+2025-05-25 14:04:51.397 1000  5639   sed                -1   2 libselinux.so.1
+2025-05-25 14:04:51.398 1000  5639   sed                 3   0 /lib/x86_64-linux-gnu/libselinux.so.1
+2025-05-25 14:04:51.398 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/libc.so.6
+2025-05-25 14:04:51.398 1000  5639   sed                -1   2 glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:04:51.398 1000  5639   sed                -1   2 tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.398 1000  5639   sed                -1   2 tls/x86_64/libc.so.6
+2025-05-25 14:04:51.398 1000  5639   sed                -1   2
+tls/x86_64/libc.so.6
+2025-05-25 14:04:51.398 1000  5639   sed                -1   2
+tls/libc.so.6
+2025-05-25 14:04:51.398 1000  5639   sed                -1   2
+x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.398 1000
+5639   sed                -1   2 x86_64/libc.so.6
+2025-05-25 14:04:51.398 1000
+5639   sed                -1   2 x86_64/libc.so.6
+2025-05-25 14:04:51.398 1000
+5639   sed                -1   2 libc.so.6
+2025-05-25 14:04:51.398 1000
+5639   sed                 3   0 /lib/x86_64-linux-gnu/libc.so.6
+2025-05-25 14:04:51.398 1000  5639   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/libpcre2-8.so.0
+2025-05-25 14:04:51.398 1000
+5639   sed                -1   2 glibc-hwcaps/x86-64-v2/libpcre2-8.so.0
+2025-05-25 14:04:51.398
+1000  5639   sed                -1   2 tls/x86_64/x86_64/libpcre2-8.so.0
+2025-05-25 14:04:51.398 1000  5639   sed                -1   2 tls/x86_64/libpcre2-8.so.0
+2025-05-25 14:04:51.398 1000  5639   sed                -1   2
+tls/x86_64/libpcre2-8.so.0
+2025-05-25 14:04:51.398 1000
+5639   sed                -1   2 tls/libpcre2-8.so.0
+2025-05-25 14:04:51.398 1000
+5639   sed                -1   2 x86_64/x86_64/libpcre2-8.so.0
+2025-05-25 14:04:51.399 1000  5639   sed                -1   2 x86_64/libpcre2-8.so.0
+2025-05-25 14:04:51.399 1000  5639   sed                -1   2 x86_64/libpcre2-8.so.0
+2025-05-25 14:04:51.399 1000
+5639   sed                -1   2 libpcre2-8.so.0
+2025-05-25 14:04:51.399 1000
+5639   sed                 3   0 /lib/x86_64-linux-gnu/libpcre2-8.so.0
+2025-05-25 14:04:51.399 1000  5639   sed                 3   0
+/proc/filesystems
+2025-05-25 14:04:51.399 1000  5639   sed                 3   0 /usr/lib/locale/locale-archive
+2025-05-25 14:04:51.399 1000
+5639   sed                 3   0 /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+2025-05-25 14:04:51.399 1000
+5639   sed                 3   0 /proc/stat
+2025-05-25 14:04:51.404 1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:04:51.404 1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.405 1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.405 1000
+5640   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.405 1000
+5640   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/libc.so.6
+2025-05-25 14:04:51.406 1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.406 1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/x86_64/libc.so.6
+2025-05-25 14:04:51.406 1000
+5640   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/x86_64/libc.so.6
+2025-05-25 14:04:51.407 1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/libc.so.6
+2025-05-25 14:04:51.408 1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:04:51.408 1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.408 1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.409 1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.409 1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/libc.so.6
+2025-05-25 14:04:51.409 1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.409 1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/x86_64/libc.so.6
+2025-05-25 14:04:51.410 1000
+5640   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/x86_64/libc.so.6
+2025-05-25 14:04:51.410
+1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/libc.so.6
+2025-05-25 14:04:51.410
+1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:04:51.410 1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.410
+1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.411 1000
+5640   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.411
+1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/libc.so.6
+2025-05-25 14:04:51.411 1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.411 1000
+5640   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/x86_64/libc.so.6
+2025-05-25 14:04:51.411 1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/x86_64/libc.so.6
+2025-05-25 14:04:51.411 1000  5640   cat                -1   2
+/tmp/.mount_CursorHew9sG/usr/lib64/libc.so.6
+2025-05-25 14:04:51.412 1000
+5640   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:04:51.412 1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.412 1000  5640   cat                -1   2
+/tmp/.mount_CursorHew9sG/lib/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.412 1000
+5640   cat                -1   2
+/tmp/.mount_CursorHew9sG/lib/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.412 1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/libc.so.6
+2025-05-25 14:04:51.412 1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.413 1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64/libc.so.6
+2025-05-25 14:04:51.413 1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64/libc.so.6
+2025-05-25 14:04:51.413 1000  5640   cat                -1   2
+/tmp/.mount_CursorHew9sG/lib/libc.so.6
+2025-05-25 14:04:51.413 1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:04:51.414
+1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.414 1000
+5640   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.414 1000
+5640   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.414 1000
+5640   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/libc.so.6
+2025-05-25 14:04:51.414 1000  5640   cat                -1   2
+/tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.415 1000  5640   cat                -1   2
+/tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:04:51.415 1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:04:51.416 1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/libc.so.6
+2025-05-25 14:04:51.416 1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:04:51.416 1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.417 1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.417 1000
+5640   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.417
+1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/libc.so.6
+2025-05-25 14:04:51.417 1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.417 1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:04:51.418 1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:04:51.418 1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/libc.so.6
+2025-05-25 14:04:51.418 1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:04:51.418 1000
+5640   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.418 1000
+5640   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.418 1000
+5640   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.419 1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/libc.so.6
+2025-05-25 14:04:51.419 1000  5640   cat                -1   2
+/tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.419 1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:04:51.419 1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:04:51.419 1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/libc.so.6
+2025-05-25 14:04:51.420 1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:04:51.421 1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.422 1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.422 1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.423 1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/libc.so.6
+2025-05-25 14:04:51.423 1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.423 1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/x86_64/libc.so.6
+2025-05-25 14:04:51.424 1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/x86_64/libc.so.6
+2025-05-25 14:04:51.424 1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/libc.so.6
+2025-05-25 14:04:51.425 1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:04:51.425 1000  5640   cat                -1   2
+/tmp/.mount_CursorHew9sG/lib64/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.425 1000  5640   cat                -1   2
+/tmp/.mount_CursorHew9sG/lib64/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.425 1000  5640   cat                -1   2
+/tmp/.mount_CursorHew9sG/lib64/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.425 1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/libc.so.6
+2025-05-25 14:04:51.426 1000  3255   cursor             43   0 /proc/3952/cmdline
+2025-05-25 14:04:51.426 1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.426 1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/x86_64/libc.so.6
+2025-05-25 14:04:51.426
+1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/x86_64/libc.so.6
+2025-05-25 14:04:51.427 1000  5640   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/libc.so.6
+2025-05-25 14:04:51.427 1000  5640   cat                -1   2 glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:04:51.427 1000  5640   cat                -1   2 tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.427 1000  5640   cat                -1   2 tls/x86_64/libc.so.6
+2025-05-25 14:04:51.427 1000  5640   cat                -1   2 tls/x86_64/libc.so.6
+2025-05-25 14:04:51.427 1000  5640   cat                -1   2 tls/libc.so.6
+2025-05-25 14:04:51.427 1000  5640   cat                -1   2 x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.427 1000  5640   cat                -1   2 x86_64/libc.so.6
+2025-05-25 14:04:51.427 1000  5640   cat                -1   2 x86_64/libc.so.6
+2025-05-25 14:04:51.427 1000  5640   cat                -1   2 libc.so.6
+2025-05-25 14:04:51.427 1000  5640   cat                 3   0 /etc/ld.so.cache
+2025-05-25 14:04:51.427 1000  5640   cat                 3   0 /lib/x86_64-linux-gnu/libc.so.6
+2025-05-25 14:04:51.428 1000  5640   cat                 3   0 /usr/lib/locale/locale-archive
+2025-05-25 14:04:51.428 1000  5640   cat                 3   0 /proc/4130/stat
+2025-05-25 14:04:51.428 1000  3255   cursor             43   0 /proc/5623/cmdline
+2025-05-25 14:04:51.429 1000  3255   cursor             43   0 /proc/3710/cmdline
+2025-05-25 14:04:51.430 1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:04:51.430
+1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.431 1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.431 1000  5642   cat                -1   2
+/tmp/.mount_CursorHew9sG/usr/lib/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.431 1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/libc.so.6
+2025-05-25 14:04:51.431 1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.431 1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/x86_64/libc.so.6
+2025-05-25 14:04:51.431 1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/x86_64/libc.so.6
+2025-05-25 14:04:51.432 1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/libc.so.6
+2025-05-25 14:04:51.432 1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:04:51.432 1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.433 1000  5642   cat                -1   2
+/tmp/.mount_CursorHew9sG/usr/lib32/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.433 1000
+5642   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.433 1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/libc.so.6
+2025-05-25 14:04:51.433 1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.433 1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/x86_64/libc.so.6
+2025-05-25 14:04:51.434 1000  5642   cat                -1   2
+/tmp/.mount_CursorHew9sG/usr/lib32/x86_64/libc.so.6
+2025-05-25 14:04:51.434 1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/libc.so.6
+2025-05-25 14:04:51.434 1000  5642   cat                -1   2
+/tmp/.mount_CursorHew9sG/usr/lib64/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:04:51.434 1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.434 1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.435 1000
+5642   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.435 1000
+5642   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/libc.so.6
+2025-05-25 14:04:51.435 1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.435 1000  5642   cat                -1   2
+/tmp/.mount_CursorHew9sG/usr/lib64/x86_64/libc.so.6
+2025-05-25 14:04:51.435 1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/x86_64/libc.so.6
+2025-05-25 14:04:51.435 1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/libc.so.6
+2025-05-25 14:04:51.435 1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:04:51.436
+1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.436 1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.436 1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.436
+1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/libc.so.6
+2025-05-25 14:04:51.436 1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.437 1000  5642   cat                -1   2
+/tmp/.mount_CursorHew9sG/lib/x86_64/libc.so.6
+2025-05-25 14:04:51.437 1000
+5642   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64/libc.so.6
+2025-05-25 14:04:51.437 1000  5642   cat                -1   2
+/tmp/.mount_CursorHew9sG/lib/libc.so.6
+2025-05-25 14:04:51.437 1000
+5642   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:04:51.437 1000  5642   cat                -1   2
+/tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.437 1000
+5642   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.437 1000
+5642   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.437 1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/libc.so.6
+2025-05-25 14:04:51.437 1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.437 1000  5642   cat                -1   2
+/tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:04:51.437 1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:04:51.437 1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/libc.so.6
+2025-05-25 14:04:51.437 1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:04:51.438 1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.438 1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.439
+1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.439 1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/libc.so.6
+2025-05-25 14:04:51.439 1000
+5642   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.439 1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:04:51.439 1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:04:51.439 1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/libc.so.6
+2025-05-25 14:04:51.439 1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:04:51.439
+1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.439 1000
+5642   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.439 1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.440 1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/libc.so.6
+2025-05-25 14:04:51.440 1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.440 1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:04:51.440 1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:04:51.440 1000  5642   cat                -1   2
+/tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/libc.so.6
+2025-05-25 14:04:51.441
+1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:04:51.441 1000  5642   cat                -1   2
+/tmp/.mount_CursorHew9sG/lib32/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.441
+1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.441 1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.442
+1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/libc.so.6
+2025-05-25 14:04:51.442 1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.442 1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/x86_64/libc.so.6
+2025-05-25 14:04:51.442
+1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/x86_64/libc.so.6
+2025-05-25 14:04:51.442 1000  5642   cat                -1   2
+/tmp/.mount_CursorHew9sG/lib32/libc.so.6
+2025-05-25 14:04:51.442 1000  5642   cat                -1   2
+/tmp/.mount_CursorHew9sG/lib64/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:04:51.442 1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.442 1000
+5642   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.443 1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.443 1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/libc.so.6
+2025-05-25 14:04:51.443 1000
+5642   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.443 1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/x86_64/libc.so.6
+2025-05-25 14:04:51.443 1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/x86_64/libc.so.6
+2025-05-25 14:04:51.443 1000  5642   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/libc.so.6
+2025-05-25 14:04:51.443 1000  5642   cat                -1   2 glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:04:51.443 1000  5642   cat                -1   2 tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.443 1000
+5642   cat                -1   2 tls/x86_64/libc.so.6
+2025-05-25 14:04:51.443 1000  5642   cat                -1   2 tls/x86_64/libc.so.6
+2025-05-25 14:04:51.443 1000  5642   cat                -1   2 tls/libc.so.6
+2025-05-25 14:04:51.443 1000  5642   cat                -1   2 x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.443 1000  5642   cat                -1   2 x86_64/libc.so.6
+2025-05-25 14:04:51.443 1000  5642   cat                -1   2 x86_64/libc.so.6
+2025-05-25 14:04:51.443 1000  5642   cat                -1   2 libc.so.6
+2025-05-25 14:04:51.443 1000  5642   cat                 3   0 /etc/ld.so.cache
+2025-05-25 14:04:51.443 1000  5642   cat                 3   0 /lib/x86_64-linux-gnu/libc.so.6
+2025-05-25 14:04:51.445 1000  5642   cat                 3   0 /usr/lib/locale/locale-archive
+2025-05-25 14:04:51.445 1000  5642   cat                 3   0 /proc/5623/stat
+2025-05-25 14:04:51.448 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:04:51.448 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.448 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.448 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.448 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/libc.so.6
+2025-05-25 14:04:51.449 1000  5644   cat                -1   2
+/tmp/.mount_CursorHew9sG/usr/lib/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.449 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/x86_64/libc.so.6
+2025-05-25 14:04:51.449 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/x86_64/libc.so.6
+2025-05-25 14:04:51.449 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/libc.so.6
+2025-05-25 14:04:51.449 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:04:51.449 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.449 1000  5644   cat                -1   2
+/tmp/.mount_CursorHew9sG/usr/lib32/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.450 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.450 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/libc.so.6
+2025-05-25 14:04:51.450 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.450 1000
+5644   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/x86_64/libc.so.6
+2025-05-25 14:04:51.450 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/x86_64/libc.so.6
+2025-05-25 14:04:51.450 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/libc.so.6
+2025-05-25 14:04:51.451 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:04:51.451 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.451 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.451 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.451 1000  5644   cat                -1   2
+/tmp/.mount_CursorHew9sG/usr/lib64/tls/libc.so.6
+2025-05-25 14:04:51.451 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.451 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/x86_64/libc.so.6
+2025-05-25 14:04:51.451 1000  5644   cat                -1   2
+/tmp/.mount_CursorHew9sG/usr/lib64/x86_64/libc.so.6
+2025-05-25 14:04:51.451 1000
+5644   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/libc.so.6
+2025-05-25 14:04:51.451 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:04:51.452 1000
+5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.452 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.452 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.453 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/libc.so.6
+2025-05-25 14:04:51.453 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.453 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64/libc.so.6
+2025-05-25 14:04:51.453 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64/libc.so.6
+2025-05-25 14:04:51.453 1000
+5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/libc.so.6
+2025-05-25 14:04:51.453 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:04:51.453 1000  5644   cat                -1   2
+/tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.454 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.454 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.454 1000
+5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/libc.so.6
+2025-05-25 14:04:51.454 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.455 1000
+5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:04:51.455 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:04:51.455 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/libc.so.6
+2025-05-25 14:04:51.455 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:04:51.455 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.455 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.456 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.456 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/libc.so.6
+2025-05-25 14:04:51.456 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.456 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:04:51.456 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:04:51.456 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/libc.so.6
+2025-05-25 14:04:51.456 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:04:51.456 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.456 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.456 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.456 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/libc.so.6
+2025-05-25 14:04:51.458 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.459 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:04:51.459 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:04:51.459 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/libc.so.6
+2025-05-25 14:04:51.459 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:04:51.459 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.459 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.459 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.459 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/libc.so.6
+2025-05-25 14:04:51.460 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.460 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/x86_64/libc.so.6
+2025-05-25 14:04:51.460 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/x86_64/libc.so.6
+2025-05-25 14:04:51.460 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/libc.so.6
+2025-05-25 14:04:51.461 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:04:51.461 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.461 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.461 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.462 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/libc.so.6
+2025-05-25 14:04:51.462 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.462 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/x86_64/libc.so.6
+2025-05-25 14:04:51.462 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/x86_64/libc.so.6
+2025-05-25 14:04:51.462 1000  5644   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/libc.so.6
+2025-05-25 14:04:51.462 1000  5644   cat                -1   2 glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:04:51.462 1000  5644   cat                -1   2 tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.462 1000  5644   cat                -1   2 tls/x86_64/libc.so.6
+2025-05-25 14:04:51.462
+1000  5644   cat                -1   2 tls/x86_64/libc.so.6
+2025-05-25 14:04:51.462 1000  5644   cat                -1   2 tls/libc.so.6
+2025-05-25 14:04:51.462 1000  5644   cat                -1   2 x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.462 1000  5644   cat                -1   2 x86_64/libc.so.6
+2025-05-25 14:04:51.462 1000  5644   cat                -1   2 x86_64/libc.so.6
+2025-05-25 14:04:51.462 1000  5644   cat                -1   2 libc.so.6
+2025-05-25 14:04:51.462 1000  5644   cat                 3   0 /etc/ld.so.cache
+2025-05-25 14:04:51.463 1000  5644   cat                 3   0 /lib/x86_64-linux-gnu/libc.so.6
+2025-05-25 14:04:51.463 1000  5644   cat                 3   0 /usr/lib/locale/locale-archive
+2025-05-25 14:04:51.463 1000  5644   cat                 3   0 /proc/5624/stat
+2025-05-25 14:04:51.465 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:04:51.465 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.466 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.466 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.466 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/libc.so.6
+2025-05-25 14:04:51.466 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.466 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/x86_64/libc.so.6
+2025-05-25 14:04:51.467 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/x86_64/libc.so.6
+2025-05-25 14:04:51.467 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/libc.so.6
+2025-05-25 14:04:51.467 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:04:51.467 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.467 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.467 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.467 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/libc.so.6
+2025-05-25 14:04:51.467 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.468 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/x86_64/libc.so.6
+2025-05-25 14:04:51.468 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/x86_64/libc.so.6
+2025-05-25 14:04:51.468 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/libc.so.6
+2025-05-25 14:04:51.468 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:04:51.468 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.468 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.468 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.468 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/libc.so.6
+2025-05-25 14:04:51.468 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.468 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/x86_64/libc.so.6
+2025-05-25 14:04:51.469 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/x86_64/libc.so.6
+2025-05-25 14:04:51.469 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/libc.so.6
+2025-05-25 14:04:51.469 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:04:51.469 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.469 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.470 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.471 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/libc.so.6
+2025-05-25 14:04:51.471 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.471 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64/libc.so.6
+2025-05-25 14:04:51.471 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64/libc.so.6
+2025-05-25 14:04:51.471 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/libc.so.6
+2025-05-25 14:04:51.471 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:04:51.472 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.472 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.472 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.472 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/libc.so.6
+2025-05-25 14:04:51.472 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.472 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:04:51.472 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:04:51.473 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/libc.so.6
+2025-05-25 14:04:51.473 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:04:51.473 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.473 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.473 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.473 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/libc.so.6
+2025-05-25 14:04:51.473 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.473 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:04:51.473 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:04:51.474 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/libc.so.6
+2025-05-25 14:04:51.474 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:04:51.474 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.474 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.474 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.474 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/libc.so.6
+2025-05-25 14:04:51.474 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.474 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:04:51.475 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:04:51.475 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/libc.so.6
+2025-05-25 14:04:51.475 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:04:51.475 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.475 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.475 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.476 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/libc.so.6
+2025-05-25 14:04:51.476 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.476 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/x86_64/libc.so.6
+2025-05-25 14:04:51.476 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/x86_64/libc.so.6
+2025-05-25 14:04:51.476 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/libc.so.6
+2025-05-25 14:04:51.476 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:04:51.476 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.476 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.476 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.477 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/libc.so.6
+2025-05-25 14:04:51.477 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.477 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/x86_64/libc.so.6
+2025-05-25 14:04:51.477 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/x86_64/libc.so.6
+2025-05-25 14:04:51.477 1000  5646   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/libc.so.6
+2025-05-25 14:04:51.477 1000  5646   cat                -1   2 glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:04:51.477 1000  5646   cat                -1   2 tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.477 1000  5646   cat                -1   2 tls/x86_64/libc.so.6
+2025-05-25 14:04:51.477 1000  5646   cat                -1   2 tls/x86_64/libc.so.6
+2025-05-25 14:04:51.477 1000  5646   cat                -1   2 tls/libc.so.6
+2025-05-25 14:04:51.477 1000  5646   cat                -1   2 x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.477 1000  5646   cat                -1   2 x86_64/libc.so.6
+2025-05-25 14:04:51.477 1000  5646   cat                -1   2 x86_64/libc.so.6
+2025-05-25 14:04:51.477 1000  5646   cat                -1   2 libc.so.6
+2025-05-25 14:04:51.477 1000  5646   cat                 3   0 /etc/ld.so.cache
+2025-05-25 14:04:51.477 1000  5646   cat                 3   0 /lib/x86_64-linux-gnu/libc.so.6
+2025-05-25 14:04:51.477 1000  5646   cat                 3   0 /usr/lib/locale/locale-archive
+2025-05-25 14:04:51.477 1000  5646   cat                 3   0 /proc/5625/stat
+2025-05-25 14:04:51.480 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:04:51.480 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.480 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.480 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.481 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/libc.so.6
+2025-05-25 14:04:51.481 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.481 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/x86_64/libc.so.6
+2025-05-25 14:04:51.481 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/x86_64/libc.so.6
+2025-05-25 14:04:51.481 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/libc.so.6
+2025-05-25 14:04:51.481 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:04:51.481 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.481 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.481 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.482 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/libc.so.6
+2025-05-25 14:04:51.483 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.483 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/x86_64/libc.so.6
+2025-05-25 14:04:51.483 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/x86_64/libc.so.6
+2025-05-25 14:04:51.483 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/libc.so.6
+2025-05-25 14:04:51.483 1000
+5648   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:04:51.484 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.484 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.484 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.484 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/libc.so.6
+2025-05-25 14:04:51.484 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.484 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/x86_64/libc.so.6
+2025-05-25 14:04:51.484 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/x86_64/libc.so.6
+2025-05-25 14:04:51.484 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/libc.so.6
+2025-05-25 14:04:51.484 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:04:51.484 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.484 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.484 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.485 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/libc.so.6
+2025-05-25 14:04:51.485 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.485 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64/libc.so.6
+2025-05-25 14:04:51.485 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64/libc.so.6
+2025-05-25 14:04:51.485 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/libc.so.6
+2025-05-25 14:04:51.485 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:04:51.485 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.485 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.486 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.486 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/libc.so.6
+2025-05-25 14:04:51.486 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.486 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:04:51.486 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:04:51.486 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/libc.so.6
+2025-05-25 14:04:51.486 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:04:51.486 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.486 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.486 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.487 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/libc.so.6
+2025-05-25 14:04:51.487 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.487 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:04:51.492 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:04:51.492 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/libc.so.6
+2025-05-25 14:04:51.492 1000
+5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:04:51.493 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.493 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.493 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.493
+1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/libc.so.6
+2025-05-25 14:04:51.493 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.493
+1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:04:51.493 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:04:51.494 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/libc.so.6
+2025-05-25 14:04:51.494 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:04:51.494 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.494 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.494 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.494 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/libc.so.6
+2025-05-25 14:04:51.494 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.494 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/x86_64/libc.so.6
+2025-05-25 14:04:51.494 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/x86_64/libc.so.6
+2025-05-25 14:04:51.494 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/libc.so.6
+2025-05-25 14:04:51.495 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:04:51.495 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.495 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.495 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/x86_64/libc.so.6
+2025-05-25 14:04:51.495 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/libc.so.6
+2025-05-25 14:04:51.495 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.495 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/x86_64/libc.so.6
+2025-05-25 14:04:51.495 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/x86_64/libc.so.6
+2025-05-25 14:04:51.495 1000  5648   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/libc.so.6
+2025-05-25 14:04:51.495 1000  5648   cat                -1   2 glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:04:51.495 1000  5648   cat                -1   2 tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.495 1000  5648   cat                -1   2 tls/x86_64/libc.so.6
+2025-05-25 14:04:51.495 1000  5648   cat                -1   2 tls/x86_64/libc.so.6
+2025-05-25 14:04:51.495 1000  5648   cat                -1   2 tls/libc.so.6
+2025-05-25 14:04:51.495 1000  5648   cat                -1   2 x86_64/x86_64/libc.so.6
+2025-05-25 14:04:51.495 1000  5648   cat                -1   2 x86_64/libc.so.6
+2025-05-25 14:04:51.495 1000  5648   cat                -1   2 x86_64/libc.so.6
+2025-05-25 14:04:51.495 1000  5648   cat                -1   2 libc.so.6
+2025-05-25 14:04:51.495 1000  5648   cat                 3   0 /etc/ld.so.cache
+2025-05-25 14:04:51.495 1000  5648   cat                 3   0 /lib/x86_64-linux-gnu/libc.so.6
+2025-05-25 14:04:51.496 1000  5648   cat                 3   0 /usr/lib/locale/locale-archive
+2025-05-25 14:04:51.496 1000  5648   cat                 3   0 /proc/5627/stat
+2025-05-25 14:04:51.503 1000  2716   qbat               16   0 /sys/class/power_supply
+2025-05-25 14:04:51.503 1000  2716   qbat               16   0 /sys/class/power_supply/AC/online
+2025-05-25 14:04:51.571 1000  3255   cursor             42   0 /proc/3324/cmdline
+2025-05-25 14:04:51.626 1000  3255   cursor             42   0 /proc/3952/cmdline
+2025-05-25 14:04:51.628 1000  3255   cursor             42   0 /proc/5623/cmdline
+2025-05-25 14:04:51.629 1000  3255   cursor             42   0 /proc/3710/cmdline
+2025-05-25 14:04:51.691 1000  3232   cursor             33   0 /dev/shm/.org.chromium.Chromium.vswH29
+2025-05-25 14:04:51.691 1000  3232   cursor             39   0 /dev/shm/.org.chromium.Chromium.vswH29
+2025-05-25 14:04:51.772 1000  3255   cursor             42   0 /proc/3324/cmdline
+2025-05-25 14:04:51.826 1000  3255   cursor             42   0 /proc/3952/cmdline
+2025-05-25 14:04:51.832 1000  3255   cursor             42   0 /proc/5623/cmdline
+2025-05-25 14:04:51.832 1000  3255   cursor             42   0 /proc/3710/cmdline
+2025-05-25 14:04:51.972 1000  3255   cursor             42   0 /proc/3324/cmdline
+2025-05-25 14:04:52.026 1000  3255   cursor             42   0 /proc/3952/cmdline
+2025-05-25 14:04:52.035 1000  3255   cursor             42   0 /proc/5623/cmdline
+2025-05-25 14:04:52.036 1000  3255   cursor             42   0 /proc/3710/cmdline
+2025-05-25 14:04:52.172 1000  3255   cursor             42   0 /proc/3324/cmdline
+2025-05-25 14:04:52.227 1000  3255   cursor             42   0 /proc/3952/cmdline
+2025-05-25 14:04:52.236 1000  3255   cursor             42   0 /proc/5623/cmdline
+2025-05-25 14:04:52.236
+1000  3255   cursor             42   0 /proc/3710/cmdline
+
+# ===== syscall_monitor started at 2025-05-25 14:05:04 =====
+# Monitoring syscalls: connect
+# Command line: syscall_monitor.py -s connect -d 3 --logfile syscalls.log
+

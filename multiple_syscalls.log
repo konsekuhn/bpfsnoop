@@ -1,0 +1,2229 @@
+# syscall_monitor started at 2025-05-25 14:02:07
+# Monitoring syscalls: open, connect, execve
+# Command line: syscall_monitor.py -s open connect execve -d 5 --logfile multiple_syscalls.log
+
+2025-05-25 14:02:08.776 TIMESTAMP               UID   PID    COMM               FD ERR PATH
+0
+5480   python3             3   0
+include/uapi/linux/elf.h
+2025-05-25 14:02:08.776
+0
+5480   python3            -1   2
+include/linux/elf-em.h
+2025-05-25 14:02:08.776
+0
+5480   python3             3   0 include/uapi/linux/elf-em.h
+2025-05-25 14:02:08.777 0     5480   python3             3   0 include/linux/moduleparam.h
+2025-05-25 14:02:08.777 0     5480   python3             3   0 include/linux/rbtree_latch.h
+2025-05-25 14:02:08.779 0     5480   python3             3   0 include/linux/error-injection.h
+2025-05-25 14:02:08.779 0     5480   python3             3   0 include/asm-generic/error-injection.h
+2025-05-25 14:02:08.780 0     5480   python3             3   0 arch/x86/include/asm/module.h
+2025-05-25 14:02:08.780 0     5480   python3             3   0 include/asm-generic/module.h
+2025-05-25 14:02:08.781 0     5480   python3             3   0 arch/x86/include/asm/device.h
+2025-05-25 14:02:08.783
+0
+5480   python3             3   0
+include/linux/pm_wakeup.h
+2025-05-25 14:02:08.785
+0
+5480   python3             3   0
+include/linux/scatterlist.h
+2025-05-25 14:02:08.785
+0
+5480   python3             3   0
+arch/x86/include/asm/io.h
+2025-05-25 14:02:08.786
+0
+5480   python3            -1   2
+arch/x86/include/asm/early_ioremap.h
+2025-05-25 14:02:08.786
+0
+5480   python3             3   0 arch/x86/include/generated/asm/early_ioremap.h
+2025-05-25 14:02:08.786 0     5480   python3             3   0 include/asm-generic/early_ioremap.h
+2025-05-25 14:02:08.786 0     5480   python3             3   0 arch/x86/include/asm/shared/io.h
+2025-05-25 14:02:08.787 0     5480   python3             3   0 include/asm-generic/iomap.h
+2025-05-25 14:02:08.787 0     5480   python3             3   0 include/asm-generic/pci_iomap.h
+2025-05-25 14:02:08.788 0     5480   python3             3   0 include/asm-generic/io.h
+2025-05-25 14:02:08.789 0     5480   python3             3   0 include/linux/logic_pio.h
+2025-05-25 14:02:08.789 0     5480   python3             3   0 include/linux/fwnode.h
+2025-05-25 14:02:08.790 0     5480   python3             3   0 include/linux/vmalloc.h
+2025-05-25 14:02:08.790 0
+5480   python3             3   0
+arch/x86/include/asm/vmalloc.h
+2025-05-25 14:02:08.790
+0
+5480   python3             3   0
+arch/x86/include/asm/pgtable_areas.h
+2025-05-25 14:02:08.797
+0
+5480   python3             3   0
+include/linux/netdev_features.h
+2025-05-25 14:02:08.797
+0
+5480   python3             3   0
+include/linux/sched/clock.h
+2025-05-25 14:02:08.798 0     5480   python3             3   0 include/linux/splice.h
+2025-05-25 14:02:08.798 0     5480   python3             3   0 include/linux/pipe_fs_i.h
+2025-05-25 14:02:08.799
+0
+5480   python3            -1   2
+include/linux/if_packet.h
+2025-05-25 14:02:08.799
+0
+5480   python3             3   0
+include/net/page_pool.h
+2025-05-25 14:02:08.800
+0
+5480   python3             3   0
+include/linux/ptr_ring.h
+2025-05-25 14:02:08.804
+0
+5480   python3             3   0
+include/net/net_debug.h
+2025-05-25 14:02:08.805
+0
+5480   python3             3   0
+include/net/dropreason.h
+2025-05-25 14:02:08.829
+0
+5480   python3             3   0
+include/linux/seq_file_net.h
+2025-05-25 14:02:08.829
+0
+5480   python3             3   0
+include/linux/seq_file.h
+2025-05-25 14:02:08.829
+0
+5480   python3             3   0
+include/linux/string_helpers.h
+2025-05-25 14:02:08.829
+0
+5480   python3             3   0
+include/linux/ctype.h
+2025-05-25 14:02:08.833
+0
+5480   python3             3   0
+include/net/dcbnl.h
+2025-05-25 14:02:08.833
+0
+5480   python3            -1   2
+include/linux/dcbnl.h
+2025-05-25 14:02:08.833
+0
+5480   python3             3   0
+include/uapi/linux/dcbnl.h
+2025-05-25 14:02:08.834
+0
+5480   python3             3   0
+include/net/netprio_cgroup.h
+2025-05-25 14:02:08.834
+0
+5480   python3             3   0
+include/linux/cgroup.h
+2025-05-25 14:02:08.834
+0
+5480   python3            -1   2
+include/linux/cgroupstats.h
+2025-05-25 14:02:08.834
+0
+5480   python3             3   0
+include/uapi/linux/cgroupstats.h
+2025-05-25 14:02:08.834
+0
+5480   python3            -1   2
+include/linux/taskstats.h
+2025-05-25 14:02:08.834
+0
+5480   python3             3   0
+include/uapi/linux/taskstats.h
+2025-05-25 14:02:08.834
+0
+5480   python3             3   0
+include/linux/nsproxy.h
+2025-05-25 14:02:08.834
+0
+5480   python3             3   0
+include/linux/user_namespace.h
+2025-05-25 14:02:08.835
+0
+5480   python3             3   0 include/linux/kernel_stat.h
+2025-05-25 14:02:08.835
+0
+5480   python3             3   0
+include/linux/interrupt.h
+2025-05-25 14:02:08.835
+0
+5480   python3             3   0
+include/linux/irqreturn.h
+2025-05-25 14:02:08.835
+0
+5480   python3             3   0
+arch/x86/include/asm/irq.h
+2025-05-25 14:02:08.835
+0
+5480   python3             3   0
+arch/x86/include/asm/irq_vectors.h
+2025-05-25 14:02:08.836
+0
+5480   python3             3   0
+arch/x86/include/asm/sections.h
+2025-05-25 14:02:08.836 0
+5480   python3             3   0
+include/asm-generic/sections.h
+2025-05-25 14:02:08.839
+0
+5480   python3             3   0
+include/linux/cgroup-defs.h
+2025-05-25 14:02:08.840
+0
+5480   python3             3   0
+include/linux/bpf-cgroup-defs.h
+2025-05-25 14:02:08.840
+0
+5480   python3             3   0 include/linux/psi_types.h
+2025-05-25 14:02:08.840
+0
+5480   python3             3   0
+include/linux/kthread.h
+2025-05-25 14:02:08.841
+0
+5480   python3             3   0
+include/linux/cgroup_subsys.h
+2025-05-25 14:02:08.837
+1000
+3255   cursor             43   0
+/proc/3952/cmdline
+2025-05-25 14:02:08.837
+1000
+3255   cursor             43   0
+/proc/5475/cmdline
+2025-05-25 14:02:08.837
+1000
+3255   cursor             43   0
+/proc/3710/cmdline
+2025-05-25 14:02:08.837
+1000
+3255   cursor             43   0
+/proc/3324/cmdline
+2025-05-25 14:02:08.847
+0
+5480   python3             3   0
+include/net/xdp.h
+2025-05-25 14:02:08.849
+0
+5480   python3            -1   2 include/linux/neighbour.h
+2025-05-25 14:02:08.849
+0
+5480   python3             3   0
+include/uapi/linux/neighbour.h
+2025-05-25 14:02:08.849
+0
+5480   python3             3   0
+include/linux/netlink.h
+2025-05-25 14:02:08.849
+0
+5480   python3             3   0
+include/net/scm.h
+2025-05-25 14:02:08.849
+0
+5480   python3             3   0
+include/linux/security.h
+2025-05-25 14:02:08.849
+0
+5480   python3             3   0
+include/linux/kernel_read_file.h
+2025-05-25 14:02:08.849
+0
+5480   python3             3   0 include/linux/file.h
+2025-05-25 14:02:08.855
+0
+5480   python3             3   0
+include/uapi/linux/netlink.h
+2025-05-25 14:02:08.858
+0
+5480   python3             3   0
+include/uapi/linux/netdevice.h
+2025-05-25 14:02:08.858
+0
+5480   python3            -1   2
+include/linux/if.h
+2025-05-25 14:02:08.858
+0
+5480   python3             3   0 include/uapi/linux/if.h
+2025-05-25 14:02:08.858 0     5480   python3             3   0 include/uapi/linux/hdlc/ioctl.h
+2025-05-25 14:02:08.858 0     5480   python3             3   0 include/linux/if_ether.h
+2025-05-25 14:02:08.859 0     5480   python3             3   0 include/linux/if_link.h
+2025-05-25 14:02:08.859 0     5480   python3             3   0 include/uapi/linux/if_link.h
+2025-05-25 14:02:08.860 0     5480   python3             3   0 include/uapi/linux/if_bonding.h
+2025-05-25 14:02:08.860 0     5480   python3             3   0 include/uapi/linux/pkt_cls.h
+2025-05-25 14:02:08.860 0     5480   python3            -1   2 include/linux/pkt_sched.h
+2025-05-25 14:02:08.860 0     5480   python3             3   0 include/uapi/linux/pkt_sched.h
+2025-05-25 14:02:08.862 0     5480   python3             3   0 include/linux/hashtable.h
+2025-05-25 14:02:08.889 0     5480   python3             3   0 include/linux/page_counter.h
+2025-05-25 14:02:08.889 0     5480   python3             3   0 include/linux/memcontrol.h
+2025-05-25 14:02:08.889 0     5480   python3             3   0 include/linux/vmpressure.h
+2025-05-25 14:02:08.889 0     5480   python3             3   0 include/linux/eventfd.h
+2025-05-25 14:02:08.890 0     5480   python3             3   0 include/linux/writeback.h
+2025-05-25 14:02:08.890 0     5480   python3             3   0 include/linux/flex_proportions.h
+2025-05-25 14:02:08.890 0     5480   python3             3   0 include/linux/backing-dev-defs.h
+2025-05-25 14:02:08.891 0     5480   python3             3   0 include/linux/blk_types.h
+2025-05-25 14:02:08.892 0     5480   python3             3   0 include/linux/bio.h
+2025-05-25 14:02:08.892 0     5480   python3             3   0 include/linux/mempool.h
+2025-05-25 14:02:08.930 0     5480   python3             3   0 include/linux/rculist_nulls.h
+2025-05-25 14:02:08.932 0     5480   python3             3   0 include/linux/poll.h
+2025-05-25 14:02:08.932 0     5480   python3             3   0 include/uapi/linux/poll.h
+2025-05-25 14:02:08.932 0     5480   python3            -1   2 arch/x86/include/asm/poll.h
+2025-05-25 14:02:08.932 0     5480   python3            -1   2 arch/x86/include/generated/asm/poll.h
+2025-05-25 14:02:08.932 0     5480   python3            -1   2 arch/x86/include/uapi/asm/poll.h
+2025-05-25 14:02:08.932 0     5480   python3             3   0 arch/x86/include/generated/uapi/asm/poll.h
+2025-05-25 14:02:08.932 0     5480   python3            -1   2 include/asm-generic/poll.h
+2025-05-25 14:02:08.932 0     5480   python3             3   0 include/uapi/asm-generic/poll.h
+2025-05-25 14:02:08.932 0     5480   python3             3   0 include/uapi/linux/eventpoll.h
+2025-05-25 14:02:08.934 0     5480   python3             3   0 include/linux/indirect_call_wrapper.h
+2025-05-25 14:02:08.934 0     5480   python3             3   0 include/net/dst.h
+2025-05-25 14:02:08.934 0     5480   python3             3   0 include/linux/rtnetlink.h
+2025-05-25 14:02:08.934 0     5480   python3             3   0 include/uapi/linux/rtnetlink.h
+2025-05-25 14:02:08.934 0     5480   python3            -1   2 include/linux/if_addr.h
+2025-05-25 14:02:08.934 0     5480   python3             3   0 include/uapi/linux/if_addr.h
+2025-05-25 14:02:08.935 0     5480   python3             3   0 include/net/neighbour.h
+2025-05-25 14:02:08.935 0     5480   python3             3   0 include/net/rtnetlink.h
+2025-05-25 14:02:08.936 0     5480   python3             3   0 include/net/netlink.h
+2025-05-25 14:02:08.950 0     5480   python3             3   0 include/net/tcp_states.h
+2025-05-25 14:02:08.950 0     5480   python3            -1   2 include/linux/net_tstamp.h
+2025-05-25 14:02:08.950 0     5480   python3             3   0 include/uapi/linux/net_tstamp.h
+2025-05-25 14:02:08.950 0     5480   python3             3   0 include/net/l3mdev.h
+2025-05-25 14:02:08.950 0     5480   python3             3   0 include/net/fib_rules.h
+2025-05-25 14:02:08.950 0     5480   python3            -1   2 include/linux/fib_rules.h
+2025-05-25 14:02:08.950 0     5480   python3             3   0 include/uapi/linux/fib_rules.h
+2025-05-25 14:02:08.950 0     5480   python3             3   0 include/net/fib_notifier.h
+2025-05-25 14:02:09.000 0     5480   python3             3   0 /sys/devices/system/cpu/possible
+2025-05-25 14:02:09.001 0     5480   python3             3   0 /proc/kallsyms
+2025-05-25 14:02:09.002 1000  2716   qbat               -1   2 /sys/class/power_supply/BAT0/current_now
+2025-05-25 14:02:09.002 1000  2716   qbat               16   0 /sys/class/power_supply/BAT0/power_now
+2025-05-25 14:02:09.002 1000  2716   qbat               16   0 /sys/class/power_supply/BAT0/voltage_now
+2025-05-25 14:02:09.002 1000  2716   qbat               16   0 /sys/class/power_supply/BAT0/status
+2025-05-25 14:02:09.002 1000  2716   qbat               16   0 /sys/class/power_supply/BAT0/energy_full
+2025-05-25 14:02:09.002 1000  2716   qbat               16   0 /sys/class/power_supply/BAT0/energy_full_design
+2025-05-25 14:02:09.002 1000  2716   qbat               16   0 /sys/class/power_supply/BAT0/energy_now
+2025-05-25 14:02:09.017 1000  3119   cursor            141   0 /home/administrator/.config/Cursor/User/globalStorage/state.vscdb-journal
+2025-05-25 14:02:09.022 1000  3232   cursor             29   0 /dev/shm/.org.chromium.Chromium.90grZ0
+2025-05-25 14:02:09.022 1000  3232   cursor             33   0 /dev/shm/.org.chromium.Chromium.90grZ0
+2025-05-25 14:02:09.038 1000  3255   cursor             43   0 /proc/3952/cmdline
+2025-05-25 14:02:09.038 1000  3255   cursor             43   0 /proc/5475/cmdline
+2025-05-25 14:02:09.038 1000  3255   cursor             43   0 /proc/3710/cmdline
+2025-05-25 14:02:09.038 1000  3255   cursor             43   0 /proc/3324/cmdline
+2025-05-25 14:02:09.052 1000  3232   cursor             29   0 /dev/shm/.org.chromium.Chromium.Cmd0qT
+2025-05-25 14:02:09.052 1000  3119   cursor            142   0 /home/administrator/.config/Cursor/User/globalStorage
+2025-05-25 14:02:09.052 1000  3232   cursor             33   0 /dev/shm/.org.chromium.Chromium.Cmd0qT
+2025-05-25 14:02:09.061 1000  3232   cursor             29   0 /dev/shm/.org.chromium.Chromium.NuRDI4
+2025-05-25 14:02:09.061 1000  3232   cursor             33   0 /dev/shm/.org.chromium.Chromium.NuRDI4
+2025-05-25 14:02:09.090 0     5480   python3             3   0 ././include/linux/kconfig.h
+2025-05-25 14:02:09.090 0     5480   python3            -1   2 arch/x86/include/generated/autoconf.h
+2025-05-25 14:02:09.090 0     5480   python3             3   0 include/generated/autoconf.h
+2025-05-25 14:02:09.092 0     5480   python3             3   0 include/linux/types.h
+2025-05-25 14:02:09.093 0     5480   python3             3   0 include/uapi/linux/types.h
+2025-05-25 14:02:09.093 0     5480   python3            -1   2 arch/x86/include/asm/types.h
+2025-05-25 14:02:09.093 0     5480   python3            -1   2 arch/x86/include/generated/asm/types.h
+2025-05-25 14:02:09.093 0     5480   python3            -1   2 arch/x86/include/uapi/asm/types.h
+2025-05-25 14:02:09.093 0     5480   python3             3   0 arch/x86/include/generated/uapi/asm/types.h
+2025-05-25 14:02:09.093 0     5480   python3            -1   2 include/asm-generic/types.h
+2025-05-25 14:02:09.093 0     5480   python3             3   0 include/uapi/asm-generic/types.h
+2025-05-25 14:02:09.093 0     5480   python3             3   0 include/asm-generic/int-ll64.h
+2025-05-25 14:02:09.093 0     5480   python3             3   0 include/uapi/asm-generic/int-ll64.h
+2025-05-25 14:02:09.093 0     5480   python3            -1   2 arch/x86/include/asm/bitsperlong.h
+2025-05-25 14:02:09.093 0     5480   python3            -1   2 arch/x86/include/generated/asm/bitsperlong.h
+2025-05-25 14:02:09.093 0     5480   python3             3   0 arch/x86/include/uapi/asm/bitsperlong.h
+2025-05-25 14:02:09.093 0     5480   python3             3   0 include/asm-generic/bitsperlong.h
+2025-05-25 14:02:09.093 0     5480   python3             3   0 include/uapi/asm-generic/bitsperlong.h
+2025-05-25 14:02:09.093 0     5480   python3            -1   2 include/linux/posix_types.h
+2025-05-25 14:02:09.093 0     5480   python3             3   0 include/uapi/linux/posix_types.h
+2025-05-25 14:02:09.093 0     5480   python3             3   0 include/linux/stddef.h
+2025-05-25 14:02:09.093 0     5480   python3             3   0 include/uapi/linux/stddef.h
+2025-05-25 14:02:09.093 0     5480   python3             3   0 include/linux/compiler_types.h
+2025-05-25 14:02:09.093 0     5480   python3             3   0 include/linux/compiler_attributes.h
+2025-05-25 14:02:09.094 0     5480   python3             3   0 include/linux/compiler-clang.h
+2025-05-25 14:02:09.094 0     5480   python3             3   0 arch/x86/include/asm/posix_types.h
+2025-05-25 14:02:09.094 0     5480   python3            -1   2 arch/x86/include/asm/posix_types_64.h
+2025-05-25 14:02:09.094 0     5480   python3            -1   2 arch/x86/include/generated/asm/posix_types_64.h
+2025-05-25 14:02:09.094 0     5480   python3             3   0 arch/x86/include/uapi/asm/posix_types_64.h
+2025-05-25 14:02:09.094 0     5480   python3            -1   2 include/asm-generic/posix_types.h
+2025-05-25 14:02:09.094 0     5480   python3             3   0 include/uapi/asm-generic/posix_types.h
+2025-05-25 14:02:09.095 0     5480   python3            -1   2 include/linux/bpf_common.h
+2025-05-25 14:02:09.095 0     5480   python3             3   0 include/uapi/linux/bpf_common.h
+2025-05-25 14:02:09.097 0     5480   python3             3   0 include/uapi/linux/bpf.h
+2025-05-25 14:02:09.097 0     5480   python3             3   0 include/uapi/linux/if_packet.h
+2025-05-25 14:02:09.097 0     5480   python3            -1   2 arch/x86/include/asm/byteorder.h
+2025-05-25 14:02:09.097 0     5480   python3            -1   2 arch/x86/include/generated/asm/byteorder.h
+2025-05-25 14:02:09.098 0     5480   python3             3   0 arch/x86/include/uapi/asm/byteorder.h
+2025-05-25 14:02:09.098 0     5480   python3             3   0 include/linux/byteorder/little_endian.h
+2025-05-25 14:02:09.098 0     5480   python3             3   0 include/uapi/linux/byteorder/little_endian.h
+2025-05-25 14:02:09.098 0     5480   python3             3   0 include/linux/swab.h
+2025-05-25 14:02:09.098 0     5480   python3             3   0 include/uapi/linux/swab.h
+2025-05-25 14:02:09.098 0     5480   python3            -1   2 arch/x86/include/asm/swab.h
+2025-05-25 14:02:09.098 0     5480   python3            -1   2 arch/x86/include/generated/asm/swab.h
+2025-05-25 14:02:09.098 0     5480   python3             3   0 arch/x86/include/uapi/asm/swab.h
+2025-05-25 14:02:09.098 0     5480   python3             3   0 include/linux/compiler.h
+2025-05-25 14:02:09.098 0     5480   python3            -1   2 arch/x86/include/asm/rwonce.h
+2025-05-25 14:02:09.098 0     5480   python3             3   0 arch/x86/include/generated/asm/rwonce.h
+2025-05-25 14:02:09.098 0     5480   python3             3   0 include/asm-generic/rwonce.h
+2025-05-25 14:02:09.098 0     5480   python3             3   0 include/linux/kasan-checks.h
+2025-05-25 14:02:09.099 0     5480   python3             3   0 include/linux/kcsan-checks.h
+2025-05-25 14:02:09.100 0     5480   python3             3   0 include/linux/byteorder/generic.h
+2025-05-25 14:02:09.101 0     5480   python3            -1   2 include/linux/version.h
+2025-05-25 14:02:09.101 0     5480   python3            -1   2 include/uapi/linux/version.h
+2025-05-25 14:02:09.101 0     5480   python3             3   0 include/generated/uapi/linux/version.h
+2025-05-25 14:02:09.101 0     5480   python3             3   0 include/linux/log2.h
+2025-05-25 14:02:09.101 0     5480   python3             3   0 include/linux/bitops.h
+2025-05-25 14:02:09.101 0     5480   python3             3   0 include/linux/bits.h
+2025-05-25 14:02:09.101 0     5480   python3             3   0 include/linux/const.h
+2025-05-25 14:02:09.101 0     5480   python3             3   0 include/vdso/const.h
+2025-05-25 14:02:09.101 0     5480   python3             3   0 include/uapi/linux/const.h
+2025-05-25 14:02:09.101 0     5480   python3             3   0 include/vdso/bits.h
+2025-05-25 14:02:09.101 0     5480   python3             3   0 include/linux/build_bug.h
+2025-05-25 14:02:09.101 0     5480   python3             3   0 include/linux/typecheck.h
+2025-05-25 14:02:09.101 0     5480   python3             3   0 include/uapi/linux/kernel.h
+2025-05-25 14:02:09.101 0     5480   python3            -1   2 include/linux/sysinfo.h
+2025-05-25 14:02:09.101 0     5480   python3             3   0 include/uapi/linux/sysinfo.h
+2025-05-25 14:02:09.102 0     5480   python3             3   0 include/asm-generic/bitops/generic-non-atomic.h
+2025-05-25 14:02:09.102 0     5480   python3             3   0 arch/x86/include/asm/barrier.h
+2025-05-25 14:02:09.102 0     5480   python3             3   0 arch/x86/include/asm/alternative.h
+2025-05-25 14:02:09.102 0     5480   python3             3   0 include/linux/stringify.h
+2025-05-25 14:02:09.102 0     5480   python3             3   0 arch/x86/include/asm/asm.h
+2025-05-25 14:02:09.102 0     5480   python3             3   0 arch/x86/include/asm/extable_fixup_types.h
+2025-05-25 14:02:09.102 0     5480   python3             3   0 arch/x86/include/asm/nops.h
+2025-05-25 14:02:09.102 0     5480   python3             3   0 include/asm-generic/barrier.h
+2025-05-25 14:02:09.103 0     5480   python3             3   0 arch/x86/include/asm/bitops.h
+2025-05-25 14:02:09.103 0     5480   python3             3   0 arch/x86/include/asm/rmwcc.h
+2025-05-25 14:02:09.105 0     5480   python3             3   0 include/asm-generic/bitops/sched.h
+2025-05-25 14:02:09.105 0     5480   python3             3   0 arch/x86/include/asm/arch_hweight.h
+2025-05-25 14:02:09.105 0     5480   python3             3   0 arch/x86/include/asm/cpufeatures.h
+2025-05-25 14:02:09.105 0     5480   python3             3   0 arch/x86/include/asm/required-features.h
+2025-05-25 14:02:09.105 0     5480   python3             3   0 arch/x86/include/asm/disabled-features.h
+2025-05-25 14:02:09.106 0     5480   python3             3   0 include/asm-generic/bitops/const_hweight.h
+2025-05-25 14:02:09.106 0     5480   python3             3   0 include/asm-generic/bitops/instrumented-atomic.h
+2025-05-25 14:02:09.106 0     5480   python3             3   0 include/linux/instrumented.h
+2025-05-25 14:02:09.106 0     5480   python3             3   0 include/linux/kmsan-checks.h
+2025-05-25 14:02:09.106 0     5480   python3             3   0 include/asm-generic/bitops/instrumented-non-atomic.h
+2025-05-25 14:02:09.107 0     5480   python3             3   0 include/asm-generic/bitops/instrumented-lock.h
+2025-05-25 14:02:09.107 0     5480   python3             3   0 include/asm-generic/bitops/le.h
+2025-05-25 14:02:09.108 0     5480   python3             3   0 include/asm-generic/bitops/ext2-atomic-setbit.h
+2025-05-25 14:02:09.110 0     5480   python3             3   0 arch/x86/include/asm/page.h
+2025-05-25 14:02:09.110 0     5480   python3             3   0 arch/x86/include/asm/page_types.h
+2025-05-25 14:02:09.110 0     5480   python3             3   0 include/linux/mem_encrypt.h
+2025-05-25 14:02:09.110 0     5480   python3             3   0 arch/x86/include/asm/mem_encrypt.h
+2025-05-25 14:02:09.110 0     5480   python3             3   0 include/linux/init.h
+2025-05-25 14:02:09.110 0     5480   python3             3   0 include/linux/cc_platform.h
+2025-05-25 14:02:09.111 0     5480   python3             3   0 arch/x86/include/asm/page_64_types.h
+2025-05-25 14:02:09.111 0     5480   python3             3   0 arch/x86/include/asm/kaslr.h
+2025-05-25 14:02:09.111 0     5480   python3             3   0 arch/x86/include/asm/page_64.h
+2025-05-25 14:02:09.112 0     5480   python3             3   0 include/linux/range.h
+2025-05-25 14:02:09.112 0     5480   python3             3   0 include/asm-generic/memory_model.h
+2025-05-25 14:02:09.112 0     5480   python3             3   0 include/linux/pfn.h
+2025-05-25 14:02:09.112 0     5480   python3             3   0 include/asm-generic/getorder.h
+2025-05-25 14:02:09.117 0     5480   python3             3   0 include/uapi/linux/ptrace.h
+2025-05-25 14:02:09.117 0     5480   python3             3   0 arch/x86/include/asm/ptrace.h
+2025-05-25 14:02:09.117 0     5480   python3             3   0 arch/x86/include/asm/segment.h
+2025-05-25 14:02:09.117 0     5480   python3             3   0 arch/x86/include/asm/ibt.h
+2025-05-25 14:02:09.117 0     5480   python3             3   0 arch/x86/include/asm/cache.h
+2025-05-25 14:02:09.118 0     5480   python3             3   0 include/linux/linkage.h
+2025-05-25 14:02:09.118 0     5480   python3             3   0 include/linux/export.h
+2025-05-25 14:02:09.118 0     5480   python3             3   0 arch/x86/include/asm/linkage.h
+2025-05-25 14:02:09.118 0     5480   python3             3   0 arch/x86/include/uapi/asm/ptrace.h
+2025-05-25 14:02:09.118 0     5480   python3            -1   2 arch/x86/include/asm/ptrace-abi.h
+2025-05-25 14:02:09.118 0     5480   python3            -1   2 arch/x86/include/generated/asm/ptrace-abi.h
+2025-05-25 14:02:09.118 0     5480   python3             3   0 arch/x86/include/uapi/asm/ptrace-abi.h
+2025-05-25 14:02:09.118 0     5480   python3             3   0 arch/x86/include/asm/processor-flags.h
+2025-05-25 14:02:09.118 0     5480   python3             3   0 arch/x86/include/uapi/asm/processor-flags.h
+2025-05-25 14:02:09.118 0     5480   python3             3   0 arch/x86/include/asm/paravirt_types.h
+2025-05-25 14:02:09.118 0     5480   python3             3   0 arch/x86/include/asm/desc_defs.h
+2025-05-25 14:02:09.119 0     5480   python3             3   0 arch/x86/include/asm/pgtable_types.h
+2025-05-25 14:02:09.119 0     5480   python3             3   0 arch/x86/include/asm/pgtable_64_types.h
+2025-05-25 14:02:09.119 0     5480   python3             3   0 arch/x86/include/asm/sparsemem.h
+2025-05-25 14:02:09.120 0     5480   python3             3   0 arch/x86/include/asm/nospec-branch.h
+2025-05-25 14:02:09.120 0     5480   python3             3   0 include/linux/static_key.h
+2025-05-25 14:02:09.120 0     5480   python3             3   0 include/linux/jump_label.h
+2025-05-25 14:02:09.120 0     5480   python3             3   0 arch/x86/include/asm/jump_label.h
+2025-05-25 14:02:09.121 0     5480   python3             3   0 include/linux/objtool.h
+2025-05-25 14:02:09.121 0     5480   python3             3   0 arch/x86/include/asm/msr-index.h
+2025-05-25 14:02:09.122 0     5480   python3             3   0 arch/x86/include/asm/unwind_hints.h
+2025-05-25 14:02:09.122 0     5480   python3             3   0 arch/x86/include/asm/orc_types.h
+2025-05-25 14:02:09.122 0     5480   python3             3   0 arch/x86/include/asm/percpu.h
+2025-05-25 14:02:09.122 0     5480   python3             3   0 include/linux/kernel.h
+2025-05-25 14:02:09.122 0     5480   python3             3   0 include/linux/stdarg.h
+2025-05-25 14:02:09.122 0     5480   python3             3   0 include/linux/align.h
+2025-05-25 14:02:09.122 0     5480   python3             3   0 include/linux/limits.h
+2025-05-25 14:02:09.122 0     5480   python3             3   0 include/uapi/linux/limits.h
+2025-05-25 14:02:09.122 0     5480   python3             3   0 include/vdso/limits.h
+2025-05-25 14:02:09.122 0     5480   python3             3   0 include/linux/container_of.h
+2025-05-25 14:02:09.122 0     5480   python3             3   0 include/linux/err.h
+2025-05-25 14:02:09.122 0     5480   python3            -1   2 arch/x86/include/asm/errno.h
+2025-05-25 14:02:09.122 0     5480   python3            -1   2 arch/x86/include/generated/asm/errno.h
+2025-05-25 14:02:09.122 0     5480   python3            -1   2 arch/x86/include/uapi/asm/errno.h
+2025-05-25 14:02:09.122 0     5480   python3             3   0 arch/x86/include/generated/uapi/asm/errno.h
+2025-05-25 14:02:09.122 0     5480   python3            -1   2 include/asm-generic/errno.h
+2025-05-25 14:02:09.122 0     5480   python3             3   0 include/uapi/asm-generic/errno.h
+2025-05-25 14:02:09.122 0     5480   python3            -1   2 include/asm-generic/errno-base.h
+2025-05-25 14:02:09.122 0     5480   python3             3   0 include/uapi/asm-generic/errno-base.h
+2025-05-25 14:02:09.123 0     5480   python3             3   0 include/linux/kstrtox.h
+2025-05-25 14:02:09.123 0     5480   python3             3   0 include/linux/math.h
+2025-05-25 14:02:09.123 0     5480   python3             3   0 arch/x86/include/asm/div64.h
+2025-05-25 14:02:09.123 0     5480   python3             3   0 include/asm-generic/div64.h
+2025-05-25 14:02:09.124 0     5480   python3             3   0 include/linux/minmax.h
+2025-05-25 14:02:09.124 0     5480   python3             3   0 include/linux/panic.h
+2025-05-25 14:02:09.124 0     5480   python3             3   0 include/linux/printk.h
+2025-05-25 14:02:09.124 0     5480   python3             3   0 include/linux/kern_levels.h
+2025-05-25 14:02:09.124 0     5480   python3             3   0 include/linux/ratelimit_types.h
+2025-05-25 14:02:09.124 0     5480   python3            -1   2 include/linux/param.h
+2025-05-25 14:02:09.124 0     5480   python3             3   0 include/uapi/linux/param.h
+2025-05-25 14:02:09.125 0     5480   python3            -1   2 arch/x86/include/asm/param.h
+2025-05-25 14:02:09.125 0     5480   python3            -1   2 arch/x86/include/generated/asm/param.h
+2025-05-25 14:02:09.125 0     5480   python3            -1   2 arch/x86/include/uapi/asm/param.h
+2025-05-25 14:02:09.125 0     5480   python3             3   0 arch/x86/include/generated/uapi/asm/param.h
+2025-05-25 14:02:09.125 0     5480   python3             3   0 include/asm-generic/param.h
+2025-05-25 14:02:09.125 0     5480   python3             3   0 include/uapi/asm-generic/param.h
+2025-05-25 14:02:09.125 0     5480   python3             3   0 include/linux/spinlock_types_raw.h
+2025-05-25 14:02:09.125 0     5480   python3             3   0 arch/x86/include/asm/spinlock_types.h
+2025-05-25 14:02:09.125 0     5480   python3             3   0 include/asm-generic/qspinlock_types.h
+2025-05-25 14:02:09.125 0     5480   python3             3   0 include/asm-generic/qrwlock_types.h
+2025-05-25 14:02:09.125 0     5480   python3             3   0 include/linux/lockdep_types.h
+2025-05-25 14:02:09.125 0     5480   python3             3   0 include/linux/once_lite.h
+2025-05-25 14:02:09.126 0     5480   python3             3   0 include/linux/static_call_types.h
+2025-05-25 14:02:09.126 0     5480   python3             3   0 include/linux/instruction_pointer.h
+2025-05-25 14:02:09.127 0     5480   python3             3   0 include/asm-generic/percpu.h
+2025-05-25 14:02:09.127 0     5480   python3             3   0 include/linux/threads.h
+2025-05-25 14:02:09.127 0     5480   python3             3   0 include/linux/percpu-defs.h
+2025-05-25 14:02:09.128 0     5480   python3             3   0 arch/x86/include/asm/GEN-for-each-reg.h
+2025-05-25 14:02:09.129 0     5480   python3             3   0 arch/x86/include/asm/proto.h
+2025-05-25 14:02:09.129 0     5480   python3            -1   2 arch/x86/include/asm/ldt.h
+2025-05-25 14:02:09.129 0     5480   python3            -1   2 arch/x86/include/generated/asm/ldt.h
+2025-05-25 14:02:09.129 0     5480   python3             3   0 arch/x86/include/uapi/asm/ldt.h
+2025-05-25 14:02:09.131 0     5480   python3             3   0 include/linux/sched.h
+2025-05-25 14:02:09.131 0     5480   python3             3   0 include/uapi/linux/sched.h
+2025-05-25 14:02:09.131 0     5480   python3             3   0 arch/x86/include/asm/current.h
+2025-05-25 14:02:09.132 0     5480   python3             3   0 include/linux/pid.h
+2025-05-25 14:02:09.132 0     5480   python3             3   0 include/linux/rculist.h
+2025-05-25 14:02:09.132 0     5480   python3             3   0 include/linux/list.h
+2025-05-25 14:02:09.132 0     5480   python3             3   0 include/linux/poison.h
+2025-05-25 14:02:09.132 1000  3119   cursor            141   0 /home/administrator/.config/Cursor/User/globalStorage/state.vscdb-journal
+2025-05-25 14:02:09.136 0     5480   python3             3   0 include/linux/rcupdate.h
+2025-05-25 14:02:09.136 0     5480   python3             3   0 include/linux/atomic.h
+2025-05-25 14:02:09.136 0     5480   python3             3   0 arch/x86/include/asm/atomic.h
+2025-05-25 14:02:09.136 0     5480   python3             3   0 arch/x86/include/asm/cmpxchg.h
+2025-05-25 14:02:09.136 0     5480   python3             3   0 arch/x86/include/asm/cmpxchg_64.h
+2025-05-25 14:02:09.138 0     5480   python3             3   0 arch/x86/include/asm/atomic64_64.h
+2025-05-25 14:02:09.139 0     5480   python3             3   0 include/linux/atomic/atomic-arch-fallback.h
+2025-05-25 14:02:09.142 0     5480   python3             3   0 include/linux/atomic/atomic-long.h
+2025-05-25 14:02:09.143 0     5480   python3             3   0 include/linux/atomic/atomic-instrumented.h
+2025-05-25 14:02:09.149 0     5480   python3             3   0 include/linux/irqflags.h
+2025-05-25 14:02:09.149 0     5480   python3             3   0 include/linux/cleanup.h
+2025-05-25 14:02:09.149 0     5480   python3             3   0 arch/x86/include/asm/irqflags.h
+2025-05-25 14:02:09.149 0     5480   python3             3   0 arch/x86/include/asm/paravirt.h
+2025-05-25 14:02:09.149 0     5480   python3             3   0 include/linux/bug.h
+2025-05-25 14:02:09.149 0     5480   python3             3   0 arch/x86/include/asm/bug.h
+2025-05-25 14:02:09.149 0     5480   python3             3   0 include/linux/instrumentation.h
+2025-05-25 14:02:09.150 0     5480   python3             3   0 include/asm-generic/bug.h
+2025-05-25 14:02:09.150 0     5480   python3             3   0 include/linux/cpumask.h
+2025-05-25 14:02:09.150 0     5480   python3             3   0 include/linux/bitmap.h
+2025-05-25 14:02:09.150 0
+5480   python3             3   0 include/linux/find.h
+2025-05-25 14:02:09.152 0     5480   python3             3   0 include/linux/string.h
+2025-05-25 14:02:09.152 0     5480   python3             3   0 include/linux/errno.h
+2025-05-25 14:02:09.152 0     5480   python3             3   0 include/uapi/linux/errno.h
+2025-05-25 14:02:09.152 0     5480   python3             3   0 include/linux/overflow.h
+2025-05-25 14:02:09.153 0     5480   python3             3   0 include/uapi/linux/string.h
+2025-05-25 14:02:09.153 0     5480   python3             3   0 arch/x86/include/asm/string.h
+2025-05-25 14:02:09.153 0     5480   python3             3   0 arch/x86/include/asm/string_64.h
+2025-05-25 14:02:09.154 0     5480   python3             3   0 include/linux/fortify-string.h
+2025-05-25 14:02:09.159 1000  3119   cursor            142   0 /home/administrator/.config/Cursor/User/globalStorage
+2025-05-25 14:02:09.159 0     5480   python3             3   0 include/linux/gfp_types.h
+2025-05-25 14:02:09.159 0     5480   python3             3   0 include/linux/numa.h
+2025-05-25 14:02:09.161 0     5480   python3             3   0 arch/x86/include/asm/frame.h
+2025-05-25 14:02:09.166 0     2061   syslog-ng          47   0 /var/log/journal/0a69d92d5fe644b8ac16c48f263595d9/system.journal
+2025-05-25 14:02:09.175 0     5480   python3             3   0 include/linux/preempt.h
+2025-05-25 14:02:09.175 0     5480   python3             3   0 arch/x86/include/asm/preempt.h
+2025-05-25 14:02:09.175 0     5480   python3             3   0 include/linux/thread_info.h
+2025-05-25 14:02:09.175 0     5480   python3             3   0 include/linux/restart_block.h
+2025-05-25 14:02:09.175 0     5480   python3             3   0 include/linux/time64.h
+2025-05-25 14:02:09.175 0     5480   python3             3   0 include/linux/math64.h
+2025-05-25 14:02:09.175 0     5480   python3             3   0 include/vdso/math64.h
+2025-05-25 14:02:09.176 0     5480   python3             3   0 include/vdso/time64.h
+2025-05-25 14:02:09.176 0     5480   python3             3   0 include/uapi/linux/time.h
+2025-05-25 14:02:09.176 0     5480   python3            -1   2 include/linux/time_types.h
+2025-05-25 14:02:09.176 0     5480   python3             3   0 include/uapi/linux/time_types.h
+2025-05-25 14:02:09.177 0     5480   python3             3   0 arch/x86/include/asm/thread_info.h
+2025-05-25 14:02:09.177 0     5480   python3             3   0 arch/x86/include/asm/cpufeature.h
+2025-05-25 14:02:09.177 0     5480   python3             3   0 arch/x86/include/asm/processor.h
+2025-05-25 14:02:09.177 0     5480   python3             3   0 arch/x86/include/asm/math_emu.h
+2025-05-25 14:02:09.177 0     5480   python3             3   0 arch/x86/include/uapi/asm/sigcontext.h
+2025-05-25 14:02:09.178 0     5480   python3             3   0 arch/x86/include/asm/msr.h
+2025-05-25 14:02:09.178 0     5480   python3             3   0 arch/x86/include/asm/cpumask.h
+2025-05-25 14:02:09.178 0     5480   python3             3   0 arch/x86/include/uapi/asm/msr.h
+2025-05-25 14:02:09.178 0     5480   python3            -1   2 include/linux/ioctl.h
+2025-05-25 14:02:09.178
+0     5480   python3             3   0 include/uapi/linux/ioctl.h
+2025-05-25 14:02:09.178
+0     5480   python3            -1   2 arch/x86/include/asm/ioctl.h
+2025-05-25 14:02:09.178 0     5480   python3            -1   2
+arch/x86/include/generated/asm/ioctl.h
+2025-05-25 14:02:09.178 0     5480   python3            -1   2 arch/x86/include/uapi/asm/ioctl.h
+2025-05-25 14:02:09.178 0     5480   python3             3   0 arch/x86/include/generated/uapi/asm/ioctl.h
+2025-05-25 14:02:09.178 0     5480   python3             3   0 include/asm-generic/ioctl.h
+2025-05-25 14:02:09.178 0     5480   python3             3   0 include/uapi/asm-generic/ioctl.h
+2025-05-25 14:02:09.179 0     5480   python3             3   0 arch/x86/include/asm/shared/msr.h
+2025-05-25 14:02:09.179 0     5480   python3             3   0 include/linux/tracepoint-defs.h
+2025-05-25 14:02:09.180 0     5480   python3             3   0 arch/x86/include/asm/special_insns.h
+2025-05-25 14:02:09.181 0     5480   python3             3   0 arch/x86/include/asm/fpu/types.h
+2025-05-25 14:02:09.182 0     5480   python3             3   0 arch/x86/include/asm/vmxfeatures.h
+2025-05-25 14:02:09.182 0     5480   python3             3   0 arch/x86/include/asm/vdso/processor.h
+2025-05-25 14:02:09.182 0     5480   python3             3   0 include/linux/personality.h
+2025-05-25 14:02:09.182 0     5480   python3             3   0
+include/uapi/linux/personality.h
+2025-05-25 14:02:09.182 0     5480   python3             3   0 include/linux/cache.h
+2025-05-25 14:02:09.188 0     5480   python3             3   0 include/linux/bottom_half.h
+2025-05-25 14:02:09.189 0     5480   python3             3   0 include/linux/lockdep.h
+2025-05-25 14:02:09.189 0     5480   python3             3   0 include/linux/smp.h
+2025-05-25 14:02:09.189 0     5480   python3             3   0 include/linux/smp_types.h
+2025-05-25 14:02:09.189 0     5480   python3             3   0 include/linux/llist.h
+2025-05-25 14:02:09.190 0     5480   python3             3   0 arch/x86/include/asm/smp.h
+2025-05-25 14:02:09.191 0     5480   python3             3   0 include/linux/context_tracking_irq.h
+2025-05-25 14:02:09.191 0     5480   python3             3   0 include/linux/rcutree.h
+2025-05-25 14:02:09.197 0     5480   python3             3   0 include/linux/wait.h
+2025-05-25 14:02:09.197 0     5480   python3             3   0 include/linux/spinlock.h
+2025-05-25 14:02:09.197 0     5480   python3            -1   2 arch/x86/include/asm/mmiowb.h
+2025-05-25 14:02:09.197 0     5480   python3             3   0 arch/x86/include/generated/asm/mmiowb.h
+2025-05-25 14:02:09.197
+0     5480   python3             3   0 include/asm-generic/mmiowb.h
+2025-05-25 14:02:09.197 0     5480   python3             3   0 include/linux/spinlock_types.h
+2025-05-25 14:02:09.197 0     5480   python3             3   0 include/linux/rwlock_types.h
+2025-05-25 14:02:09.197 0     5480   python3             3   0 arch/x86/include/asm/spinlock.h
+2025-05-25 14:02:09.197 0     5480   python3             3   0 arch/x86/include/asm/qspinlock.h
+2025-05-25 14:02:09.198 0     5480   python3             3   0 include/asm-generic/qspinlock.h
+2025-05-25 14:02:09.199 0     5480   python3             3   0
+arch/x86/include/asm/qrwlock.h
+2025-05-25 14:02:09.199 0     5480   python3             3   0 include/asm-generic/qrwlock.h
+2025-05-25 14:02:09.199 0     5480   python3             3   0 include/linux/rwlock.h
+2025-05-25 14:02:09.200 0     5480   python3             3   0 include/linux/spinlock_api_smp.h
+2025-05-25 14:02:09.201 0     5480   python3             3   0 include/linux/rwlock_api_smp.h
+2025-05-25 14:02:09.204 0     5480   python3             3   0 include/uapi/linux/wait.h
+2025-05-25 14:02:09.205 0     5480   python3             3   0 include/linux/refcount.h
+2025-05-25 14:02:09.206 0     5480   python3             3   0 include/linux/sem.h
+2025-05-25 14:02:09.206
+0     5480   python3             3   0 include/uapi/linux/sem.h
+2025-05-25 14:02:09.206 0     5480   python3             3   0 include/linux/ipc.h
+2025-05-25 14:02:09.206 0     5480   python3             3   0 include/linux/uidgid.h
+2025-05-25 14:02:09.206 0     5480   python3             3   0 include/linux/highuid.h
+2025-05-25 14:02:09.207 0     5480   python3             3   0 include/linux/rhashtable-types.h
+2025-05-25 14:02:09.207 0     5480   python3             3   0 include/linux/mutex.h
+2025-05-25 14:02:09.207 0     5480   python3             3   0 include/linux/osq_lock.h
+2025-05-25 14:02:09.207 0     5480   python3             3   0 include/linux/debug_locks.h
+2025-05-25 14:02:09.207 0     5480   python3             3   0
+include/linux/workqueue.h
+2025-05-25 14:02:09.208 0     5480   python3             3   0 include/linux/timer.h
+2025-05-25 14:02:09.208 0     5480   python3             3   0 include/linux/ktime.h
+2025-05-25 14:02:09.208 0     5480   python3             3   0 include/linux/time.h
+2025-05-25 14:02:09.208 0     5480   python3             3   0 include/linux/time32.h
+2025-05-25 14:02:09.208 0     5480   python3             3   0 include/linux/timex.h
+2025-05-25 14:02:09.208 0     5480   python3             3   0 include/uapi/linux/timex.h
+2025-05-25 14:02:09.208 0     5480   python3             3   0 arch/x86/include/asm/timex.h
+2025-05-25 14:02:09.208 0     5480   python3             3   0 arch/x86/include/asm/tsc.h
+2025-05-25 14:02:09.211 0     5480   python3             3   0 include/vdso/time32.h
+2025-05-25 14:02:09.211 0     5480   python3             3   0 include/vdso/time.h
+2025-05-25 14:02:09.211 0     5480   python3             3   0 include/linux/jiffies.h
+2025-05-25 14:02:09.211 0     5480   python3             3   0 include/vdso/jiffies.h
+2025-05-25 14:02:09.211
+0     5480   python3            -1   2 arch/x86/include/generated/timeconst.h
+2025-05-25 14:02:09.212 0     5480   python3             3   0 include/generated/timeconst.h
+2025-05-25 14:02:09.214 0     5480   python3             3   0 include/vdso/ktime.h
+2025-05-25 14:02:09.214 0     5480   python3             3   0 include/linux/timekeeping.h
+2025-05-25 14:02:09.214 0     5480   python3             3   0 include/linux/clocksource_ids.h
+2025-05-25 14:02:09.215 0     5480   python3             3   0 include/linux/debugobjects.h
+2025-05-25 14:02:09.217 0     5480   python3             3   0 include/uapi/linux/ipc.h
+2025-05-25 14:02:09.217 0     5480   python3            -1   2 arch/x86/include/asm/ipcbuf.h
+2025-05-25 14:02:09.217 0     5480   python3            -1   2 arch/x86/include/generated/asm/ipcbuf.h
+2025-05-25 14:02:09.217 0     5480   python3            -1   2 arch/x86/include/uapi/asm/ipcbuf.h
+2025-05-25 14:02:09.217 0     5480   python3             3   0 arch/x86/include/generated/uapi/asm/ipcbuf.h
+2025-05-25 14:02:09.217 0     5480   python3            -1   2 include/asm-generic/ipcbuf.h
+2025-05-25 14:02:09.217 0     5480   python3             3   0 include/uapi/asm-generic/ipcbuf.h
+2025-05-25 14:02:09.217 0     5480   python3            -1   2 arch/x86/include/asm/sembuf.h
+2025-05-25 14:02:09.217 0     5480   python3            -1   2 arch/x86/include/generated/asm/sembuf.h
+2025-05-25 14:02:09.217 0     5480   python3             3   0 arch/x86/include/uapi/asm/sembuf.h
+2025-05-25 14:02:09.217 0
+5480   python3             3   0 include/linux/shm.h
+2025-05-25 14:02:09.218 0     5480   python3             3   0 include/uapi/linux/shm.h
+2025-05-25 14:02:09.218 0     5480   python3            -1   2 include/asm-generic/hugetlb_encode.h
+2025-05-25 14:02:09.218 0     5480   python3             3   0 include/uapi/asm-generic/hugetlb_encode.h
+2025-05-25 14:02:09.218 0     5480   python3            -1   2 arch/x86/include/asm/shmbuf.h
+2025-05-25 14:02:09.218 0
+5480   python3            -1   2 arch/x86/include/generated/asm/shmbuf.h
+2025-05-25 14:02:09.218 0     5480   python3             3   0 arch/x86/include/uapi/asm/shmbuf.h
+2025-05-25 14:02:09.218 0     5480   python3            -1   2 include/asm-generic/shmbuf.h
+2025-05-25 14:02:09.218 0     5480   python3             3   0 include/uapi/asm-generic/shmbuf.h
+2025-05-25 14:02:09.218 0     5480   python3             3   0 arch/x86/include/asm/shmparam.h
+2025-05-25 14:02:09.218 0     5480   python3             3   0 include/linux/kmsan_types.h
+2025-05-25 14:02:09.218 0     5480   python3             3   0 include/linux/plist.h
+2025-05-25 14:02:09.219 0     5480   python3             3   0 include/linux/hrtimer.h
+2025-05-25 14:02:09.219 0     5480   python3             3   0 include/linux/hrtimer_defs.h
+2025-05-25 14:02:09.219 0     5480   python3             3   0 include/linux/rbtree.h
+2025-05-25 14:02:09.219 0     5480   python3             3   0 include/linux/rbtree_types.h
+2025-05-25 14:02:09.220 0     5480   python3             3   0 include/linux/percpu.h
+2025-05-25 14:02:09.220 0     5480   python3             3   0 include/linux/mmdebug.h
+2025-05-25 14:02:09.221 0     5480   python3             3   0 include/linux/seqlock.h
+2025-05-25 14:02:09.224 0     5480   python3             3   0 include/linux/timerqueue.h
+2025-05-25 14:02:09.226 0     5480   python3             3   0 include/linux/seccomp.h
+2025-05-25 14:02:09.226 0     5480   python3             3   0 include/uapi/linux/seccomp.h
+2025-05-25 14:02:09.226
+0     5480   python3             3   0 arch/x86/include/asm/seccomp.h
+2025-05-25 14:02:09.226 0     5480   python3             3   0 arch/x86/include/asm/unistd.h
+2025-05-25 14:02:09.226 0     5480   python3             3   0 arch/x86/include/uapi/asm/unistd.h
+2025-05-25 14:02:09.226 0     5480   python3            -1   2 arch/x86/include/asm/unistd_64.h
+2025-05-25 14:02:09.226 0     5480   python3            -1   2 arch/x86/include/generated/asm/unistd_64.h
+2025-05-25 14:02:09.226 0     5480   python3            -1   2 arch/x86/include/uapi/asm/unistd_64.h
+2025-05-25 14:02:09.226 0     5480   python3             3   0 arch/x86/include/generated/uapi/asm/unistd_64.h
+2025-05-25 14:02:09.227 0     5480   python3            -1   2 arch/x86/include/asm/unistd_64_x32.h
+2025-05-25 14:02:09.227 0     5480   python3             3   0 arch/x86/include/generated/asm/unistd_64_x32.h
+2025-05-25 14:02:09.227 0     5480   python3            -1   2 arch/x86/include/asm/unistd_32_ia32.h
+2025-05-25 14:02:09.227
+0     5480   python3             3   0 arch/x86/include/generated/asm/unistd_32_ia32.h
+2025-05-25 14:02:09.227 0     5480   python3             3   0 arch/x86/include/asm/ia32_unistd.h
+2025-05-25 14:02:09.227 0     5480   python3             3   0 include/asm-generic/seccomp.h
+2025-05-25 14:02:09.227 0     5480   python3            -1   2 include/linux/unistd.h
+2025-05-25 14:02:09.227 0     5480   python3             3   0 include/uapi/linux/unistd.h
+2025-05-25 14:02:09.228 0     5480   python3             3   0 include/linux/nodemask.h
+2025-05-25 14:02:09.228 0     5480   python3             3   0 include/linux/random.h
+2025-05-25 14:02:09.228 0     5480   python3             3   0 include/linux/once.h
+2025-05-25 14:02:09.228 0     5480   python3             3   0 include/uapi/linux/random.h
+2025-05-25 14:02:09.228 0
+5480   python3             3   0 include/linux/irqnr.h
+2025-05-25 14:02:09.228 0     5480   python3             3   0 include/uapi/linux/irqnr.h
+2025-05-25 14:02:09.229 0     5480   python3             3   0 include/linux/prandom.h
+2025-05-25 14:02:09.229 0     5480   python3             3   0 arch/x86/include/asm/archrandom.h
+2025-05-25 14:02:09.233 0     5480   python3             3   0 include/linux/resource.h
+2025-05-25 14:02:09.234 0     5480   python3             3   0
+include/uapi/linux/resource.h
+2025-05-25 14:02:09.234 0     5480   python3            -1   2 arch/x86/include/asm/resource.h
+2025-05-25 14:02:09.234 0     5480   python3            -1   2 arch/x86/include/generated/asm/resource.h
+2025-05-25 14:02:09.234 0
+5480   python3            -1   2 arch/x86/include/uapi/asm/resource.h
+2025-05-25 14:02:09.234 0
+5480   python3             3   0 arch/x86/include/generated/uapi/asm/resource.h
+2025-05-25 14:02:09.234 0
+5480   python3             3   0 include/asm-generic/resource.h
+2025-05-25 14:02:09.234 0
+5480   python3             3   0 include/uapi/asm-generic/resource.h
+2025-05-25 14:02:09.234 0     5480   python3             3   0
+include/linux/latencytop.h
+2025-05-25 14:02:09.234 0     5480   python3             3   0 include/linux/sched/prio.h
+2025-05-25 14:02:09.234 0     5480   python3             3   0 include/linux/sched/types.h
+2025-05-25 14:02:09.234 0     5480   python3             3   0 include/linux/signal_types.h
+2025-05-25 14:02:09.234 0     5480   python3             3   0 include/uapi/linux/signal.h
+2025-05-25 14:02:09.234 0     5480   python3             3   0 arch/x86/include/asm/signal.h
+2025-05-25 14:02:09.234 0     5480   python3             3   0 arch/x86/include/uapi/asm/signal.h
+2025-05-25 14:02:09.235 0     5480   python3            -1   2 include/asm-generic/signal-defs.h
+2025-05-25 14:02:09.235 0     5480   python3             3   0 include/uapi/asm-generic/signal-defs.h
+2025-05-25 14:02:09.235 0     5480   python3            -1   2 arch/x86/include/asm/siginfo.h
+2025-05-25 14:02:09.235 0     5480   python3            -1   2 arch/x86/include/generated/asm/siginfo.h
+2025-05-25 14:02:09.235 0     5480   python3             3   0 arch/x86/include/uapi/asm/siginfo.h
+2025-05-25 14:02:09.235
+0     5480   python3            -1   2 include/asm-generic/siginfo.h
+2025-05-25 14:02:09.235 0
+5480   python3             3   0 include/uapi/asm-generic/siginfo.h
+2025-05-25 14:02:09.235 1000  3119   cursor            141   0
+/home/administrator/.config/Cursor/User/globalStorage/state.vscdb-journal
+2025-05-25 14:02:09.236 0     5480   python3             3   0
+include/linux/syscall_user_dispatch.h
+2025-05-25 14:02:09.236 0     5480   python3             3   0 include/linux/mm_types_task.h
+2025-05-25 14:02:09.236 0     5480   python3             3   0 arch/x86/include/asm/tlbbatch.h
+2025-05-25 14:02:09.236 0     5480   python3             3   0 include/linux/task_io_accounting.h
+2025-05-25 14:02:09.236 0     5480   python3             3   0 include/linux/posix-timers.h
+2025-05-25 14:02:09.236 0     5480   python3             3   0 include/linux/alarmtimer.h
+2025-05-25 14:02:09.237 0     5480   python3            -1   2 include/linux/rseq.h
+2025-05-25 14:02:09.237
+0     5480   python3             3   0 include/uapi/linux/rseq.h
+2025-05-25 14:02:09.237 0     5480   python3             3   0
+include/linux/kcsan.h
+2025-05-25 14:02:09.237 0     5480   python3             3   0 include/linux/rv.h
+2025-05-25 14:02:09.237 0
+5480   python3            -1   2 arch/x86/include/asm/kmap_size.h
+2025-05-25 14:02:09.237 0     5480   python3             3   0 arch/x86/include/generated/asm/kmap_size.h
+2025-05-25 14:02:09.238 0     5480   python3             3   0 include/asm-generic/kmap_size.h
+2025-05-25 14:02:09.238 1000  3255   cursor             43   0 /proc/3952/cmdline
+2025-05-25 14:02:09.238 1000  3255   cursor             43   0 /proc/5475/cmdline
+2025-05-25 14:02:09.238 1000  3255   cursor             43   0 /proc/3710/cmdline
+2025-05-25 14:02:09.238 1000  3255   cursor             43   0 /proc/3324/cmdline
+2025-05-25 14:02:09.242 0     5480   python3             3   0 include/net/sock.h
+2025-05-25 14:02:09.242 0     5480   python3             3   0 include/linux/hardirq.h
+2025-05-25 14:02:09.243 0     5480   python3             3   0 include/linux/context_tracking_state.h
+2025-05-25 14:02:09.244 0     5480   python3             3   0 include/linux/ftrace_irq.h
+2025-05-25 14:02:09.244 0     5480   python3             3   0 include/linux/vtime.h
+2025-05-25 14:02:09.245 0     5480   python3             3   0 arch/x86/include/asm/hardirq.h
+2025-05-25 14:02:09.246 0     5480   python3             3   0 include/linux/list_nulls.h
+2025-05-25 14:02:09.248 0     5480   python3             3   0 include/linux/netdevice.h
+2025-05-25 14:02:09.248 0
+5480   python3             3   0 include/linux/delay.h
+2025-05-25 14:02:09.248 0     5480   python3             3   0 arch/x86/include/asm/delay.h
+2025-05-25 14:02:09.248 0     5480   python3             3   0 include/asm-generic/delay.h
+2025-05-25 14:02:09.249 0     5480   python3             3   0 include/linux/prefetch.h
+2025-05-25 14:02:09.249 0     5480   python3             3   0 arch/x86/include/asm/local.h
+2025-05-25 14:02:09.250 0     5480   python3             3   0 include/linux/dynamic_queue_limits.h
+2025-05-25 14:02:09.251 0     5480   python3             3   0 include/net/net_namespace.h
+2025-05-25 14:02:09.251 0     5480   python3             3   0 include/linux/sysctl.h
+2025-05-25 14:02:09.251 0     5480   python3             3   0 include/uapi/linux/sysctl.h
+2025-05-25 14:02:09.252 0     5480   python3             3   0 include/net/flow.h
+2025-05-25 14:02:09.252 0     5480   python3             3   0 include/linux/socket.h
+2025-05-25 14:02:09.252 0     5480   python3            -1   2 arch/x86/include/asm/socket.h
+2025-05-25 14:02:09.252 0     5480   python3            -1   2 arch/x86/include/generated/asm/socket.h
+2025-05-25 14:02:09.252 0     5480   python3            -1   2 arch/x86/include/uapi/asm/socket.h
+2025-05-25 14:02:09.252 0     5480   python3             3   0 arch/x86/include/generated/uapi/asm/socket.h
+2025-05-25 14:02:09.252 0     5480   python3            -1   2 include/asm-generic/socket.h
+2025-05-25 14:02:09.252 0     5480   python3             3   0 include/uapi/asm-generic/socket.h
+2025-05-25 14:02:09.252 0     5480   python3            -1   2 arch/x86/include/asm/sockios.h
+2025-05-25 14:02:09.252 0     5480   python3            -1   2 arch/x86/include/generated/asm/sockios.h
+2025-05-25 14:02:09.252 0     5480   python3            -1   2 arch/x86/include/uapi/asm/sockios.h
+2025-05-25 14:02:09.253 0     5480   python3             3   0 arch/x86/include/generated/uapi/asm/sockios.h
+2025-05-25 14:02:09.253 0     5480   python3            -1   2 include/asm-generic/sockios.h
+2025-05-25 14:02:09.253 0     5480   python3             3   0 include/uapi/asm-generic/sockios.h
+2025-05-25 14:02:09.253 0     5480   python3            -1   2 include/linux/sockios.h
+2025-05-25 14:02:09.253 0     5480   python3             3   0 include/uapi/linux/sockios.h
+2025-05-25 14:02:09.253 0     5480   python3             3   0 include/linux/uio.h
+2025-05-25 14:02:09.253 0     5480   python3             3   0 include/linux/mm_types.h
+2025-05-25 14:02:09.253 0     5480   python3             3   0 include/linux/auxvec.h
+2025-05-25 14:02:09.253 0     5480   python3             3   0 include/uapi/linux/auxvec.h
+2025-05-25 14:02:09.253 0     5480   python3            -1   2 arch/x86/include/asm/auxvec.h
+2025-05-25 14:02:09.253 0     5480   python3            -1   2
+arch/x86/include/generated/asm/auxvec.h
+2025-05-25 14:02:09.253 0     5480   python3             3   0 arch/x86/include/uapi/asm/auxvec.h
+2025-05-25 14:02:09.253 0     5480   python3             3   0 include/linux/kref.h
+2025-05-25 14:02:09.254 0     5480   python3             3   0 include/linux/maple_tree.h
+2025-05-25 14:02:09.255 0     5480   python3             3   0 include/linux/rwsem.h
+2025-05-25 14:02:09.256 0     5480   python3             3   0 include/linux/completion.h
+2025-05-25 14:02:09.256 0     5480   python3             3   0 include/linux/swait.h
+2025-05-25 14:02:09.257 0     5480   python3             3   0 include/linux/uprobes.h
+2025-05-25 14:02:09.257 0     5480   python3             3   0 arch/x86/include/asm/uprobes.h
+2025-05-25 14:02:09.257 0     5480   python3             3   0 include/linux/notifier.h
+2025-05-25 14:02:09.257 0     5480   python3             3   0 include/linux/srcu.h
+2025-05-25 14:02:09.257 0     5480   python3             3   0 include/linux/rcu_segcblist.h
+2025-05-25 14:02:09.257 0     5480   python3             3   0 include/linux/srcutree.h
+2025-05-25 14:02:09.257 0     5480   python3             3   0 include/linux/rcu_node_tree.h
+2025-05-25 14:02:09.259 0     5480   python3             3   0 include/linux/page-flags-layout.h
+2025-05-25 14:02:09.259 0     5480   python3            -1   2 arch/x86/include/generated/bounds.h
+2025-05-25 14:02:09.259 0     5480   python3             3   0 include/generated/bounds.h
+2025-05-25 14:02:09.259 0     5480   python3             3   0 arch/x86/include/asm/mmu.h
+2025-05-25 14:02:09.261 0     5480   python3             3   0 include/uapi/linux/uio.h
+2025-05-25 14:02:09.262 1000  3119   cursor            142   0 /home/administrator/.config/Cursor/User/globalStorage
+2025-05-25 14:02:09.263 0     5480   python3             3   0 include/uapi/linux/socket.h
+2025-05-25 14:02:09.264 0     5480   python3             3   0 include/linux/in6.h
+2025-05-25 14:02:09.265 0     5480   python3             3   0 include/uapi/linux/in6.h
+2025-05-25 14:02:09.265 0     5480   python3            -1   2 include/linux/libc-compat.h
+2025-05-25 14:02:09.265 0     5480   python3             3   0 include/uapi/linux/libc-compat.h
+2025-05-25 14:02:09.265 0     5480   python3             3   0 include/net/flow_dissector.h
+2025-05-25 14:02:09.265 0     5480   python3             3   0 include/linux/siphash.h
+2025-05-25 14:02:09.266 0     5480   python3             3   0 include/uapi/linux/if_ether.h
+2025-05-25 14:02:09.268 0     5480   python3             3   0 include/net/netns/core.h
+2025-05-25 14:02:09.268 0     5480   python3             3   0 include/net/netns/mib.h
+2025-05-25 14:02:09.268 0     5480   python3             3   0 include/net/snmp.h
+2025-05-25 14:02:09.268 0     5480   python3            -1   2 include/linux/snmp.h
+2025-05-25 14:02:09.268 0     5480   python3             3   0 include/uapi/linux/snmp.h
+2025-05-25 14:02:09.268 0     5480   python3             3   0 include/linux/u64_stats_sync.h
+2025-05-25 14:02:09.269 0     5480   python3            -1   2 arch/x86/include/asm/local64.h
+2025-05-25 14:02:09.269 0     5480   python3             3   0 arch/x86/include/generated/asm/local64.h
+2025-05-25 14:02:09.269 0     5480   python3             3   0 include/asm-generic/local64.h
+2025-05-25 14:02:09.269 0     5480   python3             3   0 include/net/netns/unix.h
+2025-05-25 14:02:09.270 0     5480   python3             3   0 include/net/netns/packet.h
+2025-05-25 14:02:09.270 0     5480   python3             3   0 include/net/netns/ipv4.h
+2025-05-25 14:02:09.270 0     5480   python3             3   0 include/net/inet_frag.h
+2025-05-25 14:02:09.271 0     5480   python3             3   0 include/net/netns/ipv6.h
+2025-05-25 14:02:09.271 0     5480   python3             3   0 include/net/dst_ops.h
+2025-05-25 14:02:09.271 0     5480   python3             3   0 include/linux/percpu_counter.h
+2025-05-25 14:02:09.271 0     5480   python3             3   0 include/linux/gfp.h
+2025-05-25 14:02:09.271 0     5480   python3             3   0 include/linux/mmzone.h
+2025-05-25 14:02:09.271 0     5480   python3             3   0 include/linux/pageblock-flags.h
+2025-05-25 14:02:09.271 0     5480   python3             3   0 include/linux/page-flags.h
+2025-05-25 14:02:09.292 0     5480   python3             3   0 include/linux/local_lock.h
+2025-05-25 14:02:09.292 0     5480   python3             3   0 include/linux/local_lock_internal.h
+2025-05-25 14:02:09.294 0     5480   python3             3   0 include/linux/memory_hotplug.h
+2025-05-25 14:02:09.293 0     1561   vminfo              7   0 /var/run/utmp
+2025-05-25 14:02:09.293 100   568    dbus-daemon        -1   2 /usr/local/share/dbus-1/system-services
+2025-05-25 14:02:09.293 100   568    dbus-daemon        23   0 /usr/share/dbus-1/system-services
+2025-05-25 14:02:09.294 100   568    dbus-daemon        -1   2 /lib/dbus-1/system-services
+2025-05-25 14:02:09.296 0     5480   python3             3   0 arch/x86/include/asm/mmzone.h
+2025-05-25 14:02:09.296 0     5480   python3             3   0 arch/x86/include/asm/mmzone_64.h
+2025-05-25 14:02:09.301 0     5480   python3             3   0 include/linux/topology.h
+2025-05-25 14:02:09.301 0     5480   python3             3   0 include/linux/arch_topology.h
+2025-05-25 14:02:09.302 0     5480   python3             3   0 arch/x86/include/asm/topology.h
+2025-05-25 14:02:09.302 0     5480   python3             3   0 arch/x86/include/asm/mpspec.h
+2025-05-25 14:02:09.302 0     5480   python3             3   0 arch/x86/include/asm/mpspec_def.h
+2025-05-25 14:02:09.302 0     5480   python3             3   0 arch/x86/include/asm/x86_init.h
+2025-05-25 14:02:09.302 0     5480   python3            -1   2 arch/x86/include/asm/bootparam.h
+2025-05-25 14:02:09.302 0     5480   python3            -1   2 arch/x86/include/generated/asm/bootparam.h
+2025-05-25 14:02:09.302 0     5480   python3             3   0 arch/x86/include/uapi/asm/bootparam.h
+2025-05-25 14:02:09.302 0     5480   python3             3   0 include/linux/screen_info.h
+2025-05-25 14:02:09.303 0     5480   python3             3   0 include/uapi/linux/screen_info.h
+2025-05-25 14:02:09.303 0
+5480   python3             3   0 include/linux/apm_bios.h
+2025-05-25 14:02:09.303 0     5480   python3             3   0 include/uapi/linux/apm_bios.h
+2025-05-25 14:02:09.303 0     5480   python3             3   0 include/linux/edd.h
+2025-05-25 14:02:09.303 0     5480   python3             3   0 include/uapi/linux/edd.h
+2025-05-25 14:02:09.303 0     5480   python3             3   0 arch/x86/include/asm/ist.h
+2025-05-25 14:02:09.303 0     5480   python3             3   0 arch/x86/include/uapi/asm/ist.h
+2025-05-25 14:02:09.304 0     5480   python3             3   0 include/video/edid.h
+2025-05-25 14:02:09.304 0     5480   python3             3   0 include/uapi/video/edid.h
+2025-05-25 14:02:09.304 0     5480   python3             3   0 arch/x86/include/asm/apicdef.h
+2025-05-25 14:02:09.306 0     5480   python3             3   0
+include/asm-generic/topology.h
+2025-05-25 14:02:09.309 0     5480   python3             3   0 include/uapi/linux/icmpv6.h
+2025-05-25 14:02:09.309 0     5480   python3             3   0 include/net/netns/nexthop.h
+2025-05-25 14:02:09.309 0
+5480   python3             3   0 include/net/netns/ieee802154_6lowpan.h
+2025-05-25 14:02:09.309 0
+5480   python3             3   0 include/net/netns/sctp.h
+2025-05-25 14:02:09.310 0     5480   python3             3   0
+include/net/netns/netfilter.h
+2025-05-25 14:02:09.310 0     5480   python3             3   0
+include/linux/netfilter_defs.h
+2025-05-25 14:02:09.310 0
+5480   python3             3   0 include/uapi/linux/netfilter.h
+2025-05-25 14:02:09.310 0     5480   python3             3   0 include/linux/in.h
+2025-05-25 14:02:09.310 0     5480   python3             3   0 include/uapi/linux/in.h
+2025-05-25 14:02:09.311 0     5480   python3             3   0 include/net/netns/conntrack.h
+2025-05-25 14:02:09.311 0     5480   python3             3   0 include/linux/netfilter/nf_conntrack_tcp.h
+2025-05-25 14:02:09.311 0     5480   python3             3   0 include/uapi/linux/netfilter/nf_conntrack_tcp.h
+2025-05-25 14:02:09.311 0     5480   python3             3   0 include/linux/netfilter/nf_conntrack_dccp.h
+2025-05-25 14:02:09.311 0
+5480   python3            -1   2 include/linux/netfilter/nf_conntrack_tuple_common.h
+2025-05-25 14:02:09.311 0
+5480   python3             3   0 include/uapi/linux/netfilter/nf_conntrack_tuple_common.h
+2025-05-25 14:02:09.312 0
+5480   python3             3   0 include/linux/netfilter/nf_conntrack_common.h
+2025-05-25 14:02:09.312 0
+5480   python3             3   0 include/uapi/linux/netfilter/nf_conntrack_common.h
+2025-05-25 14:02:09.312 0
+5480   python3             3   0 include/linux/netfilter/nf_conntrack_sctp.h
+2025-05-25 14:02:09.312 0
+5480   python3             3   0 include/uapi/linux/netfilter/nf_conntrack_sctp.h
+2025-05-25 14:02:09.312
+0     5480   python3             3   0 include/net/netns/flow_table.h
+2025-05-25 14:02:09.313 0     5480   python3             3   0 include/net/netns/nftables.h
+2025-05-25 14:02:09.313 0     5480   python3             3   0 include/net/netns/xfrm.h
+2025-05-25 14:02:09.313 0     5480   python3            -1   2 include/linux/xfrm.h
+2025-05-25 14:02:09.313 0     5480   python3             3   0 include/uapi/linux/xfrm.h
+2025-05-25 14:02:09.313
+0     5480   python3             3   0 include/net/netns/mpls.h
+2025-05-25 14:02:09.313 0     5480   python3             3   0
+include/net/netns/can.h
+2025-05-25 14:02:09.313 0
+5480   python3             3   0 include/net/netns/xdp.h
+2025-05-25 14:02:09.313 0
+5480   python3             3   0 include/net/netns/smc.h
+2025-05-25 14:02:09.314
+0     5480   python3             3   0 include/net/netns/bpf.h
+2025-05-25 14:02:09.314 0     5480   python3             3   0 include/net/netns/mctp.h
+2025-05-25 14:02:09.314 0     5480   python3             3   0 include/net/net_trackers.h
+2025-05-25 14:02:09.314 0     5480   python3             3   0 include/linux/ref_tracker.h
+2025-05-25 14:02:09.314 0     5480   python3             3   0 include/linux/stackdepot.h
+2025-05-25 14:02:09.314 0     5480   python3             3   0 include/linux/ns_common.h
+2025-05-25 14:02:09.314 0     5480   python3             3   0 include/linux/idr.h
+2025-05-25 14:02:09.314 0
+5480   python3             3   0
+include/linux/radix-tree.h
+2025-05-25 14:02:09.314 0     5480   python3             3   0
+include/linux/xarray.h
+2025-05-25 14:02:09.315 0     5480   python3             3   0
+include/linux/kconfig.h
+2025-05-25 14:02:09.315 0     5480   python3             3   0 include/linux/sched/mm.h
+2025-05-25 14:02:09.315 0     5480   python3             3   0
+include/linux/sync_core.h
+2025-05-25 14:02:09.315 0     5480   python3             3   0 arch/x86/include/asm/sync_core.h
+2025-05-25 14:02:09.317 0     5480   python3             3   0 include/linux/ioasid.h
+2025-05-25 14:02:09.325 0     5480   python3             3   0 include/linux/skbuff.h
+2025-05-25 14:02:09.325 0     5480   python3             3   0 include/linux/bvec.h
+2025-05-25 14:02:09.325 0     5480   python3             3   0 include/linux/highmem.h
+2025-05-25 14:02:09.325 0     5480   python3             3   0
+include/linux/fs.h
+2025-05-25 14:02:09.325 0     5480   python3             3   0 include/linux/wait_bit.h
+2025-05-25 14:02:09.326 0     5480   python3             3   0 include/linux/kdev_t.h
+2025-05-25 14:02:09.326 0     5480   python3             3   0 include/uapi/linux/kdev_t.h
+2025-05-25 14:02:09.326 0     5480   python3             3   0
+include/linux/dcache.h
+2025-05-25 14:02:09.326 0
+5480   python3             3   0 include/linux/rculist_bl.h
+2025-05-25 14:02:09.326 0     5480   python3             3   0 include/linux/list_bl.h
+2025-05-25 14:02:09.327 0
+5480   python3             3   0 include/linux/bit_spinlock.h
+2025-05-25 14:02:09.329 0     5480   python3             3   0 include/linux/lockref.h
+2025-05-25 14:02:09.329 0     5480   python3             3   0 include/linux/stringhash.h
+2025-05-25 14:02:09.330 0     5480   python3             3   0 include/linux/hash.h
+2025-05-25 14:02:09.332 0     5480   python3             3   0 include/linux/path.h
+2025-05-25 14:02:09.332 0     5480   python3             3   0
+include/linux/stat.h
+2025-05-25 14:02:09.332 0     5480   python3            -1   2 arch/x86/include/asm/stat.h
+2025-05-25 14:02:09.332 0     5480   python3            -1   2 arch/x86/include/generated/asm/stat.h
+2025-05-25 14:02:09.332 0     5480   python3             3   0 arch/x86/include/uapi/asm/stat.h
+2025-05-25 14:02:09.332 0
+5480   python3             3   0 include/uapi/linux/stat.h
+2025-05-25 14:02:09.333 0     5480   python3             3   0 include/linux/list_lru.h
+2025-05-25 14:02:09.333 0     5480   python3             3   0
+include/linux/shrinker.h
+2025-05-25 14:02:09.334 0     5480   python3             3   0 include/linux/capability.h
+2025-05-25 14:02:09.334 0     5480   python3             3   0 include/uapi/linux/capability.h
+2025-05-25 14:02:09.336 0     5480   python3             3   0 include/linux/semaphore.h
+2025-05-25 14:02:09.336 0     5480   python3             3   0 include/linux/fcntl.h
+2025-05-25 14:02:09.336 0     5480   python3             3   0 include/uapi/linux/fcntl.h
+2025-05-25 14:02:09.336 0     5480   python3            -1   2
+arch/x86/include/asm/fcntl.h
+2025-05-25 14:02:09.336 0     5480   python3            -1   2 arch/x86/include/generated/asm/fcntl.h
+2025-05-25 14:02:09.336 0     5480   python3            -1   2 arch/x86/include/uapi/asm/fcntl.h
+2025-05-25 14:02:09.336
+0     5480   python3             3   0 arch/x86/include/generated/uapi/asm/fcntl.h
+2025-05-25 14:02:09.336 0     5480   python3            -1   2 include/asm-generic/fcntl.h
+2025-05-25 14:02:09.336 0     5480   python3             3   0 include/uapi/asm-generic/fcntl.h
+2025-05-25 14:02:09.336 0     5480   python3            -1   2 include/linux/openat2.h
+2025-05-25 14:02:09.336 0     5480   python3             3   0 include/uapi/linux/openat2.h
+2025-05-25 14:02:09.337 0     5480   python3             3   0 include/linux/migrate_mode.h
+2025-05-25 14:02:09.337 0     5480   python3             3   0 include/linux/percpu-rwsem.h
+2025-05-25 14:02:09.337 0     5480   python3             3   0 include/linux/rcuwait.h
+2025-05-25 14:02:09.337 0     5480   python3             3   0 include/linux/sched/signal.h
+2025-05-25 14:02:09.337 0     5480   python3             3   0 include/linux/signal.h
+2025-05-25 14:02:09.339 0     5480   python3             3   0 include/linux/sched/jobctl.h
+2025-05-25 14:02:09.339 0
+5480   python3             3   0 include/linux/sched/task.h
+2025-05-25 14:02:09.340 0     5480   python3             3   0 include/linux/uaccess.h
+2025-05-25 14:02:09.339 1000  3119   cursor            141   0 /home/administrator/.config/Cursor/User/globalStorage/state.vscdb-journal
+2025-05-25 14:02:09.340 0     5480   python3             3   0 include/linux/fault-inject-usercopy.h
+2025-05-25 14:02:09.340 0     5480   python3             3   0 arch/x86/include/asm/uaccess.h
+2025-05-25 14:02:09.340 0     5480   python3             3   0 arch/x86/include/asm/smap.h
+2025-05-25 14:02:09.340 0     5480   python3             3   0 arch/x86/include/asm/extable.h
+2025-05-25 14:02:09.340 0     5480   python3             3   0 include/asm-generic/access_ok.h
+2025-05-25 14:02:09.341 0     5480   python3             3   0 arch/x86/include/asm/uaccess_64.h
+2025-05-25 14:02:09.344 0     5480   python3             3   0 include/linux/cred.h
+2025-05-25 14:02:09.344 0     5480   python3             3   0 include/linux/key.h
+2025-05-25 14:02:09.344 0     5480   python3             3   0 include/linux/assoc_array.h
+2025-05-25 14:02:09.346 0     5480   python3             3   0 include/linux/sched/user.h
+2025-05-25 14:02:09.346 0     5480   python3             3   0
+include/linux/ratelimit.h
+2025-05-25 14:02:09.352 0     5480   python3             3   0 include/linux/rcu_sync.h
+2025-05-25 14:02:09.354 0     5480   python3             3   0 include/linux/delayed_call.h
+2025-05-25 14:02:09.355 0     5480   python3             3   0 include/linux/uuid.h
+2025-05-25 14:02:09.355 0     5480   python3             3   0 include/uapi/linux/uuid.h
+2025-05-25 14:02:09.357 0     5480   python3             3   0 include/linux/errseq.h
+2025-05-25 14:02:09.357
+0     5480   python3             3   0 include/linux/ioprio.h
+2025-05-25 14:02:09.357 0     5480   python3             3   0 include/linux/sched/rt.h
+2025-05-25 14:02:09.357 0     5480   python3             3   0 include/linux/iocontext.h
+2025-05-25 14:02:09.357 0     5480   python3             3   0 include/uapi/linux/ioprio.h
+2025-05-25 14:02:09.358 0     5480   python3             3   0 include/linux/fs_types.h
+2025-05-25 14:02:09.358 0     5480   python3             3   0 include/linux/mount.h
+2025-05-25 14:02:09.358 0     5480   python3             3   0 include/linux/mnt_idmapping.h
+2025-05-25 14:02:09.360 0     5480   python3             3   0 include/linux/slab.h
+2025-05-25 14:02:09.360 0     5480   python3             3   0 include/linux/percpu-refcount.h
+2025-05-25 14:02:09.363 0     5480   python3             3   0 include/linux/kasan.h
+2025-05-25 14:02:09.364 0     5480   python3             3   0 include/linux/kasan-enabled.h
+2025-05-25 14:02:09.365 1000  3119   cursor            142   0 /home/administrator/.config/Cursor/User/globalStorage
+2025-05-25 14:02:09.367 0     5480   python3             3   0 include/uapi/linux/fs.h
+2025-05-25 14:02:09.367 0     5480   python3             3   0 include/linux/quota.h
+2025-05-25 14:02:09.367 0     5480   python3            -1   2 include/linux/dqblk_xfs.h
+2025-05-25 14:02:09.367 0     5480   python3             3   0 include/uapi/linux/dqblk_xfs.h
+2025-05-25 14:02:09.368 0     5480   python3             3   0 include/linux/dqblk_v1.h
+2025-05-25 14:02:09.368 0     5480   python3             3   0 include/linux/dqblk_v2.h
+2025-05-25 14:02:09.368 0     5480   python3             3   0 include/linux/dqblk_qtree.h
+2025-05-25 14:02:09.368 0     5480   python3             3   0 include/linux/projid.h
+2025-05-25 14:02:09.368 0     5480   python3             3   0 include/uapi/linux/quota.h
+2025-05-25 14:02:09.371 0     5480   python3             3   0 include/linux/nfs_fs_i.h
+2025-05-25 14:02:09.379 0     5480   python3             3   0 include/linux/cacheflush.h
+2025-05-25 14:02:09.379 0     5480   python3             3   0 arch/x86/include/asm/cacheflush.h
+2025-05-25 14:02:09.379 0     5480   python3             3   0 include/linux/mm.h
+2025-05-25 14:02:09.380 0     5480   python3             3   0 include/linux/mmap_lock.h
+2025-05-25 14:02:09.381 0     5480   python3             3   0 include/linux/page_ext.h
+2025-05-25 14:02:09.381 0     5480   python3             3   0 include/linux/stacktrace.h
+2025-05-25 14:02:09.381 0     5480   python3             3   0 include/linux/page_ref.h
+2025-05-25 14:02:09.383
+0     5480   python3             3   0 include/linux/sizes.h
+2025-05-25 14:02:09.383 0     5480   python3             3   0 include/linux/pgtable.h
+2025-05-25 14:02:09.383 0     5480   python3             3   0 arch/x86/include/asm/pgtable.h
+2025-05-25 14:02:09.383 0     5480   python3             3   0 arch/x86/include/asm/pkru.h
+2025-05-25 14:02:09.387 0     5480   python3             3   0 arch/x86/include/asm/fpu/api.h
+2025-05-25 14:02:09.387 0     5480   python3             3   0 arch/x86/include/asm/coco.h
+2025-05-25 14:02:09.388 0     5480   python3             3   0 include/asm-generic/pgtable_uffd.h
+2025-05-25 14:02:09.388 0     5480   python3             3   0 include/linux/page_table_check.h
+2025-05-25 14:02:09.392 0     5480   python3             3   0 arch/x86/include/asm/pgtable_64.h
+2025-05-25 14:02:09.392 0     5480   python3             3   0 arch/x86/include/asm/fixmap.h
+2025-05-25 14:02:09.392 0     5480   python3             3   0 arch/x86/include/uapi/asm/vsyscall.h
+2025-05-25 14:02:09.392 0     5480   python3             3   0 include/asm-generic/fixmap.h
+2025-05-25 14:02:09.397 0     5480   python3             3   0 arch/x86/include/asm/pgtable-invert.h
+2025-05-25 14:02:09.409 0     5480   python3             3   0 include/linux/memremap.h
+2025-05-25 14:02:09.409 0     5480   python3             3   0 include/linux/ioport.h
+2025-05-25 14:02:09.414 0     5480   python3             3   0 include/linux/huge_mm.h
+2025-05-25 14:02:09.414 0     5480   python3             3   0 include/linux/sched/coredump.h
+2025-05-25 14:02:09.419 0     5480   python3             3   0 include/linux/vmstat.h
+2025-05-25 14:02:09.419 0     5480   python3             3   0 include/linux/vm_event_item.h
+2025-05-25 14:02:09.430 0     5480   python3             3   0 include/asm-generic/cacheflush.h
+2025-05-25 14:02:09.431 0     5480   python3             3   0 include/linux/kmsan.h
+2025-05-25 14:02:09.431 0     5480   python3             3   0 include/linux/dma-direction.h
+2025-05-25 14:02:09.431 0     5480   python3             3   0 ././include/linux/highmem-internal.h
+2025-05-25 14:02:09.437 0     5480   python3             3   0 include/linux/net.h
+2025-05-25 14:02:09.437 0     5480   python3             3   0 include/linux/sockptr.h
+2025-05-25 14:02:09.439 1000  3255   cursor             43   0 /proc/3952/cmdline
+2025-05-25 14:02:09.439 1000  3255   cursor             43   0 /proc/5475/cmdline
+2025-05-25 14:02:09.439 1000  3255   cursor             43   0 /proc/3710/cmdline
+2025-05-25 14:02:09.439 1000  3255   cursor             43   0 /proc/3324/cmdline
+2025-05-25 14:02:09.439 0     5480   python3             3   0 include/uapi/linux/net.h
+2025-05-25 14:02:09.440 0     5480   python3             3   0 include/linux/textsearch.h
+2025-05-25 14:02:09.441 0     5480   python3             3   0 include/net/checksum.h
+2025-05-25 14:02:09.441 0     5480   python3             3   0 arch/x86/include/asm/checksum.h
+2025-05-25 14:02:09.441 0     5480   python3             3   0 arch/x86/include/asm/checksum_64.h
+2025-05-25 14:02:09.442 0     5480   python3             3   0 include/linux/dma-mapping.h
+2025-05-25 14:02:09.443 0     5480   python3             3   0 include/linux/device.h
+2025-05-25 14:02:09.443 0     5480   python3             3   0 include/linux/dev_printk.h
+2025-05-25 14:02:09.443 TIMESTAMP               UID   PID    COMM             RET      ARGS
+1000  5495   sed              0
+2025-05-25 14:02:09.443 0     5480   python3             3   0 include/linux/energy_model.h
+2025-05-25 14:02:09.443 0     5480   python3             3   0 include/linux/kobject.h
+2025-05-25 14:02:09.443 0     5480   python3             3   0 include/linux/sysfs.h
+2025-05-25 14:02:09.443 0     5480   python3             3   0 include/linux/kernfs.h
+2025-05-25 14:02:09.443 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/glibc-hwcaps/x86-64-v2/libacl.so.1
+2025-05-25 14:02:09.445 0     5480   python3             3   0 include/linux/kobject_ns.h
+2025-05-25 14:02:09.445 1000  3119   cursor            141   0 /home/administrator/.config/Cursor/User/globalStorage/state.vscdb-journal
+2025-05-25 14:02:09.447 0     5480   python3             3   0 include/linux/sched/cpufreq.h
+2025-05-25 14:02:09.448 0     5480   python3             3   0 include/linux/sched/topology.h
+2025-05-25 14:02:09.448 0     5480   python3             3   0 include/linux/sched/idle.h
+2025-05-25 14:02:09.448 0     5480   python3             3   0 include/linux/sched/sd_flags.h
+2025-05-25 14:02:09.450 0     5480   python3             3   0 include/linux/klist.h
+2025-05-25 14:02:09.450 0     5480   python3             3   0 include/linux/pm.h
+2025-05-25 14:02:09.451 0     5480   python3             3   0 include/linux/device/bus.h
+2025-05-25 14:02:09.452 0     5480   python3             3   0 include/linux/device/class.h
+2025-05-25 14:02:09.452 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/x86_64/x86_64/libacl.so.1
+2025-05-25 14:02:09.452 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/x86_64/libacl.so.1
+2025-05-25 14:02:09.453 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/x86_64/libacl.so.1
+2025-05-25 14:02:09.453 0     5480   python3             3   0 include/linux/device/driver.h
+2025-05-25 14:02:09.453 0     5480   python3             3   0 include/linux/module.h
+2025-05-25 14:02:09.453 0     5480   python3             3   0 include/linux/buildid.h
+2025-05-25 14:02:09.453 0     5480   python3             3   0 include/linux/kmod.h
+2025-05-25 14:02:09.453 0     5480   python3             3   0 include/linux/umh.h
+2025-05-25 14:02:09.453 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/libacl.so.1
+2025-05-25 14:02:09.453 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/x86_64/x86_64/libacl.so.1
+2025-05-25 14:02:09.454 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/x86_64/libacl.so.1
+2025-05-25 14:02:09.454 0     5480   python3             3   0 include/linux/elf.h
+2025-05-25 14:02:09.454 0     5480   python3             3   0 arch/x86/include/asm/elf.h
+2025-05-25 14:02:09.454 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/x86_64/libacl.so.1
+2025-05-25 14:02:09.454 0     5480   python3             3   0 arch/x86/include/asm/user.h
+2025-05-25 14:02:09.454 0     5480   python3             3   0 arch/x86/include/asm/user_64.h
+2025-05-25 14:02:09.454 0     5480   python3             3   0 arch/x86/include/asm/fsgsbase.h
+2025-05-25 14:02:09.454 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/libacl.so.1
+2025-05-25 14:02:09.454 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/glibc-hwcaps/x86-64-v2/libacl.so.1
+2025-05-25 14:02:09.455 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/x86_64/x86_64/libacl.so.1
+2025-05-25 14:02:09.455 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/x86_64/libacl.so.1
+2025-05-25 14:02:09.455 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/x86_64/libacl.so.1
+2025-05-25 14:02:09.455 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/libacl.so.1
+2025-05-25 14:02:09.455 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/x86_64/x86_64/libacl.so.1
+2025-05-25 14:02:09.455 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/x86_64/libacl.so.1
+2025-05-25 14:02:09.456 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/x86_64/libacl.so.1
+2025-05-25 14:02:09.456 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/libacl.so.1
+2025-05-25 14:02:09.456 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/glibc-hwcaps/x86-64-v2/libacl.so.1
+2025-05-25 14:02:09.456 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/x86_64/x86_64/libacl.so.1
+2025-05-25 14:02:09.456 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/x86_64/libacl.so.1
+2025-05-25 14:02:09.456 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/x86_64/libacl.so.1
+2025-05-25 14:02:09.456 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/libacl.so.1
+2025-05-25 14:02:09.456 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/x86_64/x86_64/libacl.so.1
+2025-05-25 14:02:09.456 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/x86_64/libacl.so.1
+2025-05-25 14:02:09.457 0     5480   python3             3   0 arch/x86/include/asm/vdso.h
+2025-05-25 14:02:09.457 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/x86_64/libacl.so.1
+2025-05-25 14:02:09.457 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/libacl.so.1
+2025-05-25 14:02:09.457 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/glibc-hwcaps/x86-64-v2/libacl.so.1
+2025-05-25 14:02:09.457 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/x86_64/x86_64/libacl.so.1
+2025-05-25 14:02:09.457 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/x86_64/libacl.so.1
+2025-05-25 14:02:09.457 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/x86_64/libacl.so.1
+2025-05-25 14:02:09.457 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/libacl.so.1
+2025-05-25 14:02:09.457 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64/x86_64/libacl.so.1
+2025-05-25 14:02:09.457 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64/libacl.so.1
+2025-05-25 14:02:09.457 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64/libacl.so.1
+2025-05-25 14:02:09.457 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/libacl.so.1
+2025-05-25 14:02:09.457 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/glibc-hwcaps/x86-64-v2/libacl.so.1
+2025-05-25 14:02:09.457 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/x86_64/x86_64/libacl.so.1
+2025-05-25 14:02:09.458 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/x86_64/libacl.so.1
+2025-05-25 14:02:09.458 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/x86_64/libacl.so.1
+2025-05-25 14:02:09.458 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/libacl.so.1
+2025-05-25 14:02:09.458 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/x86_64/x86_64/libacl.so.1
+2025-05-25 14:02:09.458 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/x86_64/libacl.so.1
+2025-05-25 14:02:09.458 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/x86_64/libacl.so.1
+2025-05-25 14:02:09.458 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/libacl.so.1
+2025-05-25 14:02:09.458 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/glibc-hwcaps/x86-64-v2/libacl.so.1
+2025-05-25 14:02:09.458 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/x86_64/x86_64/libacl.so.1
+2025-05-25 14:02:09.458 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/x86_64/libacl.so.1
+2025-05-25 14:02:09.458 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/x86_64/libacl.so.1
+2025-05-25 14:02:09.458 0     5480   python3             3   0 include/uapi/linux/elf.h
+2025-05-25 14:02:09.458 0     5480   python3            -1   2 include/linux/elf-em.h
+2025-05-25 14:02:09.459 0     5480   python3             3   0 include/uapi/linux/elf-em.h
+2025-05-25 14:02:09.458 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/libacl.so.1
+2025-05-25 14:02:09.458 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/x86_64/x86_64/libacl.so.1
+2025-05-25 14:02:09.459 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/x86_64/libacl.so.1
+2025-05-25 14:02:09.459 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/x86_64/libacl.so.1
+2025-05-25 14:02:09.459 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/libacl.so.1
+2025-05-25 14:02:09.459 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/glibc-hwcaps/x86-64-v2/libacl.so.1
+2025-05-25 14:02:09.460 0     5480   python3             3   0 include/linux/moduleparam.h
+2025-05-25 14:02:09.460 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/x86_64/x86_64/libacl.so.1
+2025-05-25 14:02:09.460 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/x86_64/libacl.so.1
+2025-05-25 14:02:09.460 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/x86_64/libacl.so.1
+2025-05-25 14:02:09.460 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/libacl.so.1
+2025-05-25 14:02:09.460 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/x86_64/x86_64/libacl.so.1
+2025-05-25 14:02:09.461 0     5480   python3             3   0 include/linux/rbtree_latch.h
+2025-05-25 14:02:09.462 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/x86_64/libacl.so.1
+2025-05-25 14:02:09.462 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/x86_64/libacl.so.1
+2025-05-25 14:02:09.462 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/libacl.so.1
+2025-05-25 14:02:09.462 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib32/glibc-hwcaps/x86-64-v2/libacl.so.1
+2025-05-25 14:02:09.463 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/x86_64/x86_64/libacl.so.1
+2025-05-25 14:02:09.463 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/x86_64/libacl.so.1
+2025-05-25 14:02:09.463 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/x86_64/libacl.so.1
+2025-05-25 14:02:09.463 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/libacl.so.1
+2025-05-25 14:02:09.463 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib32/x86_64/x86_64/libacl.so.1
+2025-05-25 14:02:09.463 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib32/x86_64/libacl.so.1
+2025-05-25 14:02:09.463 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib32/x86_64/libacl.so.1
+2025-05-25 14:02:09.464 0     5480   python3             3   0 include/linux/error-injection.h
+2025-05-25 14:02:09.463 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib32/libacl.so.1
+2025-05-25 14:02:09.464 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib64/glibc-hwcaps/x86-64-v2/libacl.so.1
+2025-05-25 14:02:09.464 0     5480   python3             3   0 include/asm-generic/error-injection.h
+2025-05-25 14:02:09.464 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/x86_64/x86_64/libacl.so.1
+2025-05-25 14:02:09.464 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/x86_64/libacl.so.1
+2025-05-25 14:02:09.464 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/x86_64/libacl.so.1
+2025-05-25 14:02:09.464 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/libacl.so.1
+2025-05-25 14:02:09.464 0     5480   python3             3   0 arch/x86/include/asm/module.h
+2025-05-25 14:02:09.464 0     5480   python3             3   0 include/asm-generic/module.h
+2025-05-25 14:02:09.464 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib64/x86_64/x86_64/libacl.so.1
+2025-05-25 14:02:09.464 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib64/x86_64/libacl.so.1
+2025-05-25 14:02:09.464 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib64/x86_64/libacl.so.1
+2025-05-25 14:02:09.465 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/lib64/libacl.so.1
+2025-05-25 14:02:09.465 1000  5495   sed                -1   2 glibc-hwcaps/x86-64-v2/libacl.so.1
+2025-05-25 14:02:09.465 1000  5495   sed                -1   2 tls/x86_64/x86_64/libacl.so.1
+2025-05-25 14:02:09.465 1000  5495   sed                -1   2 tls/x86_64/libacl.so.1
+2025-05-25 14:02:09.465 1000  5495   sed                -1   2 tls/x86_64/libacl.so.1
+2025-05-25 14:02:09.465 1000  5495   sed                -1   2 tls/libacl.so.1
+2025-05-25 14:02:09.465 1000  5495   sed                -1   2 x86_64/x86_64/libacl.so.1
+2025-05-25 14:02:09.465 1000  5495   sed                -1   2 x86_64/libacl.so.1
+2025-05-25 14:02:09.465 1000  5495   sed                -1   2 x86_64/libacl.so.1
+2025-05-25 14:02:09.465 1000  5495   sed                -1   2 libacl.so.1
+2025-05-25 14:02:09.465 1000  5495   sed                 3   0 /etc/ld.so.cache
+2025-05-25 14:02:09.465 1000  5495   sed                 3   0 /lib/x86_64-linux-gnu/libacl.so.1
+2025-05-25 14:02:09.465 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/libselinux.so.1
+2025-05-25 14:02:09.465 1000  5495   sed                -1   2 glibc-hwcaps/x86-64-v2/libselinux.so.1
+2025-05-25 14:02:09.465 1000  5495   sed                -1   2 tls/x86_64/x86_64/libselinux.so.1
+2025-05-25 14:02:09.465 1000  5495   sed                -1   2 tls/x86_64/libselinux.so.1
+2025-05-25 14:02:09.465 1000  5495   sed                -1   2 tls/x86_64/libselinux.so.1
+2025-05-25 14:02:09.465 1000  5495   sed                -1   2 tls/libselinux.so.1
+2025-05-25 14:02:09.465 1000  5495   sed                -1   2 x86_64/x86_64/libselinux.so.1
+2025-05-25 14:02:09.465 1000  5495   sed                -1   2 x86_64/libselinux.so.1
+2025-05-25 14:02:09.465 1000  5495   sed                -1   2 x86_64/libselinux.so.1
+2025-05-25 14:02:09.465 1000  5495   sed                -1   2 libselinux.so.1
+2025-05-25 14:02:09.465 1000  5495   sed                 3   0 /lib/x86_64-linux-gnu/libselinux.so.1
+2025-05-25 14:02:09.465 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/libc.so.6
+2025-05-25 14:02:09.465 1000  5495   sed                -1   2 glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.465 1000  5495   sed                -1   2 tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.465 1000  5495   sed                -1   2 tls/x86_64/libc.so.6
+2025-05-25 14:02:09.465 1000  5495   sed                -1   2 tls/x86_64/libc.so.6
+2025-05-25 14:02:09.465 1000  5495   sed                -1   2 tls/libc.so.6
+2025-05-25 14:02:09.465 1000  5495   sed                -1   2 x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.465 1000  5495   sed                -1   2 x86_64/libc.so.6
+2025-05-25 14:02:09.465 1000  5495   sed                -1   2 x86_64/libc.so.6
+2025-05-25 14:02:09.465 1000  5495   sed                -1   2 libc.so.6
+2025-05-25 14:02:09.465 1000  5495   sed                 3   0 /lib/x86_64-linux-gnu/libc.so.6
+2025-05-25 14:02:09.466 1000  5495   sed                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/libpcre2-8.so.0
+2025-05-25 14:02:09.466 1000  5495   sed                -1   2 glibc-hwcaps/x86-64-v2/libpcre2-8.so.0
+2025-05-25 14:02:09.466 1000  5495   sed                -1   2 tls/x86_64/x86_64/libpcre2-8.so.0
+2025-05-25 14:02:09.466 1000  5495   sed                -1   2 tls/x86_64/libpcre2-8.so.0
+2025-05-25 14:02:09.466 1000  5495   sed                -1   2 tls/x86_64/libpcre2-8.so.0
+2025-05-25 14:02:09.466 1000  5495   sed                -1   2 tls/libpcre2-8.so.0
+2025-05-25 14:02:09.466 1000  5495   sed                -1   2 x86_64/x86_64/libpcre2-8.so.0
+2025-05-25 14:02:09.466 1000  5495   sed                -1   2 x86_64/libpcre2-8.so.0
+2025-05-25 14:02:09.466 1000  5495   sed                -1   2 x86_64/libpcre2-8.so.0
+2025-05-25 14:02:09.466 1000  5495   sed                -1   2 libpcre2-8.so.0
+2025-05-25 14:02:09.466 1000  5495   sed                 3   0 /lib/x86_64-linux-gnu/libpcre2-8.so.0
+2025-05-25 14:02:09.466 1000  5495   sed                 3   0 /proc/filesystems
+2025-05-25 14:02:09.466 1000  5495   sed                 3   0 /usr/lib/locale/locale-archive
+2025-05-25 14:02:09.466 1000  5495   sed                 3   0 /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+2025-05-25 14:02:09.466 1000  5495   sed                 3   0 /proc/stat
+2025-05-25 14:02:09.468 0     5480   python3             3   0 arch/x86/include/asm/device.h
+2025-05-25 14:02:09.469 0     5480   python3             3   0 include/linux/pm_wakeup.h
+2025-05-25 14:02:09.471 1000  5496   cat              0
+2025-05-25 14:02:09.471 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.471 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.471 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.471 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.471 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/libc.so.6
+2025-05-25 14:02:09.471 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.471 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/x86_64/libc.so.6
+2025-05-25 14:02:09.471 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/x86_64/libc.so.6
+2025-05-25 14:02:09.471 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/libc.so.6
+2025-05-25 14:02:09.471 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.472 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.472 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.472 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.472 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/libc.so.6
+2025-05-25 14:02:09.472 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.472 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/x86_64/libc.so.6
+2025-05-25 14:02:09.472 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/x86_64/libc.so.6
+2025-05-25 14:02:09.472 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/libc.so.6
+2025-05-25 14:02:09.472 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.472 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.472 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.472 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.472 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/libc.so.6
+2025-05-25 14:02:09.472 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.472 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/x86_64/libc.so.6
+2025-05-25 14:02:09.472 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/x86_64/libc.so.6
+2025-05-25 14:02:09.473 0     5480   python3             3   0 include/linux/scatterlist.h
+2025-05-25 14:02:09.473 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/libc.so.6
+2025-05-25 14:02:09.473 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.473 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.473 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.473 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.473 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/libc.so.6
+2025-05-25 14:02:09.473 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.473 0     5480   python3             3   0 arch/x86/include/asm/io.h
+2025-05-25 14:02:09.473 0     5480   python3            -1   2 arch/x86/include/asm/early_ioremap.h
+2025-05-25 14:02:09.473 0     5480   python3             3   0 arch/x86/include/generated/asm/early_ioremap.h
+2025-05-25 14:02:09.473 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64/libc.so.6
+2025-05-25 14:02:09.473 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64/libc.so.6
+2025-05-25 14:02:09.473 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/libc.so.6
+2025-05-25 14:02:09.473 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.473 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.473 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.473 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.473 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/libc.so.6
+2025-05-25 14:02:09.473 0     5480   python3             3   0 include/asm-generic/early_ioremap.h
+2025-05-25 14:02:09.474 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.474 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:02:09.474 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:02:09.474 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/libc.so.6
+2025-05-25 14:02:09.474 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.474 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.474 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.474 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.474 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/libc.so.6
+2025-05-25 14:02:09.474 0     5480   python3             3   0 arch/x86/include/asm/shared/io.h
+2025-05-25 14:02:09.474 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.474 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:02:09.474 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:02:09.474 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/libc.so.6
+2025-05-25 14:02:09.474 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.474 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.474 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.474 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.474 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/libc.so.6
+2025-05-25 14:02:09.475 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.475 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:02:09.475 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:02:09.475 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/libc.so.6
+2025-05-25 14:02:09.475 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.475 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.475 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.475 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.475 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/libc.so.6
+2025-05-25 14:02:09.475 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.475 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/x86_64/libc.so.6
+2025-05-25 14:02:09.475 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/x86_64/libc.so.6
+2025-05-25 14:02:09.475 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/libc.so.6
+2025-05-25 14:02:09.475 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.475 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.476 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.476 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.476 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/libc.so.6
+2025-05-25 14:02:09.476 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.476 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/x86_64/libc.so.6
+2025-05-25 14:02:09.476 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/x86_64/libc.so.6
+2025-05-25 14:02:09.476 1000  5496   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/libc.so.6
+2025-05-25 14:02:09.476 1000  5496   cat                -1   2 glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.476 1000  5496   cat                -1   2 tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.476 1000  5496   cat                -1   2 tls/x86_64/libc.so.6
+2025-05-25 14:02:09.476 1000  5496   cat                -1   2 tls/x86_64/libc.so.6
+2025-05-25 14:02:09.476 1000  5496   cat                -1   2 tls/libc.so.6
+2025-05-25 14:02:09.476 1000  5496   cat                -1   2 x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.476 1000  5496   cat                -1   2 x86_64/libc.so.6
+2025-05-25 14:02:09.476 1000  5496   cat                -1   2 x86_64/libc.so.6
+2025-05-25 14:02:09.476 1000  5496   cat                -1   2 libc.so.6
+2025-05-25 14:02:09.476 1000  5496   cat                 3   0 /etc/ld.so.cache
+2025-05-25 14:02:09.476 1000  5496   cat                 3   0 /lib/x86_64-linux-gnu/libc.so.6
+2025-05-25 14:02:09.476 1000  5496   cat                 3   0 /usr/lib/locale/locale-archive
+2025-05-25 14:02:09.476 1000  5496   cat                 3   0 /proc/4130/stat
+2025-05-25 14:02:09.477 0     5480   python3             3   0 include/asm-generic/iomap.h
+2025-05-25 14:02:09.478 0     5480   python3             3   0 include/asm-generic/pci_iomap.h
+2025-05-25 14:02:09.478 1000  3119   cursor            142   0 /home/administrator/.config/Cursor/User/globalStorage
+2025-05-25 14:02:09.479 0     5480   python3             3   0 include/asm-generic/io.h
+2025-05-25 14:02:09.479 1000  5498   cat              0
+2025-05-25 14:02:09.479 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.479 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.479 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.479 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.479 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/libc.so.6
+2025-05-25 14:02:09.479 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.479 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/x86_64/libc.so.6
+2025-05-25 14:02:09.479 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/x86_64/libc.so.6
+2025-05-25 14:02:09.479 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/libc.so.6
+2025-05-25 14:02:09.479 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.479 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.480 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.480 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.480 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/libc.so.6
+2025-05-25 14:02:09.480 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.480 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/x86_64/libc.so.6
+2025-05-25 14:02:09.480 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/x86_64/libc.so.6
+2025-05-25 14:02:09.480 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/libc.so.6
+2025-05-25 14:02:09.480 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.480 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.480 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.480 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.480 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/libc.so.6
+2025-05-25 14:02:09.480 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.480 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/x86_64/libc.so.6
+2025-05-25 14:02:09.480 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/x86_64/libc.so.6
+2025-05-25 14:02:09.480 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/libc.so.6
+2025-05-25 14:02:09.480 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.481 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.481 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.481 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.481 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/libc.so.6
+2025-05-25 14:02:09.481 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.481 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64/libc.so.6
+2025-05-25 14:02:09.481 0     5480   python3             3   0 include/linux/logic_pio.h
+2025-05-25 14:02:09.481 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64/libc.so.6
+2025-05-25 14:02:09.481 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/libc.so.6
+2025-05-25 14:02:09.481 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.481 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.481 0     5480   python3             3   0 include/linux/fwnode.h
+2025-05-25 14:02:09.481 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.481 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.481 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/libc.so.6
+2025-05-25 14:02:09.481 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.481 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:02:09.481 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:02:09.481 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/libc.so.6
+2025-05-25 14:02:09.481 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.482 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.482 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.482 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.482 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/libc.so.6
+2025-05-25 14:02:09.482 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.482 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:02:09.482 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:02:09.482 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/libc.so.6
+2025-05-25 14:02:09.482 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.482 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.482 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.482 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.482 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/libc.so.6
+2025-05-25 14:02:09.482 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.482 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:02:09.482 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:02:09.482 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/libc.so.6
+2025-05-25 14:02:09.482 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.483 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.483 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.483 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.483 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/libc.so.6
+2025-05-25 14:02:09.483 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.483
+1000
+5498   cat                -1   2
+/tmp/.mount_CursorHew9sG/lib32/x86_64/libc.so.6
+2025-05-25 14:02:09.483 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/x86_64/libc.so.6
+2025-05-25 14:02:09.483 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/libc.so.6
+2025-05-25 14:02:09.483 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.483 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.483 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.483 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.483 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/libc.so.6
+2025-05-25 14:02:09.483 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.483 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/x86_64/libc.so.6
+2025-05-25 14:02:09.483 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/x86_64/libc.so.6
+2025-05-25 14:02:09.483 1000  5498   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/libc.so.6
+2025-05-25 14:02:09.483 1000  5498   cat                -1   2 glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.483 1000  5498   cat                -1   2 tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.483 1000  5498   cat                -1   2 tls/x86_64/libc.so.6
+2025-05-25 14:02:09.483 1000  5498   cat                -1   2 tls/x86_64/libc.so.6
+2025-05-25 14:02:09.484 1000  5498   cat                -1   2 tls/libc.so.6
+2025-05-25 14:02:09.484 1000  5498   cat                -1   2 x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.484 1000  5498   cat                -1   2 x86_64/libc.so.6
+2025-05-25 14:02:09.484 1000  5498   cat                -1   2 x86_64/libc.so.6
+2025-05-25 14:02:09.484 1000  5498   cat                -1   2 libc.so.6
+2025-05-25 14:02:09.484 1000  5498   cat                 3   0 /etc/ld.so.cache
+2025-05-25 14:02:09.484 1000  5498   cat                 3   0 /lib/x86_64-linux-gnu/libc.so.6
+2025-05-25 14:02:09.484 1000  5498   cat                 3   0 /usr/lib/locale/locale-archive
+2025-05-25 14:02:09.484 1000  5498   cat                 3   0 /proc/5475/stat
+2025-05-25 14:02:09.484 0     5480   python3             3   0 include/linux/vmalloc.h
+2025-05-25 14:02:09.484 0     5480   python3             3   0 arch/x86/include/asm/vmalloc.h
+2025-05-25 14:02:09.484
+0
+5480   python3             3   0
+arch/x86/include/asm/pgtable_areas.h
+2025-05-25 14:02:09.486 1000  5500   cat              0
+2025-05-25 14:02:09.486
+1000
+5500   cat                -1   2
+/tmp/.mount_CursorHew9sG/usr/lib/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.486
+1000
+5500   cat                -1   2
+/tmp/.mount_CursorHew9sG/usr/lib/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.487
+1000
+5500   cat                -1   2
+/tmp/.mount_CursorHew9sG/usr/lib/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.487 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.487 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/libc.so.6
+2025-05-25 14:02:09.487 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.487 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/x86_64/libc.so.6
+2025-05-25 14:02:09.487 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/x86_64/libc.so.6
+2025-05-25 14:02:09.487 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/libc.so.6
+2025-05-25 14:02:09.487 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.487 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.487 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.487 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.487 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/libc.so.6
+2025-05-25 14:02:09.487 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.487 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/x86_64/libc.so.6
+2025-05-25 14:02:09.487 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/x86_64/libc.so.6
+2025-05-25 14:02:09.487 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/libc.so.6
+2025-05-25 14:02:09.487 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.488 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.488 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.488 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.488 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/libc.so.6
+2025-05-25 14:02:09.488 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.488 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/x86_64/libc.so.6
+2025-05-25 14:02:09.488 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/x86_64/libc.so.6
+2025-05-25 14:02:09.488 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/libc.so.6
+2025-05-25 14:02:09.488 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.488 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.488 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.488 1000
+5500   cat                -1   2
+/tmp/.mount_CursorHew9sG/lib/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.488 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/libc.so.6
+2025-05-25 14:02:09.489
+1000
+5500   cat                -1   2
+/tmp/.mount_CursorHew9sG/lib/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.489
+1000
+5500   cat                -1   2
+/tmp/.mount_CursorHew9sG/lib/x86_64/libc.so.6
+2025-05-25 14:02:09.489
+1000
+5500   cat                -1   2
+/tmp/.mount_CursorHew9sG/lib/x86_64/libc.so.6
+2025-05-25 14:02:09.489
+1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/libc.so.6
+2025-05-25 14:02:09.490 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.490 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.490 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.490 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.490 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/libc.so.6
+2025-05-25 14:02:09.490 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.490 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:02:09.490 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:02:09.490 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/libc.so.6
+2025-05-25 14:02:09.490 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.490 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.490 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.490 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.490 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/libc.so.6
+2025-05-25 14:02:09.490 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.491 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:02:09.491 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:02:09.491 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/libc.so.6
+2025-05-25 14:02:09.491 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.491 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.491 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.491 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.491 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/libc.so.6
+2025-05-25 14:02:09.491 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.491 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:02:09.491 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:02:09.491 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/libc.so.6
+2025-05-25 14:02:09.491 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.491 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.491 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.491 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.492 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/libc.so.6
+2025-05-25 14:02:09.492
+1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.492 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/x86_64/libc.so.6
+2025-05-25 14:02:09.492 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/x86_64/libc.so.6
+2025-05-25 14:02:09.494 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/libc.so.6
+2025-05-25 14:02:09.494 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.495 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.495 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.495 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.495 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/libc.so.6
+2025-05-25 14:02:09.495 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.495 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/x86_64/libc.so.6
+2025-05-25 14:02:09.495 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/x86_64/libc.so.6
+2025-05-25 14:02:09.495 1000  5500   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/libc.so.6
+2025-05-25 14:02:09.495 1000  5500   cat                -1   2 glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.495 1000  5500   cat                -1   2 tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.495 1000  5500   cat                -1   2 tls/x86_64/libc.so.6
+2025-05-25 14:02:09.495 1000  5500   cat                -1   2 tls/x86_64/libc.so.6
+2025-05-25 14:02:09.495 1000  5500   cat                -1   2 tls/libc.so.6
+2025-05-25 14:02:09.495 1000  5500   cat                -1   2 x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.495 1000  5500   cat                -1   2 x86_64/libc.so.6
+2025-05-25 14:02:09.495 1000  5500   cat                -1   2 x86_64/libc.so.6
+2025-05-25 14:02:09.495 1000  5500   cat                -1   2 libc.so.6
+2025-05-25 14:02:09.496 1000  5500   cat                 3   0 /etc/ld.so.cache
+2025-05-25 14:02:09.496 1000  5500   cat                 3   0 /lib/x86_64-linux-gnu/libc.so.6
+2025-05-25 14:02:09.496 0     5480   python3             3   0 include/linux/netdev_features.h
+2025-05-25 14:02:09.499 1000  5500   cat                 3   0 /usr/lib/locale/locale-archive
+2025-05-25 14:02:09.499 1000  5500   cat                 3   0 /proc/5476/stat
+2025-05-25 14:02:09.499 0     5480   python3             3   0 include/linux/sched/clock.h
+2025-05-25 14:02:09.501 0     5480   python3             3   0 include/linux/splice.h
+2025-05-25 14:02:09.501 0     5480   python3             3   0 include/linux/pipe_fs_i.h
+2025-05-25 14:02:09.501 1000  2716   qbat               16   0 /sys/class/power_supply
+2025-05-25 14:02:09.501 1000  2716   qbat               16   0 /sys/class/power_supply/AC/online
+2025-05-25 14:02:09.502 0     5480   python3            -1   2 include/linux/if_packet.h
+2025-05-25 14:02:09.502 0     5480   python3             3   0 include/net/page_pool.h
+2025-05-25 14:02:09.502 0     5480   python3             3   0 include/linux/ptr_ring.h
+2025-05-25 14:02:09.502 1000  5502   cat              0
+2025-05-25 14:02:09.503 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.503 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.503 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.503 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.503 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/libc.so.6
+2025-05-25 14:02:09.503 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.503 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/x86_64/libc.so.6
+2025-05-25 14:02:09.504 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/x86_64/libc.so.6
+2025-05-25 14:02:09.504 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/libc.so.6
+2025-05-25 14:02:09.504 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.504 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.504 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.504 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.504 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/libc.so.6
+2025-05-25 14:02:09.504 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.504 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/x86_64/libc.so.6
+2025-05-25 14:02:09.504 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/x86_64/libc.so.6
+2025-05-25 14:02:09.504 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/libc.so.6
+2025-05-25 14:02:09.504 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.504 1000  3232   cursor             29   0 /dev/shm/.org.chromium.Chromium.BYBUFC
+2025-05-25 14:02:09.504 1000  3232   cursor             33   0 /dev/shm/.org.chromium.Chromium.BYBUFC
+2025-05-25 14:02:09.505 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.505 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.505 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.505 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/libc.so.6
+2025-05-25 14:02:09.505 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.505 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/x86_64/libc.so.6
+2025-05-25 14:02:09.506 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/x86_64/libc.so.6
+2025-05-25 14:02:09.506 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/libc.so.6
+2025-05-25 14:02:09.506 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.506 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.506 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.506 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.506 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/libc.so.6
+2025-05-25 14:02:09.506 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.506 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64/libc.so.6
+2025-05-25 14:02:09.506 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64/libc.so.6
+2025-05-25 14:02:09.507 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/libc.so.6
+2025-05-25 14:02:09.507 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.507 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.507 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.507 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.507 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/libc.so.6
+2025-05-25 14:02:09.507 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.507 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:02:09.507 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:02:09.508 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/libc.so.6
+2025-05-25 14:02:09.508 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.508 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.508 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.508 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.508 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/libc.so.6
+2025-05-25 14:02:09.508 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.508 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:02:09.508 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:02:09.508 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/libc.so.6
+2025-05-25 14:02:09.508 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.508 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.508 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.508 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.508 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/libc.so.6
+2025-05-25 14:02:09.508 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.508 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:02:09.508 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:02:09.509 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/libc.so.6
+2025-05-25 14:02:09.509 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.509 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.509 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.509 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.509 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/libc.so.6
+2025-05-25 14:02:09.509 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.509 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/x86_64/libc.so.6
+2025-05-25 14:02:09.509 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/x86_64/libc.so.6
+2025-05-25 14:02:09.509 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/libc.so.6
+2025-05-25 14:02:09.509 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.509 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.509 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.509 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.509 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/libc.so.6
+2025-05-25 14:02:09.509 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.509 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/x86_64/libc.so.6
+2025-05-25 14:02:09.509 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/x86_64/libc.so.6
+2025-05-25 14:02:09.509 1000  5502   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/libc.so.6
+2025-05-25 14:02:09.509 1000  5502   cat                -1   2 glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.509 1000  5502   cat                -1   2 tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.509 1000  5502   cat                -1   2 tls/x86_64/libc.so.6
+2025-05-25 14:02:09.510 1000  5502   cat                -1   2 tls/x86_64/libc.so.6
+2025-05-25 14:02:09.510 1000  5502   cat                -1   2 tls/libc.so.6
+2025-05-25 14:02:09.510 1000  5502   cat                -1   2 x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.510 1000  5502   cat                -1   2 x86_64/libc.so.6
+2025-05-25 14:02:09.510 1000  5502   cat                -1   2 x86_64/libc.so.6
+2025-05-25 14:02:09.510 1000  5502   cat                -1   2 libc.so.6
+2025-05-25 14:02:09.510 1000  5502   cat                 3   0 /etc/ld.so.cache
+2025-05-25 14:02:09.510 1000  5502   cat                 3   0 /lib/x86_64-linux-gnu/libc.so.6
+2025-05-25 14:02:09.510 1000  5502   cat                 3   0 /usr/lib/locale/locale-archive
+2025-05-25 14:02:09.510 1000  5502   cat                 3   0 /proc/5477/stat
+2025-05-25 14:02:09.512 0     5480   python3             3   0
+2025-05-25 14:02:09.513 1000  5504   cat              0
+include/net/net_debug.h
+2025-05-25 14:02:09.513 0     5480   python3             3   0 include/net/dropreason.h
+2025-05-25 14:02:09.513 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.513 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.513 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.513 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.513 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/libc.so.6
+2025-05-25 14:02:09.513 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.513 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/x86_64/libc.so.6
+2025-05-25 14:02:09.513 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/x86_64/libc.so.6
+2025-05-25 14:02:09.513 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/libc.so.6
+2025-05-25 14:02:09.513 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.513 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.513 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.514 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.514 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/libc.so.6
+2025-05-25 14:02:09.514 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.514 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/x86_64/libc.so.6
+2025-05-25 14:02:09.514 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/x86_64/libc.so.6
+2025-05-25 14:02:09.514 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/libc.so.6
+2025-05-25 14:02:09.514 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.514 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.514 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.514 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.514 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/libc.so.6
+2025-05-25 14:02:09.514 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.514 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/x86_64/libc.so.6
+2025-05-25 14:02:09.514 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/x86_64/libc.so.6
+2025-05-25 14:02:09.514
+1000
+5504   cat                -1   2
+/tmp/.mount_CursorHew9sG/usr/lib64/libc.so.6
+2025-05-25 14:02:09.514
+1000
+5504   cat                -1   2
+/tmp/.mount_CursorHew9sG/lib/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.514
+1000
+5504   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.514 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.515 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.515 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/libc.so.6
+2025-05-25 14:02:09.515 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.515 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64/libc.so.6
+2025-05-25 14:02:09.515 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64/libc.so.6
+2025-05-25 14:02:09.515 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/libc.so.6
+2025-05-25 14:02:09.515 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.516 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.516 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.516 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.516 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/libc.so.6
+2025-05-25 14:02:09.516 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.516 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:02:09.516 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:02:09.516 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/libc.so.6
+2025-05-25 14:02:09.516 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.516
+1000  5504   cat                -1   2
+/tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.516
+1000
+5504   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.517
+1000
+5504   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.517
+1000
+5504   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/libc.so.6
+2025-05-25 14:02:09.517
+1000
+5504   cat                -1   2
+/tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.517
+1000  5504   cat                -1   2
+/tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:02:09.517
+1000  5504   cat                -1   2
+/tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:02:09.517
+1000
+5504   cat                -1   2
+/tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/libc.so.6
+2025-05-25 14:02:09.517 1000
+5504   cat                -1   2
+/tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.517 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.517 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.517 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.517 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/libc.so.6
+2025-05-25 14:02:09.517 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.517 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:02:09.517 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:02:09.517 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/libc.so.6
+2025-05-25 14:02:09.518 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.518 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.518 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.518 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.518 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/libc.so.6
+2025-05-25 14:02:09.518 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.518 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/x86_64/libc.so.6
+2025-05-25 14:02:09.518 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/x86_64/libc.so.6
+2025-05-25 14:02:09.518 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/libc.so.6
+2025-05-25 14:02:09.518 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.518 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.518 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.518 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.518 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/libc.so.6
+2025-05-25 14:02:09.518 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.518 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/x86_64/libc.so.6
+2025-05-25 14:02:09.518 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/x86_64/libc.so.6
+2025-05-25 14:02:09.519 1000  5504   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/libc.so.6
+2025-05-25 14:02:09.519 1000  5504   cat                -1   2 glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.519 1000  5504   cat                -1   2 tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.519 1000  5504   cat                -1   2 tls/x86_64/libc.so.6
+2025-05-25 14:02:09.519 1000  5504   cat                -1   2 tls/x86_64/libc.so.6
+2025-05-25 14:02:09.519 1000  5504   cat                -1   2 tls/libc.so.6
+2025-05-25 14:02:09.519 1000  5504   cat                -1   2 x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.519 1000  5504   cat                -1   2 x86_64/libc.so.6
+2025-05-25 14:02:09.519 1000  5504   cat                -1   2 x86_64/libc.so.6
+2025-05-25 14:02:09.519 1000  5504   cat                -1   2 libc.so.6
+2025-05-25 14:02:09.519 1000  5504   cat                 3   0 /etc/ld.so.cache
+2025-05-25 14:02:09.519 1000  5504   cat                 3   0 /lib/x86_64-linux-gnu/libc.so.6
+2025-05-25 14:02:09.519 1000  5504   cat                 3   0 /usr/lib/locale/locale-archive
+2025-05-25 14:02:09.519 1000  5504   cat                 3   0 /proc/5479/stat
+2025-05-25 14:02:09.524 1000  5506   cat              0
+2025-05-25 14:02:09.526 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.526 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.526 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.526 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.526 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/libc.so.6
+2025-05-25 14:02:09.526 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.527 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/x86_64/libc.so.6
+2025-05-25 14:02:09.527 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/x86_64/libc.so.6
+2025-05-25 14:02:09.527 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/libc.so.6
+2025-05-25 14:02:09.531 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.531 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.531 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.531 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.531 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/libc.so.6
+2025-05-25 14:02:09.531 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.531 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/x86_64/libc.so.6
+2025-05-25 14:02:09.532 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/x86_64/libc.so.6
+2025-05-25 14:02:09.532 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/libc.so.6
+2025-05-25 14:02:09.532 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.532 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.533 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.533 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.533 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/libc.so.6
+2025-05-25 14:02:09.533 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.533 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/x86_64/libc.so.6
+2025-05-25 14:02:09.533 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/x86_64/libc.so.6
+2025-05-25 14:02:09.533 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/libc.so.6
+2025-05-25 14:02:09.533 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.534 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.534 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.534 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.534 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/libc.so.6
+2025-05-25 14:02:09.534 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.534 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64/libc.so.6
+2025-05-25 14:02:09.534 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64/libc.so.6
+2025-05-25 14:02:09.534 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/libc.so.6
+2025-05-25 14:02:09.534 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.534 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.534 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.534 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.534 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/libc.so.6
+2025-05-25 14:02:09.534 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.534 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:02:09.534 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:02:09.535 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/libc.so.6
+2025-05-25 14:02:09.535 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.535 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.535 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.535 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.535 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/libc.so.6
+2025-05-25 14:02:09.535 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.535 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:02:09.535 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:02:09.535 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/libc.so.6
+2025-05-25 14:02:09.535 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.535 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.535 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.535 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.535 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/libc.so.6
+2025-05-25 14:02:09.535 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.535 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:02:09.535 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:02:09.536 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/libc.so.6
+2025-05-25 14:02:09.536 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.536 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.536 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.536 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.536 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/libc.so.6
+2025-05-25 14:02:09.536 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.536 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/x86_64/libc.so.6
+2025-05-25 14:02:09.536 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/x86_64/libc.so.6
+2025-05-25 14:02:09.536 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/libc.so.6
+2025-05-25 14:02:09.536 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.536 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.536 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.536 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.536 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/libc.so.6
+2025-05-25 14:02:09.536 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.536 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/x86_64/libc.so.6
+2025-05-25 14:02:09.537 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/x86_64/libc.so.6
+2025-05-25 14:02:09.537 1000  5506   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/libc.so.6
+2025-05-25 14:02:09.537 1000  5506   cat                -1   2 glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.537 1000  5506   cat                -1   2 tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.537 1000  5506   cat                -1   2 tls/x86_64/libc.so.6
+2025-05-25 14:02:09.537 1000  5506   cat                -1   2 tls/x86_64/libc.so.6
+2025-05-25 14:02:09.537 1000  5506   cat                -1   2 tls/libc.so.6
+2025-05-25 14:02:09.537 1000  5506   cat                -1   2 x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.537 1000  5506   cat                -1   2 x86_64/libc.so.6
+2025-05-25 14:02:09.537 1000  5506   cat                -1   2 x86_64/libc.so.6
+2025-05-25 14:02:09.537 1000  5506   cat                -1   2 libc.so.6
+2025-05-25 14:02:09.537 1000  5506   cat                 3   0 /etc/ld.so.cache
+2025-05-25 14:02:09.537 1000  5506   cat                 3   0 /lib/x86_64-linux-gnu/libc.so.6
+2025-05-25 14:02:09.537 1000  5506   cat                 3   0 /usr/lib/locale/locale-archive
+2025-05-25 14:02:09.537 1000  5506   cat                 3   0 /proc/5480/stat
+2025-05-25 14:02:09.539 1000  5508   cat              0
+2025-05-25 14:02:09.541 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.541 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.541 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.541 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.541 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/tls/libc.so.6
+2025-05-25 14:02:09.541 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.541 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/x86_64/libc.so.6
+2025-05-25 14:02:09.541 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/x86_64/libc.so.6
+2025-05-25 14:02:09.541 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib/libc.so.6
+2025-05-25 14:02:09.541 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.541 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.541 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.541 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.541 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/tls/libc.so.6
+2025-05-25 14:02:09.541 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.541 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/x86_64/libc.so.6
+2025-05-25 14:02:09.542 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/x86_64/libc.so.6
+2025-05-25 14:02:09.542 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib32/libc.so.6
+2025-05-25 14:02:09.542 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.542 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.542 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.542 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.542 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/tls/libc.so.6
+2025-05-25 14:02:09.542 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.542 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/x86_64/libc.so.6
+2025-05-25 14:02:09.542 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/x86_64/libc.so.6
+2025-05-25 14:02:09.542 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/usr/lib64/libc.so.6
+2025-05-25 14:02:09.542 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.542 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.542 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.542 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.542 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/tls/libc.so.6
+2025-05-25 14:02:09.542 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.543 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64/libc.so.6
+2025-05-25 14:02:09.543 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64/libc.so.6
+2025-05-25 14:02:09.543 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/libc.so.6
+2025-05-25 14:02:09.543 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.543 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.543 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.543 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.543 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/tls/libc.so.6
+2025-05-25 14:02:09.543 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.543 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:02:09.543 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:02:09.543 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/i386-linux-gnu/libc.so.6
+2025-05-25 14:02:09.543 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.543 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.543 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.543 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.543 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/tls/libc.so.6
+2025-05-25 14:02:09.543 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.544 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:02:09.544 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:02:09.544 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/x86_64-linux-gnu/libc.so.6
+2025-05-25 14:02:09.544 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.544 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.544 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.544 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.544 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/tls/libc.so.6
+2025-05-25 14:02:09.544 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.544 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:02:09.544 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/x86_64/libc.so.6
+2025-05-25 14:02:09.544 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib/aarch64-linux-gnu/libc.so.6
+2025-05-25 14:02:09.544 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.544 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.544 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.544 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.545 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/tls/libc.so.6
+2025-05-25 14:02:09.545 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.545 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/x86_64/libc.so.6
+2025-05-25 14:02:09.545 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/x86_64/libc.so.6
+2025-05-25 14:02:09.545 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib32/libc.so.6
+2025-05-25 14:02:09.545 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.545 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.545 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.545 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/x86_64/libc.so.6
+2025-05-25 14:02:09.545 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/tls/libc.so.6
+2025-05-25 14:02:09.545 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.545 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/x86_64/libc.so.6
+2025-05-25 14:02:09.545 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/x86_64/libc.so.6
+2025-05-25 14:02:09.545 1000  5508   cat                -1   2 /tmp/.mount_CursorHew9sG/lib64/libc.so.6
+2025-05-25 14:02:09.545 1000  5508   cat                -1   2 glibc-hwcaps/x86-64-v2/libc.so.6
+2025-05-25 14:02:09.545 1000  5508   cat                -1   2 tls/x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.545 1000  5508   cat                -1   2 tls/x86_64/libc.so.6
+2025-05-25 14:02:09.545 1000  5508   cat                -1   2 tls/x86_64/libc.so.6
+2025-05-25 14:02:09.545 1000  5508   cat                -1   2 tls/libc.so.6
+2025-05-25 14:02:09.545 1000  5508   cat                -1   2 x86_64/x86_64/libc.so.6
+2025-05-25 14:02:09.545 1000  5508   cat                -1   2 x86_64/libc.so.6
+2025-05-25 14:02:09.545 1000  5508   cat                -1   2 x86_64/libc.so.6
+2025-05-25 14:02:09.545 1000  5508   cat                -1   2 libc.so.6
+2025-05-25 14:02:09.545 1000  5508   cat                 3   0 /etc/ld.so.cache
+2025-05-25 14:02:09.546 1000  5508   cat                 3   0 /lib/x86_64-linux-gnu/libc.so.6
+2025-05-25 14:02:09.546 1000  5508   cat                 3   0 /usr/lib/locale/locale-archive
+2025-05-25 14:02:09.546 1000  5508   cat                 3   0 /proc/5481/stat
+2025-05-25 14:02:09.553 0     5480   python3             3   0 include/linux/seq_file_net.h
+2025-05-25 14:02:09.553 0     5480   python3             3   0 include/linux/seq_file.h
+2025-05-25 14:02:09.553 0     5480   python3             3   0 include/linux/string_helpers.h
+2025-05-25 14:02:09.553 0     5480   python3             3   0 include/linux/ctype.h
+2025-05-25 14:02:09.556 0     5480   python3             3   0 include/net/dcbnl.h
+2025-05-25 14:02:09.556 0     5480   python3            -1   2 include/linux/dcbnl.h
+2025-05-25 14:02:09.556 0     5480   python3             3   0 include/uapi/linux/dcbnl.h
+2025-05-25 14:02:09.557 0     5480   python3             3   0 include/net/netprio_cgroup.h
+2025-05-25 14:02:09.557 0     5480   python3             3   0 include/linux/cgroup.h
+2025-05-25 14:02:09.557 0     5480   python3            -1   2 include/linux/cgroupstats.h
+2025-05-25 14:02:09.557 0     5480   python3             3   0 include/uapi/linux/cgroupstats.h
+2025-05-25 14:02:09.557 0     5480   python3            -1   2 include/linux/taskstats.h
+2025-05-25 14:02:09.557 0     5480   python3             3   0 include/uapi/linux/taskstats.h
+2025-05-25 14:02:09.557 1000  3119   cursor            141   0 /home/administrator/.config/Cursor/User/globalStorage/state.vscdb-journal
+2025-05-25 14:02:09.557 0     5480   python3             3   0 include/linux/nsproxy.h
+2025-05-25 14:02:09.558 0     5480   python3             3   0 include/linux/user_namespace.h
+2025-05-25 14:02:09.559 0     5480   python3             3   0 include/linux/kernel_stat.h
+2025-05-25 14:02:09.559 0     5480   python3             3   0 include/linux/interrupt.h
+2025-05-25 14:02:09.559 0     5480   python3             3   0 include/linux/irqreturn.h
+2025-05-25 14:02:09.560 0     5480   python3             3   0 arch/x86/include/asm/irq.h
+2025-05-25 14:02:09.560 0     5480   python3             3   0 arch/x86/include/asm/irq_vectors.h
+2025-05-25 14:02:09.560 0     5480   python3             3   0 arch/x86/include/asm/sections.h
+2025-05-25 14:02:09.560 0     5480   python3             3   0 include/asm-generic/sections.h
+2025-05-25 14:02:09.565 0     5480   python3             3   0 include/linux/cgroup-defs.h
+2025-05-25 14:02:09.565 0     5480   python3             3   0 include/linux/bpf-cgroup-defs.h
+2025-05-25 14:02:09.565 0     5480   python3             3   0 include/linux/psi_types.h
+2025-05-25 14:02:09.565 0     5480   python3             3   0 include/linux/kthread.h
+2025-05-25 14:02:09.566 0     5480   python3             3   0 include/linux/cgroup_subsys.h
+2025-05-25 14:02:09.571 0     5480   python3             3   0 include/net/xdp.h
+2025-05-25 14:02:09.573 0     5480   python3            -1   2 include/linux/neighbour.h
+2025-05-25 14:02:09.573 0     5480   python3             3   0 include/uapi/linux/neighbour.h
+2025-05-25 14:02:09.573 0     5480   python3             3   0 include/linux/netlink.h
+2025-05-25 14:02:09.573 0     5480   python3             3   0 include/net/scm.h
+2025-05-25 14:02:09.573 0     5480   python3             3   0 include/linux/security.h
+2025-05-25 14:02:09.573 0     5480   python3             3   0 include/linux/kernel_read_file.h
+2025-05-25 14:02:09.573 0     5480   python3             3   0 include/linux/file.h
+2025-05-25 14:02:09.580 0     5480   python3             3   0 include/uapi/linux/netlink.h
+2025-05-25 14:02:09.583 0     5480   python3             3   0 include/uapi/linux/netdevice.h
+2025-05-25 14:02:09.583 0     5480   python3            -1   2 include/linux/if.h
+2025-05-25 14:02:09.583 0     5480   python3             3   0 include/uapi/linux/if.h
+2025-05-25 14:02:09.584 0     5480   python3             3   0 include/uapi/linux/hdlc/ioctl.h
+2025-05-25 14:02:09.583 1000  3119   cursor            142   0 /home/administrator/.config/Cursor/User/globalStorage
+2025-05-25 14:02:09.584 0     5480   python3             3   0 include/linux/if_ether.h
+2025-05-25 14:02:09.585 0     5480   python3             3   0 include/linux/if_link.h
+2025-05-25 14:02:09.585 0     5480   python3             3   0 include/uapi/linux/if_link.h
+2025-05-25 14:02:09.586 0     5480   python3             3   0 include/uapi/linux/if_bonding.h
+2025-05-25 14:02:09.586 0     5480   python3             3   0 include/uapi/linux/pkt_cls.h
+2025-05-25 14:02:09.586 0     5480   python3            -1   2 include/linux/pkt_sched.h
+2025-05-25 14:02:09.586 0     5480   python3             3   0 include/uapi/linux/pkt_sched.h
+2025-05-25 14:02:09.588 0     5480   python3             3   0 include/linux/hashtable.h
+2025-05-25 14:02:09.615 0     5480   python3             3   0 include/linux/page_counter.h
+2025-05-25 14:02:09.616 0     5480   python3             3   0 include/linux/memcontrol.h
+2025-05-25 14:02:09.617 0     5480   python3             3   0 include/linux/vmpressure.h
+2025-05-25 14:02:09.617 0     5480   python3             3   0 include/linux/eventfd.h
+2025-05-25 14:02:09.617 0     5480   python3             3   0 include/linux/writeback.h
+2025-05-25 14:02:09.617 0     5480   python3             3   0 include/linux/flex_proportions.h
+2025-05-25 14:02:09.618 0     5480   python3             3   0 include/linux/backing-dev-defs.h
+2025-05-25 14:02:09.619 0     5480   python3             3   0 include/linux/blk_types.h
+2025-05-25 14:02:09.621 0     5480   python3             3   0 include/linux/bio.h
+2025-05-25 14:02:09.621 0     5480   python3             3   0 include/linux/mempool.h
+2025-05-25 14:02:09.640 1000  3255   cursor             42   0 /proc/3952/cmdline
+2025-05-25 14:02:09.640 1000  3255   cursor             42   0 /proc/5475/cmdline
+2025-05-25 14:02:09.640 1000  3255   cursor             42   0 /proc/3710/cmdline
+2025-05-25 14:02:09.640 1000  3255   cursor             42   0 /proc/3324/cmdline
+2025-05-25 14:02:09.656 0     5480   python3             3   0 include/linux/rculist_nulls.h
+2025-05-25 14:02:09.658 0     5480   python3             3   0 include/linux/poll.h
+2025-05-25 14:02:09.658 0     5480   python3             3   0 include/uapi/linux/poll.h
+2025-05-25 14:02:09.658 0     5480   python3            -1   2 arch/x86/include/asm/poll.h
+2025-05-25 14:02:09.658 0     5480   python3            -1   2 arch/x86/include/generated/asm/poll.h
+2025-05-25 14:02:09.658 0     5480   python3            -1   2 arch/x86/include/uapi/asm/poll.h
+2025-05-25 14:02:09.658 0     5480   python3             3   0 arch/x86/include/generated/uapi/asm/poll.h
+2025-05-25 14:02:09.658 0     5480   python3            -1   2 include/asm-generic/poll.h
+2025-05-25 14:02:09.658 0     5480   python3             3   0 include/uapi/asm-generic/poll.h
+2025-05-25 14:02:09.658 0     5480   python3             3   0 include/uapi/linux/eventpoll.h
+2025-05-25 14:02:09.659 0     5480   python3             3   0 include/linux/indirect_call_wrapper.h
+2025-05-25 14:02:09.660 0     5480   python3             3   0 include/net/dst.h
+2025-05-25 14:02:09.660 0     5480   python3             3   0 include/linux/rtnetlink.h
+2025-05-25 14:02:09.660 0     5480   python3             3   0 include/uapi/linux/rtnetlink.h
+2025-05-25 14:02:09.660 0     5480   python3            -1   2 include/linux/if_addr.h
+2025-05-25 14:02:09.660 0     5480   python3             3   0 include/uapi/linux/if_addr.h
+2025-05-25 14:02:09.661 0     5480   python3             3   0 include/net/neighbour.h
+2025-05-25 14:02:09.662 0     5480   python3             3   0 include/net/rtnetlink.h
+2025-05-25 14:02:09.662 0     5480   python3             3   0 include/net/netlink.h
+2025-05-25 14:02:09.673 0     5480   python3             3   0 include/net/tcp_states.h
+2025-05-25 14:02:09.674 0     5480   python3            -1   2 include/linux/net_tstamp.h
+2025-05-25 14:02:09.674 0     5480   python3             3   0 include/uapi/linux/net_tstamp.h
+2025-05-25 14:02:09.674 0     5480   python3             3   0 include/net/l3mdev.h
+2025-05-25 14:02:09.674 0     5480   python3             3   0 include/net/fib_rules.h
+2025-05-25 14:02:09.674 0     5480   python3            -1   2 include/linux/fib_rules.h
+2025-05-25 14:02:09.674 0     5480   python3             3   0 include/uapi/linux/fib_rules.h
+2025-05-25 14:02:09.674 0     5480   python3             3   0 include/net/fib_notifier.h
+2025-05-25 14:02:09.707 1000  3119   cursor            141   0 /home/administrator/.config/Cursor/User/globalStorage/state.vscdb-journal
+2025-05-25 14:02:09.725 0     5480   python3            -1   2 /virtual/main.c
+2025-05-25 14:02:09.725 0     5480   python3            -1   2 /virtual/include/bcc/helpers.h
+2025-05-25 14:02:09.727 0     351    systemd-journal    -1   2 /run/log/journal/0a69d92d5fe644b8ac16c48f263595d9/system.journal
+2025-05-25 14:02:09.727 0     5480   python3             7   0 /sys/kernel/btf/vmlinux
+2025-05-25 14:02:09.728 0     351    systemd-journal    -1   2 /run/log/journal/0a69d92d5fe644b8ac16c48f263595d9/system.journal
+2025-05-25 14:02:09.728 0     351    systemd-journal    -1   2 /run/log/journal/0a69d92d5fe644b8ac16c48f263595d9/system.journal
+2025-05-25 14:02:09.728 0     351    systemd-journal    -1   2 /run/log/journal/0a69d92d5fe644b8ac16c48f263595d9/system.journal
+2025-05-25 14:02:09.728 0     351    systemd-journal    -1   2 /run/log/journal/0a69d92d5fe644b8ac16c48f263595d9/system.journal
+2025-05-25 14:02:09.728 0     351    systemd-journal    -1   2 /run/log/journal/0a69d92d5fe644b8ac16c48f263595d9/system.journal
+2025-05-25 14:02:09.729 0     351    systemd-journal    -1   2 /run/log/journal/0a69d92d5fe644b8ac16c48f263595d9/system.journal
+2025-05-25 14:02:09.729 0     351    systemd-journal    -1   2 /run/log/journal/0a69d92d5fe644b8ac16c48f263595d9/system.journal
+2025-05-25 14:02:09.733 1000  3119   cursor            142   0 /home/administrator/.config/Cursor/User/globalStorage
+2025-05-25 14:02:09.736 0     351    systemd-journal    -1   2 /run/log/journal/0a69d92d5fe644b8ac16c48f263595d9/system.journal
+2025-05-25 14:02:09.736 0     351    systemd-journal    -1   2 /run/log/journal/0a69d92d5fe644b8ac16c48f263595d9/system.journal
+2025-05-25 14:02:09.736 0     351    systemd-journal    -1   2 /run/log/journal/0a69d92d5fe644b8ac16c48f263595d9/system.journal
+2025-05-25 14:02:09.737 0     5480   python3             9   0 /proc/stat
+2025-05-25 14:02:09.737 0     5480   python3             9   0 /sys/devices/system/cpu/online
+2025-05-25 14:02:09.737 0     5480   python3             9   0 /proc/self/status
+2025-05-25 14:02:09.738 0     5480   python3             9   0 /proc/mounts
+2025-05-25 14:02:09.798 1000  3232   cursor             29   0 /dev/shm/.org.chromium.Chromium.Ias0B1
+2025-05-25 14:02:09.798 1000  3232   cursor             33   0 /dev/shm/.org.chromium.Chromium.Ias0B1
+2025-05-25 14:02:09.813 1000  3119   cursor            141   0 /home/administrator/.config/Cursor/User/globalStorage/state.vscdb-journal
+2025-05-25 14:02:09.839 1000  3119   cursor            142   0 /home/administrator/.config/Cursor/User/globalStorage
+2025-05-25 14:02:09.842 1000  3255   cursor             42   0 /proc/3952/cmdline
+2025-05-25 14:02:09.842 1000  3255   cursor             42   0 /proc/5475/cmdline
+2025-05-25 14:02:09.842 1000  3255   cursor             42   0 /proc/3710/cmdline
+2025-05-25 14:02:09.842 1000  3255   cursor             42   0 /proc/3324/cmdline
+2025-05-25 14:02:09.916 1000  3119   cursor            141   0 /home/administrator/.config/Cursor/User/globalStorage/state.vscdb-journal
+2025-05-25 14:02:09.943 1000  3119   cursor            142   0 /home/administrator/.config/Cursor/User/globalStorage
+2025-05-25 14:02:09.996 1000  3119   cursor            141   0 /home/administrator/.config/Cursor/User/globalStorage/state.vscdb-journal
+2025-05-25 14:02:10.003 1000  2708   fly-start-menu     26   0 /home/administrator/.config/baloofilerc
+2025-05-25 14:02:10.003 1000  2708   fly-start-menu     26   0 /home/administrator/.config/baloofilerc
+2025-05-25 14:02:10.022 1000  3119   cursor            142   0 /home/administrator/.config/Cursor/User/globalStorage
+2025-05-25 14:02:10.042 1000  3255   cursor             42   0 /proc/3952/cmdline
+2025-05-25 14:02:10.042 1000  3255   cursor             42   0 /proc/5475/cmdline
+2025-05-25 14:02:10.042 1000  3255   cursor             42   0 /proc/3710/cmdline
+2025-05-25 14:02:10.043 1000  3255   cursor             42   0 /proc/3324/cmdline
+2025-05-25 14:02:10.105 1000  3119   cursor            141   0 /home/administrator/.config/Cursor/User/globalStorage/state.vscdb-journal
+2025-05-25 14:02:10.131 1000  3119   cursor            142   0 /home/administrator/.config/Cursor/User/globalStorage
+2025-05-25 14:02:10.167 0     2061   syslog-ng          47   0 /var/log/journal/0a69d92d5fe644b8ac16c48f263595d9/system.journal
+2025-05-25 14:02:10.182 1000  3119   cursor            141   0 /home/administrator/.config/Cursor/User/globalStorage/state.vscdb-journal
+2025-05-25 14:02:10.208 1000  3119   cursor            142   0 /home/administrator/.config/Cursor/User/globalStorage
+2025-05-25 14:02:10.243 1000  3255   cursor             42   0 /proc/3952/cmdline
+2025-05-25 14:02:10.243 1000  3255   cursor             42   0 /proc/5475/cmdline
+2025-05-25 14:02:10.243 1000  3255   cursor             42   0 /proc/3710/cmdline
+2025-05-25 14:02:10.243 1000  3255   cursor             42   0 /proc/3324/cmdline
+2025-05-25 14:02:10.258 1000  3119   cursor            141   0 /home/administrator/.config/Cursor/User/globalStorage/state.vscdb-journal
+2025-05-25 14:02:10.287 1000  3119   cursor            142   0 /home/administrator/.config/Cursor/User/globalStorage
+2025-05-25 14:02:10.339 1000  3119   cursor            141   0 /home/administrator/.config/Cursor/User/globalStorage/state.vscdb-journal
+2025-05-25 14:02:10.365 1000  3119   cursor            142   0 /home/administrator/.config/Cursor/User/globalStorage
+2025-05-25 14:02:10.443 1000  3255   cursor             42   0 /proc/3952/cmdline
+2025-05-25 14:02:10.444 1000  3255   cursor             42   0 /proc/5475/cmdline
+2025-05-25 14:02:10.444 1000  3255   cursor             42   0 /proc/3710/cmdline
+2025-05-25 14:02:10.444 1000  3255   cursor             42   0 /proc/3324/cmdline
+2025-05-25 14:02:10.444 1000  3119   cursor            141   0 /home/administrator/.config/Cursor/User/globalStorage/state.vscdb-journal
+2025-05-25 14:02:10.471 1000  3119   cursor            142   0 /home/administrator/.config/Cursor/User/globalStorage
+2025-05-25 14:02:10.505 0     2061   syslog-ng          47   0 /proc/meminfo
+2025-05-25 14:02:10.545 1000  3119   cursor            141   0 /home/administrator/.config/Cursor/User/globalStorage/state.vscdb-journal
+2025-05-25 14:02:10.572 1000  3119   cursor            142   0 /home/administrator/.config/Cursor/User/globalStorage
+2025-05-25 14:02:10.605 1000  3269   cursor             57   0 /etc/hosts
+2025-05-25 14:02:10.605 TIMESTAMP               UID   PID    COMM             SADDR           SPORT  DADDR           DPORT  RET
+1000  3269   cursor           0.0.0.0         0      1.0.168.192     53     0
+2025-05-25 14:02:10.643 1000  3255   cursor             42   0 /proc/3952/cmdline
+2025-05-25 14:02:10.643 1000  3255   cursor             42   0 /proc/5475/cmdline
+2025-05-25 14:02:10.644 1000  3255   cursor             42   0 /proc/3710/cmdline
+2025-05-25 14:02:10.644 1000  3255   cursor             42   0 /proc/3324/cmdline
+2025-05-25 14:02:10.650 1000  3119   cursor            141   0 /home/administrator/.config/Cursor/User/globalStorage/state.vscdb-journal
+2025-05-25 14:02:10.675 1000  3119   cursor            142   0 /home/administrator/.config/Cursor/User/globalStorage
+2025-05-25 14:02:10.716 1000  3269   cursor           0.0.0.0         0      190.194.90.54   0      0
+2025-05-25 14:02:10.716 1000  3269   cursor           0.0.0.0         0      147.92.3.52     0      0
+2025-05-25 14:02:10.716 1000  3269   cursor           0.0.0.0         0      63.210.195.34   0      0
+2025-05-25 14:02:10.716 1000  3269   cursor           0.0.0.0         0      1.43.200.34     0      0
+2025-05-25 14:02:10.716 1000  3269   cursor           0.0.0.0         0      100.129.226.34  0      0
+2025-05-25 14:02:10.716 1000  3269   cursor           0.0.0.0         0      50.201.206.44   0      0
+2025-05-25 14:02:10.716 1000  3269   cursor           0.0.0.0         0      121.7.85.98     0      0
+2025-05-25 14:02:10.716 1000  3269   cursor           0.0.0.0         0      18.180.166.54   0      0
+2025-05-25 14:02:10.717 1000  3269   cursor           0.0.0.0         0      190.194.90.54   443    -115
+2025-05-25 14:02:10.751 1000  3119   cursor            141   0 /home/administrator/.config/Cursor/User/globalStorage/state.vscdb-journal
+2025-05-25 14:02:10.777 1000  3119   cursor            142   0 /home/administrator/.config/Cursor/User/globalStorage
+2025-05-25 14:02:10.829 1000  3119   cursor            141   0 /home/administrator/.config/Cursor/User/globalStorage/state.vscdb-journal
+2025-05-25 14:02:10.844 1000  3255   cursor             42   0 /proc/3952/cmdline
+2025-05-25 14:02:10.844 1000  3255   cursor             42   0 /proc/5475/cmdline
+2025-05-25 14:02:10.844 1000  3255   cursor             42   0 /proc/3710/cmdline
+2025-05-25 14:02:10.844 1000  3255   cursor             42   0 /proc/3324/cmdline
+2025-05-25 14:02:10.856 1000  3119   cursor            142   0 /home/administrator/.config/Cursor/User/globalStorage
+2025-05-25 14:02:10.931 1000  3119   cursor            141   0 /home/administrator/.config/Cursor/User/globalStorage/state.vscdb-journal
+2025-05-25 14:02:10.958 1000  3119   cursor            142   0 /home/administrator/.config/Cursor/User/globalStorage
+2025-05-25 14:02:11.035 1000  3119   cursor            141   0 /home/administrator/.config/Cursor/User/globalStorage/state.vscdb-journal
+2025-05-25 14:02:11.044 1000  3255   cursor             42   0 /proc/3952/cmdline
+2025-05-25 14:02:11.044 1000
+3255   cursor             42   0 /proc/5475/cmdline
+2025-05-25 14:02:11.044 1000  3255   cursor             42   0 /proc/3710/cmdline
+2025-05-25 14:02:11.044 1000  3255   cursor             42   0 /proc/3324/cmdline
+2025-05-25 14:02:11.061 1000  3119   cursor            142   0 /home/administrator/.config/Cursor/User/globalStorage
+2025-05-25 14:02:11.139 1000  3119   cursor            141   0 /home/administrator/.config/Cursor/User/globalStorage/state.vscdb-journal
+2025-05-25 14:02:11.165 1000  3119   cursor            142   0 /home/administrator/.config/Cursor/User/globalStorage
+2025-05-25 14:02:11.218 1000  3119   cursor            141   0 /home/administrator/.config/Cursor/User/globalStorage/state.vscdb-journal
+2025-05-25 14:02:11.244 1000  3119   cursor            142   0 /home/administrator/.config/Cursor/User/globalStorage
+2025-05-25 14:02:11.245 1000  3255   cursor             42   0 /proc/3952/cmdline
+2025-05-25 14:02:11.245 1000  3255   cursor             42   0 /proc/5475/cmdline
+2025-05-25 14:02:11.245 1000  3255   cursor             42   0 /proc/3710/cmdline
+2025-05-25 14:02:11.245 1000  3255   cursor             42   0 /proc/3324/cmdline
+2025-05-25 14:02:11.297 1000  3119   cursor            141   0 /home/administrator/.config/Cursor/User/globalStorage/state.vscdb-journal
+2025-05-25 14:02:11.323 1000  3119   cursor            142   0 /home/administrator/.config/Cursor/User/globalStorage
+2025-05-25 14:02:11.400 1000  3119   cursor            141   0 /home/administrator/.config/Cursor/User/globalStorage/state.vscdb-journal
+2025-05-25 14:02:11.426 1000  3119   cursor            142   0 /home/administrator/.config/Cursor/User/globalStorage
+2025-05-25 14:02:11.445 1000  3255   cursor             42   0 /proc/3952/cmdline
+2025-05-25 14:02:11.446 1000  3255   cursor             42   0 /proc/5475/cmdline
+2025-05-25 14:02:11.446 1000  3255   cursor             42   0 /proc/3710/cmdline
+2025-05-25 14:02:11.446 1000  3255   cursor             42   0 /proc/3324/cmdline
+2025-05-25 14:02:11.502 1000  3119   cursor            141   0 /home/administrator/.config/Cursor/User/globalStorage/state.vscdb-journal
+2025-05-25 14:02:11.528 1000  3119   cursor            142   0 /home/administrator/.config/Cursor/User/globalStorage
+2025-05-25 14:02:11.579 1000  3119   cursor            141   0 /home/administrator/.config/Cursor/User/globalStorage/state.vscdb-journal
+2025-05-25 14:02:11.605 1000  3119   cursor            142   0 /home/administrator/.config/Cursor/User/globalStorage
+2025-05-25 14:02:11.645 1000  3255   cursor             42   0 /proc/3952/cmdline
+2025-05-25 14:02:11.646 1000  3255   cursor             42   0 /proc/5475/cmdline
+2025-05-25 14:02:11.646 1000  3255   cursor             42   0 /proc/3710/cmdline
+2025-05-25 14:02:11.646 1000  3255   cursor             42   0 /proc/3324/cmdline
+2025-05-25 14:02:11.682 1000  3119   cursor            141   0 /home/administrator/.config/Cursor/User/globalStorage/state.vscdb-journal
+2025-05-25 14:02:11.708 1000  3119   cursor            142   0 /home/administrator/.config/Cursor/User/globalStorage
+2025-05-25 14:02:11.759 1000  3119   cursor            141   0 /home/administrator/.config/Cursor/User/globalStorage/state.vscdb-journal
+2025-05-25 14:02:11.785 1000  3119   cursor            142   0 /home/administrator/.config/Cursor/User/globalStorage
+2025-05-25 14:02:11.836 1000  3119   cursor            141   0 /home/administrator/.config/Cursor/User/globalStorage/state.vscdb-journal
+2025-05-25 14:02:11.847 1000  3255   cursor             42   0 /proc/3952/cmdline
+2025-05-25 14:02:11.847 1000  3255   cursor             42   0 /proc/5475/cmdline
+2025-05-25 14:02:11.847 1000  3255   cursor             42   0 /proc/3710/cmdline
+2025-05-25 14:02:11.847 1000  3255   cursor             42   0 /proc/3324/cmdline
+2025-05-25 14:02:11.861 1000  3119   cursor            142   0 /home/administrator/.config/Cursor/User/globalStorage
+2025-05-25 14:02:11.936 1000  3119   cursor            141   0 /home/administrator/.config/Cursor/User/globalStorage/state.vscdb-journal
+2025-05-25 14:02:11.962 1000  3119   cursor            142   0 /home/administrator/.config/Cursor/User/globalStorage
+2025-05-25 14:02:12.012 1000  3119   cursor            141   0 /home/administrator/.config/Cursor/User/globalStorage/state.vscdb-journal
+2025-05-25 14:02:12.037 1000  3119   cursor            142   0 /home/administrator/.config/Cursor/User/globalStorage
+2025-05-25 14:02:12.047 1000  3255   cursor             42   0
+/proc/3952/cmdline
+2025-05-25 14:02:12.047 1000  3255   cursor             42   0 /proc/5475/cmdline
+2025-05-25 14:02:12.047
+1000  3255   cursor             42   0 /proc/3710/cmdline
+2025-05-25 14:02:12.047
+1000
+3255   cursor             42   0 /proc/3324/cmdline
+2025-05-25 14:02:12.088 1000  3119   cursor            141   0 /home/administrator/.config/Cursor/User/globalStorage/state.vscdb-journal
+2025-05-25 14:02:12.113 1000  3119   cursor            142   0 /home/administrator/.config/Cursor/User/globalStorage
+2025-05-25 14:02:12.165 1000  3119   cursor            141   0 /home/administrator/.config/Cursor/User/globalStorage/state.vscdb-journal
+2025-05-25 14:02:12.191 1000  3119   cursor            142   0 /home/administrator/.config/Cursor/User/globalStorage
+2025-05-25 14:02:12.241 1000  3119   cursor            141   0 /home/administrator/.config/Cursor/User/globalStorage/state.vscdb-journal

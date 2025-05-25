@@ -1,0 +1,47 @@
+# Filtered log - 2025-05-25 14:14:26
+# Filters applied: syscall=open, path=proc
+
+2025-05-25 14:04:50.624 1000  3255   cursor             43   0 /proc/3952/cmdline
+2025-05-25 14:04:50.626 1000  3255   cursor             43   0 /proc/5623/cmdline
+2025-05-25 14:04:50.626 1000  3255   cursor             43   0 /proc/3710/cmdline
+2025-05-25 14:04:50.769 1000  3255   cursor             43   0 /proc/3324/cmdline
+2025-05-25 14:04:50.824 1000  3255   cursor             43   0 /proc/3952/cmdline
+2025-05-25 14:04:50.827 1000  3255   cursor             43   0 /proc/5623/cmdline
+2025-05-25 14:04:50.827 1000  3255   cursor             43   0 /proc/3710/cmdline
+2025-05-25 14:04:50.969 1000  3255   cursor             43   0 /proc/3324/cmdline
+2025-05-25 14:04:51.026 1000  3255   cursor             43   0 /proc/3952/cmdline
+2025-05-25 14:04:51.028 1000  3255   cursor             43   0 /proc/5623/cmdline
+2025-05-25 14:04:51.028 1000  3255   cursor             43   0 /proc/3710/cmdline
+2025-05-25 14:04:51.169 1000  3255   cursor             43   0 /proc/3324/cmdline
+2025-05-25 14:04:51.226 1000  3255   cursor             43   0 /proc/3952/cmdline
+2025-05-25 14:04:51.228 1000  3255   cursor             43   0 /proc/5623/cmdline
+2025-05-25 14:04:51.228 1000  3255   cursor             43   0 /proc/3710/cmdline
+2025-05-25 14:04:51.369 1000  3255   cursor             43   0 /proc/3324/cmdline
+2025-05-25 14:04:51.426 1000  3255   cursor             43   0 /proc/3952/cmdline
+2025-05-25 14:04:51.428 1000  5640   cat                 3   0 /proc/4130/stat
+2025-05-25 14:04:51.428 1000  3255   cursor             43   0 /proc/5623/cmdline
+2025-05-25 14:04:51.429 1000  3255   cursor             43   0 /proc/3710/cmdline
+2025-05-25 14:04:51.445 1000  5642   cat                 3   0 /proc/5623/stat
+2025-05-25 14:04:51.463 1000  5644   cat                 3   0 /proc/5624/stat
+2025-05-25 14:04:51.477 1000  5646   cat                 3   0 /proc/5625/stat
+2025-05-25 14:04:51.496 1000  5648   cat                 3   0 /proc/5627/stat
+2025-05-25 14:04:51.571 1000  3255   cursor             42   0 /proc/3324/cmdline
+2025-05-25 14:04:51.626 1000  3255   cursor             42   0 /proc/3952/cmdline
+2025-05-25 14:04:51.628 1000  3255   cursor             42   0 /proc/5623/cmdline
+2025-05-25 14:04:51.629 1000  3255   cursor             42   0 /proc/3710/cmdline
+2025-05-25 14:04:51.772 1000  3255   cursor             42   0 /proc/3324/cmdline
+2025-05-25 14:04:51.826 1000  3255   cursor             42   0 /proc/3952/cmdline
+2025-05-25 14:04:51.832 1000  3255   cursor             42   0 /proc/5623/cmdline
+2025-05-25 14:04:51.832 1000  3255   cursor             42   0 /proc/3710/cmdline
+2025-05-25 14:04:51.972 1000  3255   cursor             42   0 /proc/3324/cmdline
+2025-05-25 14:04:52.026 1000  3255   cursor             42   0 /proc/3952/cmdline
+2025-05-25 14:04:52.035 1000  3255   cursor             42   0 /proc/5623/cmdline
+2025-05-25 14:04:52.036 1000  3255   cursor             42   0 /proc/3710/cmdline
+2025-05-25 14:04:52.172 1000  3255   cursor             42   0 /proc/3324/cmdline
+2025-05-25 14:04:52.227 1000  3255   cursor             42   0 /proc/3952/cmdline
+2025-05-25 14:04:52.236 1000  3255   cursor             42   0 /proc/5623/cmdline
+1000  3255   cursor             42   0 /proc/3710/cmdline
+
+# Total entries: 40
+# Syscalls breakdown:
+#   open: 40
