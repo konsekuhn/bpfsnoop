@@ -9,16 +9,6 @@
 #                  [-d DURATION] [-n NAME] [-F] [-e] [-f FLAG_FILTER]
 #                  [-b BUFFER_PAGES]
 #
-# Copyright (c) 2015 Brendan Gregg.
-# Licensed under the Apache License, Version 2.0 (the "License")
-#
-# 17-Sep-2015   Brendan Gregg   Created this.
-# 29-Apr-2016   Allan McAleavy  Updated for BPF_PERF_OUTPUT.
-# 08-Oct-2016   Dina Goldshtein Support filtering by PID and TID.
-# 28-Dec-2018   Tim Douglas     Print flags argument, enable filtering
-# 06-Jan-2019   Takuma Kume     Support filtering by UID
-# 21-Aug-2022   Rocky Xing      Support showing full path for an open file.
-# 06-Sep-2022   Rocky Xing      Support setting size of the perf ring buffer.
 
 from __future__ import print_function
 from bcc import ArgString, BPF
@@ -124,7 +114,7 @@ int trace_return(struct pt_regs *ctx)
     u64 tsp = bpf_ktime_get_ns();
     valp = infotmp.lookup(&id);
     if (valp == 0) {
-        // missed entry
+        // пропущенная запись
         return 0;
     }
     bpf_probe_read_kernel(&data.comm, sizeof(data.comm), valp->comm);
@@ -163,8 +153,8 @@ int syscall__trace_entry_openat2(struct pt_regs *ctx, int dfd, const char __user
         bpf_text_kprobe_body = """
     struct val_t val = {};
     u64 id = bpf_get_current_pid_tgid();
-    u32 pid = id >> 32; // PID is higher part
-    u32 tid = id;       // Cast and get the lower part
+    u32 pid = id >> 32; // PID - старшая часть
+    u32 tid = id;       // Приведение типа и получение младшей части
     u32 uid = bpf_get_current_uid_gid();
     PID_TID_FILTER
     UID_FILTER
@@ -238,8 +228,8 @@ KRETFUNC_PROBE(FNNAME, int dfd, const char __user *filename, struct open_how __u
 """
         bpf_text_kfunc_body = """
     u64 id = bpf_get_current_pid_tgid();
-    u32 pid = id >> 32; // PID is higher part
-    u32 tid = id;       // Cast and get the lower part
+    u32 pid = id >> 32; // PID - старшая часть
+    u32 tid = id;       // Приведение типа и получение младшей части
     u32 uid = bpf_get_current_uid_gid();
     PID_TID_FILTER
     UID_FILTER
@@ -313,7 +303,7 @@ KRETFUNC_PROBE(FNNAME, int dfd, const char __user *filename, struct open_how __u
             bpf_text = bpf_text.replace('SUBMIT_DATA', """
     data.type = EVENT_ENTRY;
     events.perf_submit(ctx, &data, sizeof(data));
-    if (data.name[0] != '/') { // relative path
+    if (data.name[0] != '/') { // относительный путь
         struct task_struct *task;
         struct dentry *dentry;
         int i;
@@ -323,7 +313,7 @@ KRETFUNC_PROBE(FNNAME, int dfd, const char __user *filename, struct open_how __u
             bpf_probe_read_kernel(&data.name, sizeof(data.name), (void *)dentry->d_name.name);
             data.type = EVENT_ENTRY;
             events.perf_submit(ctx, &data, sizeof(data));
-            if (dentry == dentry->d_parent) { // root directory
+            if (dentry == dentry->d_parent) { // корневой каталог
                 break;
             }
             dentry = dentry->d_parent;
@@ -357,8 +347,8 @@ KRETFUNC_PROBE(FNNAME, int dfd, const char __user *filename, struct open_how __u
         self.entries = defaultdict(list)
         self.boot_time = self.get_boot_time()
         
-        # header
-        # Always show timestamp and UID regardless of flags
+        # заголовок
+        # Всегда показывать метку времени и UID независимо от флагов
         print("%-24s" % ("TIMESTAMP"), end="")
         print("%-6s" % ("UID"), end="")
         print("%-6s %-16s %4s %3s " %
@@ -388,13 +378,13 @@ KRETFUNC_PROBE(FNNAME, int dfd, const char __user *filename, struct open_how __u
                 if getattr(args, 'name', None) and bytes(args.name) not in event.comm:
                     skip = True
                 if not skip:
-                    # Convert timestamp to datetime format
-                    ts_seconds = event.ts / 1000000  # Convert microseconds to seconds
+                    # Преобразование метки времени в формат datetime
+                    ts_seconds = event.ts / 1000000  # Преобразование микросекунд в секунды
                     real_time = self.boot_time + ts_seconds
                     dt = datetime.fromtimestamp(real_time)
                     timestamp_str = dt.strftime("%Y-%m-%d %H:%M:%S.%f")[:-3]
                     
-                    # Display datetime timestamp instead of relative seconds
+                    # Отображение метки времени в формате datetime вместо относительных секунд
                     printb(b"%-24s" % timestamp_str.encode(), nl="")
                     printb(b"%-6d" % event.uid, nl="")
                     printb(b"%-6d %-16s %4d %3d " %
@@ -423,14 +413,14 @@ KRETFUNC_PROBE(FNNAME, int dfd, const char __user *filename, struct open_how __u
         self.b["events"].open_perf_buffer(print_event, page_cnt=getattr(args, 'buffer_pages', 1024))
 
     def get_boot_time(self):
-        """Get system boot time to calculate real timestamps"""
+        """Получить время загрузки системы для расчета реальных меток времени"""
         try:
             with open('/proc/stat') as f:
                 for line in f:
                     if line.startswith('btime'):
                         return float(line.strip().split()[1])
         except:
-            # Fallback to current time if we can't get boot time
+            # Возврат текущего времени, если не удалось получить время загрузки
             return time.time()
         return time.time()
 

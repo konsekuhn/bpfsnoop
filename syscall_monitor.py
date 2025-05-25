@@ -9,8 +9,6 @@
 #                  [-d DURATION] [-n NAME] [-e] [-b BUFFER_PAGES]
 #                  [-s SYSCALLS] [--logfile LOGFILE]
 #
-# Copyright (c) 2024
-# Licensed under the Apache License, Version 2.0 (the "License")
 
 import os
 import sys
@@ -23,7 +21,7 @@ import threading
 import queue
 import datetime
 
-# Dictionary of available syscall monitors
+# Словарь доступных мониторов системных вызовов
 AVAILABLE_MONITORS = {
     'accept': 'acceptsnoop',
     'connect': 'connectsnoop',
@@ -200,140 +198,147 @@ def run_syscall_monitor(args):
     for syscall, cmd in commands:
         try:
             print(f"Starting {syscall} monitor: {' '.join(cmd)}")
+            # Используем subprocess.Popen для запуска команды в отдельном процессе
             process = subprocess.Popen(
                 cmd,
                 stdout=subprocess.PIPE,
                 stderr=subprocess.PIPE,
                 text=True,
-                bufsize=1,
-                universal_newlines=True
+                bufsize=1  # Построчная буферизация
             )
             
-            # Делаем stdout и stderr неблокирующими
+            # Делаем вывод неблокирующим
             make_non_blocking(process.stdout)
             make_non_blocking(process.stderr)
             
             processes.append((syscall, process))
         except Exception as e:
-            print(f"Error starting {syscall} monitor: {e}")
+            output_collector.add_output(f"Failed to start {syscall} monitor: {e}", is_error=True)
     
+    # Если нет запущенных процессов, завершаем работу
+    if not processes:
+        output_collector.add_output("No monitors were started", is_error=True)
+        output_collector.stop()
+        return 1
+    
+    # Создаем словарь для отслеживания начала вывода от каждого процесса
+    process_started_output = {syscall: False for syscall, _ in processes}
+    
+    # Основной цикл обработки вывода процессов
     try:
-        # Задаем время окончания, если указана длительность
+        # Если указана длительность, вычисляем время окончания
         end_time = None
         if args.duration:
-            duration_seconds = int(args.duration)
-            end_time = time.time() + duration_seconds
+            end_time = time.time() + int(args.duration)
         
-        # Основной цикл сбора данных
+        # Ждем, пока все процессы завершатся или наступит время окончания
         while processes:
-            # Проверяем, истекло ли время
-            if end_time and time.time() > end_time:
-                print("Duration time expired, stopping monitoring")
+            # Проверяем, не истекло ли время выполнения
+            if end_time and time.time() >= end_time:
                 break
-            
-            # Используем select для неблокирующего чтения из stdout и stderr всех процессов
-            read_fds = []
-            fd_to_process = {}
-            for syscall, process in processes:
-                if process.stdout:
-                    read_fds.append(process.stdout)
-                    fd_to_process[process.stdout] = (syscall, process, False)  # False = stdout
-                if process.stderr:
-                    read_fds.append(process.stderr)
-                    fd_to_process[process.stderr] = (syscall, process, True)   # True = stderr
-            
-            if not read_fds:
-                break
-            
-            # Ждем доступных данных с timeout
-            readable, _, _ = select.select(read_fds, [], [], 0.1)
-            for fd in readable:
-                syscall, process, is_stderr = fd_to_process[fd]
-                data = read_available(fd)
-                if data:
-                    lines = data.strip().split('\n')
-                    for line in lines:
-                        if line.strip():
-                            output_collector.add_output(line, is_stderr)
-            
-            # Проверяем, не завершились ли процессы
+                
+            # Проверяем вывод от каждого процесса
             for i, (syscall, process) in enumerate(processes[:]):
+                # Проверяем, не завершился ли процесс
                 if process.poll() is not None:
-                    # Читаем оставшиеся данные
-                    stdout_data = read_available(process.stdout)
-                    if stdout_data:
-                        for line in stdout_data.strip().split('\n'):
-                            if line.strip():
-                                output_collector.add_output(line, False)
+                    # Процесс завершился, читаем оставшийся вывод
+                    stdout = read_available(process.stdout)
+                    if stdout:
+                        for line in stdout.splitlines():
+                            output_collector.add_output(f"[{syscall}] {line}")
                     
-                    stderr_data = read_available(process.stderr)
-                    if stderr_data:
-                        for line in stderr_data.strip().split('\n'):
-                            if line.strip():
-                                output_collector.add_output(line, True)
+                    stderr = read_available(process.stderr)
+                    if stderr:
+                        for line in stderr.splitlines():
+                            output_collector.add_output(f"[{syscall}] {line}", is_error=True)
                     
+                    # Если процесс завершился с ошибкой, выводим сообщение
                     if process.returncode != 0:
                         output_collector.add_output(
-                            f"{syscall} monitor exited with code {process.returncode}", True
+                            f"{syscall} monitor exited with code {process.returncode}", 
+                            is_error=True
                         )
                     
-                    processes.pop(i)
-                    break
-        
-    except KeyboardInterrupt:
-        print("\nReceived keyboard interrupt, stopping monitoring")
-    finally:
-        # Завершаем все процессы
+                    # Удаляем процесс из списка
+                    processes.remove((syscall, process))
+                    continue
+                
+                # Читаем доступный вывод из stdout
+                stdout = read_available(process.stdout)
+                if stdout:
+                    process_started_output[syscall] = True
+                    for line in stdout.splitlines():
+                        output_collector.add_output(f"[{syscall}] {line}")
+                
+                # Читаем доступный вывод из stderr
+                stderr = read_available(process.stderr)
+                if stderr:
+                    process_started_output[syscall] = True
+                    for line in stderr.splitlines():
+                        output_collector.add_output(f"[{syscall}] {line}", is_error=True)
+            
+            # Небольшая пауза, чтобы не нагружать CPU
+            time.sleep(0.1)
+            
+        # Корректно завершаем все процессы
         for syscall, process in processes:
-            if process.poll() is None:
-                print(f"Terminating {syscall} monitor")
+            try:
                 process.terminate()
-                try:
-                    process.wait(timeout=2)
-                except subprocess.TimeoutExpired:
-                    print(f"Killing {syscall} monitor")
-                    process.kill()
+                # Даем процессу немного времени для корректного завершения
+                process.wait(timeout=3)
+            except subprocess.TimeoutExpired:
+                # Если процесс не завершился, принудительно убиваем его
+                process.kill()
+                output_collector.add_output(f"Had to kill {syscall} monitor process", is_error=True)
+    
+    except KeyboardInterrupt:
+        # Пользователь нажал Ctrl+C, завершаем все процессы
+        output_collector.add_output("Interrupted by user. Stopping all monitors...")
         
+        for syscall, process in processes:
+            try:
+                process.terminate()
+                # Даем процессу немного времени для корректного завершения
+                process.wait(timeout=3)
+            except subprocess.TimeoutExpired:
+                # Если процесс не завершился, принудительно убиваем его
+                process.kill()
+                output_collector.add_output(f"Had to kill {syscall} monitor process", is_error=True)
+    
+    finally:
         # Останавливаем сборщик вывода
         output_collector.stop()
-        
-        # Выводим итоговую информацию
-        if args.logfile:
-            print(f"Log saved to {args.logfile}")
     
     return 0
 
 def main():
     parser = argparse.ArgumentParser(
         description="Universal system call monitor",
-        formatter_class=argparse.RawDescriptionHelpFormatter)
+        formatter_class=argparse.RawDescriptionHelpFormatter
+    )
     parser.add_argument("-x", "--failed", action="store_true",
         help="only show failed syscalls")
-    parser.add_argument("-p", "--pid",
+    parser.add_argument("-p", "--pid", type=str,
         help="trace this PID only")
-    parser.add_argument("-t", "--tid",
+    parser.add_argument("-t", "--tid", type=str,
         help="trace this TID only")
-    parser.add_argument("--cgroupmap",
-        help="trace cgroups in this BPF map")
-    parser.add_argument("--mntnsmap",
-        help="trace mount namespaces in this BPF map")
-    parser.add_argument("-u", "--uid",
+    parser.add_argument("-u", "--uid", type=str,
         help="trace this UID only")
-    parser.add_argument("-d", "--duration",
+    parser.add_argument("-d", "--duration", type=str,
         help="total duration of trace in seconds")
-    parser.add_argument("-n", "--name",
+    parser.add_argument("-n", "--name", type=str,
         help="only print process names containing this name")
     parser.add_argument("-e", "--extended_fields", action="store_true",
-        help="show extended fields")
-    parser.add_argument("-b", "--buffer-pages", type=int, default=64,
-        help="size of the perf ring buffer")
-    parser.add_argument("-s", "--syscalls", nargs='+', required=True,
-        help="syscalls to monitor (available: " + ", ".join(AVAILABLE_MONITORS.keys()) + ")")
-    parser.add_argument("--logfile", 
+        help="show extended fields (where available)")
+    parser.add_argument("-b", "--buffer-pages", type=str,
+        help="number of BPF ring buffer pages")
+    parser.add_argument("-s", "--syscalls", nargs="+", type=str,
+        help="list of syscalls to monitor")
+    parser.add_argument("--logfile", type=str,
         help="log output to this file")
     
     args = parser.parse_args()
-    sys.exit(run_syscall_monitor(args))
+    return run_syscall_monitor(args)
 
 if __name__ == "__main__":
-    main() 
+    sys.exit(main()) 

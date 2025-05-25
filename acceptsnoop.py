@@ -7,9 +7,7 @@
 # USAGE: acceptsnoop [-h] [-T] [-U] [-x] [-p PID] [-t TID]
 #                  [--cgroupmap CGROUPMAP] [--mntnsmap MNTNSMAP] [-u UID]
 #                  [-d DURATION] [-n NAME] [-e] [-b BUFFER_PAGES] [-i INTERVAL]
-#
-# Copyright (c) 2024
-# Licensed under the Apache License, Version 2.0 (the "License")
+
 
 from __future__ import print_function
 from bcc import ArgString, BPF
@@ -34,7 +32,7 @@ class Acceptsnoop:
         self.setup_perf_buffer()
 
     def setup_bpf(self):
-        # define BPF program
+        # определение BPF программы
         bpf_text = """
         #include <uapi/linux/ptrace.h>
         #include <uapi/linux/limits.h>
@@ -62,7 +60,7 @@ class Acceptsnoop:
             u32 daddr;
         };
 
-        // Add tracking structure for filtering
+        // Добавление структуры отслеживания для фильтрации
         struct last_event_t {
             u64 last_ts;
             u16 last_sport;
@@ -90,50 +88,50 @@ int trace_return(struct pt_regs *ctx)
 
     valp = infotmp.lookup(&id);
     if (valp == 0) {
-        // missed entry
+        // пропущенная запись
         return 0;
     }
 
-    // Check if accept was successful
+    // Проверка успешности accept
     int ret = PT_REGS_RC(ctx);
     if (ret < 0) {
         infotmp.delete(&id);
         return 0;
     }
 
-    // Get socket information
+    // Получение информации о сокете
     struct sock *sk = (struct sock *)ret;
     if (sk == NULL) {
         infotmp.delete(&id);
         return 0;
     }
 
-    // Read socket information
+    // Чтение информации о сокете
     u16 sport = 0, dport = 0;
     u32 saddr = 0, daddr = 0;
     
-    // Get source and destination ports
+    // Получение исходных и целевых портов
     bpf_probe_read_kernel(&sport, sizeof(sport), &sk->__sk_common.skc_num);
     bpf_probe_read_kernel(&dport, sizeof(dport), &sk->__sk_common.skc_dport);
     sport = bpf_ntohs(sport);
     dport = bpf_ntohs(dport);
     
-    // Get source and destination addresses
+    // Получение исходных и целевых адресов
     bpf_probe_read_kernel(&saddr, sizeof(saddr), &sk->__sk_common.skc_rcv_saddr);
     bpf_probe_read_kernel(&daddr, sizeof(daddr), &sk->__sk_common.skc_daddr);
 
-    // Check if we should filter this event
+    // Проверка, следует ли фильтровать это событие
     last_event = last_events.lookup(&pid);
     if (last_event != 0) {
-        // Update statistics
+        // Обновление статистики
         last_event->event_count++;
         
-        // Only show if:
-        // 1. More than FILTER_INTERVAL seconds has passed since last event
-        // 2. Different source port
-        // 3. Different destination port
-        // 4. Different source address
-        // 5. Different destination address
+        // Показывать только если:
+        // 1. Прошло больше FILTER_INTERVAL секунд с момента последнего события
+        // 2. Другой исходный порт
+        // 3. Другой целевой порт
+        // 4. Другой исходный адрес
+        // 5. Другой целевой адрес
         if ((tsp - last_event->last_ts) < FILTER_INTERVAL_NS &&
             last_event->last_sport == sport &&
             last_event->last_dport == dport &&
@@ -144,7 +142,7 @@ int trace_return(struct pt_regs *ctx)
         }
     }
 
-    // Update last event info
+    // Обновление информации о последнем событии
     struct last_event_t new_event = {};
     new_event.last_ts = tsp;
     new_event.last_sport = sport;
@@ -178,8 +176,8 @@ int syscall__trace_entry_accept4(struct pt_regs *ctx, int fd, struct sockaddr *a
         bpf_text_kprobe_body = """
     struct val_t val = {};
     u64 id = bpf_get_current_pid_tgid();
-    u32 pid = id >> 32; // PID is higher part
-    u32 tid = id;       // Cast and get the lower part
+    u32 pid = id >> 32; // PID - старшая часть
+    u32 tid = id;       // Приведение типа и получение младшей части
     u32 uid = bpf_get_current_uid_gid();
 
     PID_TID_FILTER
@@ -209,8 +207,8 @@ KRETFUNC_PROBE(FNNAME, int fd, struct sockaddr *addr, int *addrlen, int flags, i
 """
         bpf_text_kfunc_body = """
     u64 id = bpf_get_current_pid_tgid();
-    u32 pid = id >> 32; // PID is higher part
-    u32 tid = id;       // Cast and get the lower part
+    u32 pid = id >> 32; // PID - старшая часть
+    u32 tid = id;       // Приведение типа и получение младшей части
     u32 uid = bpf_get_current_uid_gid();
     struct last_event_t *last_event;
     u64 tsp = bpf_ktime_get_ns();
@@ -218,43 +216,43 @@ KRETFUNC_PROBE(FNNAME, int fd, struct sockaddr *addr, int *addrlen, int flags, i
     PID_TID_FILTER
     UID_FILTER
 
-    // Check if accept was successful
+    // Проверка успешности accept
     if (ret < 0) {
         return 0;
     }
 
-    // Get socket information
+    // Получение информации о сокете
     struct sock *sk = (struct sock *)ret;
     if (sk == NULL) {
         return 0;
     }
 
-    // Read socket information
+    // Чтение информации о сокете
     u16 sport = 0, dport = 0;
     u32 saddr = 0, daddr = 0;
     
-    // Get source and destination ports
+    // Получение исходных и целевых портов
     bpf_probe_read_kernel(&sport, sizeof(sport), &sk->__sk_common.skc_num);
     bpf_probe_read_kernel(&dport, sizeof(dport), &sk->__sk_common.skc_dport);
     sport = bpf_ntohs(sport);
     dport = bpf_ntohs(dport);
     
-    // Get source and destination addresses
+    // Получение исходных и целевых адресов
     bpf_probe_read_kernel(&saddr, sizeof(saddr), &sk->__sk_common.skc_rcv_saddr);
     bpf_probe_read_kernel(&daddr, sizeof(daddr), &sk->__sk_common.skc_daddr);
 
-    // Check if we should filter this event
+    // Проверка, следует ли фильтровать это событие
     last_event = last_events.lookup(&pid);
     if (last_event != 0) {
-        // Update statistics
+        // Обновление статистики
         last_event->event_count++;
         
-        // Only show if:
-        // 1. More than FILTER_INTERVAL seconds has passed since last event
-        // 2. Different source port
-        // 3. Different destination port
-        // 4. Different source address
-        // 5. Different destination address
+        // Показывать только если:
+        // 1. Прошло больше FILTER_INTERVAL секунд с момента последнего события
+        // 2. Другой исходный порт
+        // 3. Другой целевой порт
+        // 4. Другой исходный адрес
+        // 5. Другой целевой адрес
         if ((tsp - last_event->last_ts) < FILTER_INTERVAL_NS &&
             last_event->last_sport == sport &&
             last_event->last_dport == dport &&
@@ -264,7 +262,7 @@ KRETFUNC_PROBE(FNNAME, int fd, struct sockaddr *addr, int *addrlen, int flags, i
         }
     }
 
-    // Update last event info
+    // Обновление информации о последнем событии
     struct last_event_t new_event = {};
     new_event.last_ts = tsp;
     new_event.last_sport = sport;
@@ -303,7 +301,7 @@ KRETFUNC_PROBE(FNNAME, int fd, struct sockaddr *addr, int *addrlen, int flags, i
             bpf_text += bpf_text_kprobe
             bpf_text += bpf_text_kprobe_header_accept
             bpf_text += bpf_text_kprobe_body
-        if self.args.tid:  # TID trumps PID
+        if self.args.tid:  # TID имеет приоритет перед PID
             bpf_text = bpf_text.replace('PID_TID_FILTER',
                 'if (tid != %s) { return 0; }' % self.args.tid)
         elif self.args.pid:
@@ -326,7 +324,7 @@ KRETFUNC_PROBE(FNNAME, int fd, struct sockaddr *addr, int *addrlen, int flags, i
             self.b.attach_kretprobe(event=fnname_accept, fn_name="trace_return")
 
     def setup_perf_buffer(self):
-        # Define the data_t struct in Python for perf buffer parsing
+        # Определение структуры data_t в Python для анализа буфера perf
         class Data(ctypes.Structure):
             _fields_ = [
                 ("id", ctypes.c_ulonglong),
@@ -340,11 +338,11 @@ KRETFUNC_PROBE(FNNAME, int fd, struct sockaddr *addr, int *addrlen, int flags, i
                 ("daddr", ctypes.c_uint),
             ]
 
-        # Get system boot time for timestamp calculation
+        # Получение времени загрузки системы для расчета меток времени
         self.boot_time = self.get_boot_time()
 
-        # header
-        # Always show timestamp and UID regardless of flags
+        # заголовок
+        # Всегда показывать метку времени и UID независимо от флагов
         print("%-24s" % ("TIMESTAMP"), end="")
         print("%-6s" % ("UID"), end="")
         print("%-6s %-16s %-15s %-6s %-15s %-6s %s" % 
@@ -360,17 +358,17 @@ KRETFUNC_PROBE(FNNAME, int fd, struct sockaddr *addr, int *addrlen, int flags, i
             if self.args.name and bytes(self.args.name) not in event.comm:
                 skip = True
             if not skip:
-                # Convert IP addresses to string format
+                # Преобразование IP-адресов в строковый формат
                 saddr_str = socket.inet_ntoa(struct.pack("I", event.saddr))
                 daddr_str = socket.inet_ntoa(struct.pack("I", event.daddr))
 
-                # Convert timestamp to datetime format
-                ts_seconds = event.ts / 1000000  # Convert microseconds to seconds
+                # Преобразование метки времени в формат datetime
+                ts_seconds = event.ts / 1000000  # Преобразование микросекунд в секунды
                 real_time = self.boot_time + ts_seconds
                 dt = datetime.fromtimestamp(real_time)
                 timestamp_str = dt.strftime("%Y-%m-%d %H:%M:%S.%f")[:-3]
                 
-                # Display datetime timestamp instead of relative seconds
+                # Отображение метки времени в формате datetime вместо относительных секунд
                 printb(b"%-24s" % timestamp_str.encode(), nl="")
                 printb(b"%-6d" % event.uid, nl="")
                 printb(b"%-6d %-16s %-15s %-6d %-15s %-6d %d" % 
@@ -384,14 +382,14 @@ KRETFUNC_PROBE(FNNAME, int fd, struct sockaddr *addr, int *addrlen, int flags, i
         self.b["events"].open_perf_buffer(print_event, page_cnt=self.args.buffer_pages)
 
     def get_boot_time(self):
-        """Get system boot time to calculate real timestamps"""
+        """Получить время загрузки системы для расчета реальных меток времени"""
         try:
             with open('/proc/stat') as f:
                 for line in f:
                     if line.startswith('btime'):
                         return float(line.strip().split()[1])
         except:
-            # Fallback to current time if we can't get boot time
+            # Возврат текущего времени, если не удалось получить время загрузки
             return time.time()
         return time.time()
 

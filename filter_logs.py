@@ -30,7 +30,7 @@ def parse_args():
     return parser.parse_args()
 
 def parse_timestamp(timestamp_str):
-    """Parse timestamp string to datetime object"""
+    """Преобразование строки с меткой времени в объект datetime"""
     if not timestamp_str:
         return None
     try:
@@ -44,49 +44,49 @@ def parse_timestamp(timestamp_str):
             sys.exit(1)
 
 def extract_timestamp(line):
-    """Extract timestamp from log line"""
+    """Извлечение метки времени из строки лога"""
     timestamp_match = re.match(r'\[(\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}\.\d{3})\]', line)
     if timestamp_match:
         return parse_timestamp(timestamp_match.group(1))
     return None
 
 def extract_syscall(line):
-    """Extract syscall from log line"""
+    """Извлечение системного вызова из строки лога"""
     syscall_match = re.search(r'SYSCALL=(\w+)', line)
     if syscall_match:
         return syscall_match.group(1)
     return None
 
 def extract_pid(line):
-    """Extract PID from log line"""
+    """Извлечение PID из строки лога"""
     pid_match = re.search(r'PID=(\d+)', line)
     if pid_match:
         return pid_match.group(1)
     return None
 
 def extract_uid(line):
-    """Extract UID from log line"""
+    """Извлечение UID из строки лога"""
     uid_match = re.search(r'UID=(\d+)', line)
     if uid_match:
         return uid_match.group(1)
     return None
 
 def extract_comm(line):
-    """Extract command name from log line"""
+    """Извлечение имени команды из строки лога"""
     comm_match = re.search(r'COMM=(\S+)', line)
     if comm_match:
         return comm_match.group(1)
     return None
 
 def extract_error(line):
-    """Extract error code from log line"""
+    """Извлечение кода ошибки из строки лога"""
     err_match = re.search(r'ERR=(-?\d+)', line)
     if err_match:
         return int(err_match.group(1))
     return None
 
 def filter_logs(args):
-    """Filter log files based on criteria"""
+    """Фильтрация файлов логов на основе критериев"""
     try:
         with open(args.input, 'r') as f:
             lines = f.readlines()
@@ -94,27 +94,27 @@ def filter_logs(args):
         print(f"Error reading input file: {str(e)}")
         sys.exit(1)
     
-    # Parse timestamp filters
+    # Анализ фильтров временных меток
     after_timestamp = parse_timestamp(args.after)
     before_timestamp = parse_timestamp(args.before)
     
-    # Initialize output
+    # Инициализация вывода
     output_lines = []
     count = 0
     
-    # Process each line
+    # Обработка каждой строки
     for line in lines:
         line = line.strip()
         if not line:
             continue
         
-        # Skip session markers unless explicitly asked for this syscall
+        # Пропуск маркеров сессии, если явно не запрошен этот системный вызов
         if "=== STARTING NEW MONITORING SESSION ===" in line or "=== ENDING MONITORING SESSION ===" in line:
             if not args.contains or args.contains in line:
                 output_lines.append(line)
             continue
         
-        # Extract fields for filtering
+        # Извлечение полей для фильтрации
         timestamp = extract_timestamp(line)
         syscall = extract_syscall(line)
         pid = extract_pid(line)
@@ -122,7 +122,7 @@ def filter_logs(args):
         comm = extract_comm(line)
         err = extract_error(line)
         
-        # Apply filters
+        # Применение фильтров
         if args.syscall and (not syscall or args.syscall.lower() != syscall.lower()):
             continue
             
@@ -150,26 +150,26 @@ def filter_logs(args):
         if args.success and (err is None or err != 0):
             continue
         
-        # Add line to output
+        # Добавление строки в вывод
         output_lines.append(line)
         count += 1
         
-        # Check limit
+        # Проверка лимита
         if args.limit and count >= args.limit:
             break
     
-    # Format output
+    # Форматирование вывода
     if args.format == 'json':
-        # Implement JSON formatting if needed
+        # Реализация форматирования JSON при необходимости
         formatted_output = format_as_json(output_lines)
     elif args.format == 'csv':
-        # Implement CSV formatting if needed
+        # Реализация форматирования CSV при необходимости
         formatted_output = format_as_csv(output_lines)
     else:
-        # Plain text format
+        # Обычный текстовый формат
         formatted_output = '\n'.join(output_lines)
     
-    # Write output
+    # Запись вывода
     if args.output:
         try:
             with open(args.output, 'w') as f:
@@ -182,14 +182,14 @@ def filter_logs(args):
         print(formatted_output)
 
 def format_as_json(lines):
-    """Format lines as JSON"""
-    # Simple implementation - can be enhanced for better JSON structure
+    """Форматирование строк в JSON"""
+    # Простая реализация - может быть улучшена для лучшей структуры JSON
     import json
     return json.dumps(lines, indent=2)
 
 def format_as_csv(lines):
-    """Format lines as CSV"""
-    # Simple implementation - can be enhanced for better CSV structure
+    """Форматирование строк в CSV"""
+    # Простая реализация - может быть улучшена для лучшей структуры CSV
     import csv
     import io
     
@@ -197,11 +197,14 @@ def format_as_csv(lines):
     writer = csv.writer(output)
     
     for line in lines:
-        # Very simple CSV formatting - just put each line as a row
+        # Очень простое форматирование CSV - просто помещаем каждую строку как строку в таблице
         writer.writerow([line])
     
     return output.getvalue()
 
-if __name__ == "__main__":
+def main():
     args = parse_args()
-    filter_logs(args) 
+    filter_logs(args)
+
+if __name__ == "__main__":
+    main() 
